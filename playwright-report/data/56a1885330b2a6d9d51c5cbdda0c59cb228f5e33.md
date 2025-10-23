@@ -1,0 +1,247 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - link "JOYERIA WILMA" [ref=e4] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=e5]: JOYERIA WILMA
+      - navigation [ref=e6]:
+        - button " Navegacion" [ref=e7] [cursor=pointer]:
+          - text: 
+          - generic [ref=e8]: Navegacion
+        - list [ref=e10]:
+          - listitem [ref=e11]:
+            - link "" [ref=e12] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e13]:
+            - link "User Image andres" [ref=e14] [cursor=pointer]:
+              - /url: "#"
+              - img "User Image" [ref=e15]
+              - text: andres
+    - complementary [ref=e16]:
+      - generic [ref=e18]:
+        - generic [ref=e20]:
+          - textbox "Buscar..." [ref=e21]
+          - button "" [ref=e23] [cursor=pointer]:
+            - generic [ref=e24]: 
+        - list [ref=e25]:
+          - listitem [ref=e26]:
+            - text: MENU PRINCIPAL
+            - button "" [ref=e27] [cursor=pointer]
+          - listitem [ref=e28]:
+            - link " Módulo de Joyeria " [ref=e29] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e30]: 
+              - text: Módulo de Joyeria
+              - generic [ref=e32]: 
+            - list [ref=e33]:
+              - listitem [ref=e34]:
+                - link " Parámetros " [ref=e35] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=e36]: 
+                  - text: Parámetros
+                  - generic [ref=e38]: 
+                - list [ref=e39]:
+                  - listitem [ref=e40]:
+                    - link " Formas de Pago" [ref=e41] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                      - generic [ref=e42]: 
+                      - text: Formas de Pago
+                  - listitem [ref=e43]:
+                    - link " Tipos de Ingreso" [ref=e44] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                      - generic [ref=e45]: 
+                      - text: Tipos de Ingreso
+                  - listitem [ref=e46]:
+                    - link " Proveedores" [ref=e47] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                      - generic [ref=e48]: 
+                      - text: Proveedores
+                  - listitem [ref=e49]:
+                    - link " Tipos de Producto" [ref=e50] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                      - generic [ref=e51]: 
+                      - text: Tipos de Producto
+                  - listitem [ref=e52]:
+                    - link " Tipos de Egreso" [ref=e53] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                      - generic [ref=e54]: 
+                      - text: Tipos de Egreso
+                  - listitem [ref=e55]:
+                    - link " Registro de Gestión" [ref=e56] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                      - generic [ref=e57]: 
+                      - text: Registro de Gestión
+              - listitem [ref=e58]:
+                - link " Procesos " [ref=e59] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=e60]: 
+                  - text: Procesos
+                  - generic [ref=e62]: 
+              - listitem [ref=e63]:
+                - link " Reportes " [ref=e64] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=e65]: 
+                  - text: Reportes
+                  - generic [ref=e67]: 
+    - generic [ref=e70]:
+      - list [ref=e73]:
+        - listitem [ref=e74]:
+          - link "Inicio" [ref=e75] [cursor=pointer]:
+            - /url: "#"
+            - text: Inicio
+        - listitem [ref=e77]:
+          - link "Formas de Pago" [ref=e78] [cursor=pointer]:
+            - /url: "#"
+            - text: Formas de Pago
+          - link [ref=e80] [cursor=pointer]:
+            - /url: javascript:;
+      - generic [ref=e87]:
+        - generic [ref=e89]:
+          - text: 
+          - button "+" [ref=e90] [cursor=pointer]
+          - button "" [ref=e91] [cursor=pointer]
+          - button "" [ref=e92] [cursor=pointer]
+          - button "" [ref=e93] [cursor=pointer]
+        - generic [ref=e95]:
+          - generic [ref=e100]:
+            - text: "Buscar:"
+            - searchbox "Buscar:" [ref=e101]
+          - generic [ref=e104]:
+            - grid [ref=e107]:
+              - rowgroup [ref=e108]:
+                - 'row "Forma de Pago: activate to sort column ascending Descripción: activate to sort column ascending Fecha: activate to sort column ascending Hora: activate to sort column ascending Usuario Registro: activate to sort column ascending Usuario Modificacion: activate to sort column ascending estado: activate to sort column ascending" [ref=e109]':
+                  - 'gridcell "Forma de Pago: activate to sort column ascending" [ref=e110] [cursor=pointer]': Forma de Pago 
+                  - 'gridcell "Descripción: activate to sort column ascending" [ref=e111] [cursor=pointer]': Descripción 
+                  - 'gridcell "Fecha: activate to sort column ascending" [ref=e112] [cursor=pointer]': Fecha 
+                  - 'gridcell "Hora: activate to sort column ascending" [ref=e113] [cursor=pointer]': Hora 
+                  - 'gridcell "Usuario Registro: activate to sort column ascending" [ref=e114] [cursor=pointer]': Usuario Registro 
+                  - 'gridcell "Usuario Modificacion: activate to sort column ascending" [ref=e115] [cursor=pointer]': Usuario Modificacion 
+                  - 'gridcell "estado: activate to sort column ascending" [ref=e116] [cursor=pointer]': estado 
+            - grid [ref=e118]:
+              - rowgroup:
+                - 'row "Forma de Pago: activate to sort column ascending Descripción: activate to sort column ascending Fecha: activate to sort column ascending Hora: activate to sort column ascending Usuario Registro: activate to sort column ascending Usuario Modificacion: activate to sort column ascending estado: activate to sort column ascending"':
+                  - 'gridcell "Forma de Pago: activate to sort column ascending"':
+                    - generic: Forma de Pago
+                  - 'gridcell "Descripción: activate to sort column ascending"':
+                    - generic: Descripción
+                  - 'gridcell "Fecha: activate to sort column ascending"':
+                    - generic: Fecha
+                  - 'gridcell "Hora: activate to sort column ascending"':
+                    - generic: Hora
+                  - 'gridcell "Usuario Registro: activate to sort column ascending"':
+                    - generic: Usuario Registro
+                  - 'gridcell "Usuario Modificacion: activate to sort column ascending"':
+                    - generic: Usuario Modificacion
+                  - 'gridcell "estado: activate to sort column ascending"':
+                    - generic: estado
+              - rowgroup [ref=e119]:
+                - row "EDIT-1761259759269 Descripción inicial 23/10/2025 18:49:20 andres activo" [ref=e120]:
+                  - gridcell "EDIT-1761259759269" [ref=e121]
+                  - gridcell "Descripción inicial" [ref=e122]
+                  - gridcell "23/10/2025" [ref=e123]
+                  - gridcell "18:49:20" [ref=e124]
+                  - gridcell "andres" [ref=e125]
+                  - gridcell [ref=e126]
+                  - gridcell "activo" [ref=e127]
+                - row "PAGO TARJETA Pago con tarjeta de crédito/débito 23/10/2025 18:49:04 andres activo" [ref=e128]:
+                  - gridcell "PAGO TARJETA" [ref=e129]
+                  - gridcell "Pago con tarjeta de crédito/débito" [ref=e130]
+                  - gridcell "23/10/2025" [ref=e131]
+                  - gridcell "18:49:04" [ref=e132]
+                  - gridcell "andres" [ref=e133]
+                  - gridcell [ref=e134]
+                  - gridcell "activo" [ref=e135]
+                - row "PAGO-1761259437928 Pago inicial 23/10/2025 18:43:59 andres activo" [ref=e136]:
+                  - gridcell "PAGO-1761259437928" [ref=e137]
+                  - gridcell "Pago inicial" [ref=e138]
+                  - gridcell "23/10/2025" [ref=e139]
+                  - gridcell "18:43:59" [ref=e140]
+                  - gridcell "andres" [ref=e141]
+                  - gridcell [ref=e142]
+                  - gridcell "activo" [ref=e143]
+                - row "PAGO TARJETA Pago con tarjeta de crédito/débito 23/10/2025 18:43:43 andres activo" [ref=e144]:
+                  - gridcell "PAGO TARJETA" [ref=e145]
+                  - gridcell "Pago con tarjeta de crédito/débito" [ref=e146]
+                  - gridcell "23/10/2025" [ref=e147]
+                  - gridcell "18:43:43" [ref=e148]
+                  - gridcell "andres" [ref=e149]
+                  - gridcell [ref=e150]
+                  - gridcell "activo" [ref=e151]
+                - row "PAGO-1761258164642 Pago inicial 23/10/2025 18:22:45 andres activo" [ref=e152]:
+                  - gridcell "PAGO-1761258164642" [ref=e153]
+                  - gridcell "Pago inicial" [ref=e154]
+                  - gridcell "23/10/2025" [ref=e155]
+                  - gridcell "18:22:45" [ref=e156]
+                  - gridcell "andres" [ref=e157]
+                  - gridcell [ref=e158]
+                  - gridcell "activo" [ref=e159]
+                - row "PAGO TARJETA Pago con tarjeta de crédito/débito 23/10/2025 18:22:30 andres activo" [ref=e160]:
+                  - gridcell "PAGO TARJETA" [ref=e161]
+                  - gridcell "Pago con tarjeta de crédito/débito" [ref=e162]
+                  - gridcell "23/10/2025" [ref=e163]
+                  - gridcell "18:22:30" [ref=e164]
+                  - gridcell "andres" [ref=e165]
+                  - gridcell [ref=e166]
+                  - gridcell "activo" [ref=e167]
+                - row "PAGO-1761257897947 Pago inicial 23/10/2025 18:18:18 andres activo" [ref=e168]:
+                  - gridcell "PAGO-1761257897947" [ref=e169]
+                  - gridcell "Pago inicial" [ref=e170]
+                  - gridcell "23/10/2025" [ref=e171]
+                  - gridcell "18:18:18" [ref=e172]
+                  - gridcell "andres" [ref=e173]
+                  - gridcell [ref=e174]
+                  - gridcell "activo" [ref=e175]
+                - row "PAGO TARJETA Pago con tarjeta de crédito/débito 23/10/2025 18:18:04 andres activo" [ref=e176]:
+                  - gridcell "PAGO TARJETA" [ref=e177]
+                  - gridcell "Pago con tarjeta de crédito/débito" [ref=e178]
+                  - gridcell "23/10/2025" [ref=e179]
+                  - gridcell "18:18:04" [ref=e180]
+                  - gridcell "andres" [ref=e181]
+                  - gridcell [ref=e182]
+                  - gridcell "activo" [ref=e183]
+                - row "PAGO TARJETA Pago con tarjeta de crédito/débito 23/10/2025 18:08:04 andres activo" [ref=e184]:
+                  - gridcell "PAGO TARJETA" [ref=e185]
+                  - gridcell "Pago con tarjeta de crédito/débito" [ref=e186]
+                  - gridcell "23/10/2025" [ref=e187]
+                  - gridcell "18:08:04" [ref=e188]
+                  - gridcell "andres" [ref=e189]
+                  - gridcell [ref=e190]
+                  - gridcell "activo" [ref=e191]
+                - row "PAGO EN EFECTIVO Forma de pago en caja. 21/10/2025 21:28:49 morgan.checa activo" [ref=e192]:
+                  - gridcell "PAGO EN EFECTIVO" [ref=e193]
+                  - gridcell "Forma de pago en caja." [ref=e194]
+                  - gridcell "21/10/2025" [ref=e195]
+                  - gridcell "21:28:49" [ref=e196]
+                  - gridcell "morgan.checa" [ref=e197]
+                  - gridcell [ref=e198]
+                  - gridcell "activo" [ref=e199]
+          - generic [ref=e200]:
+            - status [ref=e202]:
+              - text: Mostrando la pagina 1 de 2
+              - generic [ref=e203]: 0 seleccionado(s)
+            - list [ref=e206]:
+              - listitem:
+                - link "Anterior" [ref=e207]:
+                  - /url: "#"
+              - listitem:
+                - link "1" [ref=e208]:
+                  - /url: "#"
+              - listitem:
+                - link "2" [ref=e209] [cursor=pointer]:
+                  - /url: "#"
+              - listitem:
+                - link "Siguiente" [ref=e210] [cursor=pointer]:
+                  - /url: "#"
+    - contentinfo [ref=e211]:
+      - generic [ref=e212]: Version 1.0
+      - strong [ref=e213]:
+        - text: Copyright © 2024-2025
+        - link "CCHECSYS" [ref=e214] [cursor=pointer]:
+          - /url: https://www.ccheca.com
+        - text: .
+      - text: Todos los derechos reservados.
+  - text: ×
+```
