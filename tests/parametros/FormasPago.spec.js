@@ -85,27 +85,24 @@ test('9. Verificar botón actualizar refresca tabla', async () => {
   const nombreRegistro = `REFRESH-${Date.now()}`;
   const descripcionRegistro = 'Registro para refrescar';
 
-
+  // Crear registro
   await formasPago.crear(nombreRegistro, descripcionRegistro);
   expect(await formasPago.validarToast()).toBeTruthy();
 
- 
+  // Seleccionar y eliminar registro
   await formasPago.seleccionarFila(nombreRegistro);
-  await formasPago.btnEliminar.scrollIntoViewIfNeeded();
   await formasPago.btnEliminar.click();
   await formasPago.confirmarEliminacion();
   expect(await formasPago.validarToast()).toBeTruthy();
 
- 
-  await formasPago.btnActualizar.scrollIntoViewIfNeeded();
+  // Actualizar tabla
   await formasPago.btnActualizar.click();
-  await formasPago.tabla.waitFor({ state: 'visible', timeout: 10000 });
-  await formasPago.page.waitForTimeout(500);
 
-  
+  // Verificar que la fila eliminada ya no está
   const filas = await formasPago.tabla.locator('tr').allTextContents();
   expect(filas.some(f => f.includes(nombreRegistro))).toBeFalsy();
 });
+
   
   test('10. Seleccionar registro en tabla', async () => {
     const primerFila = formasPago.tabla.locator('tr').first();

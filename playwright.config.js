@@ -4,7 +4,7 @@ const { defineConfig } = require('@playwright/test');
 module.exports = defineConfig({
   testDir: './tests',
   timeout: 30000,
-  reporter: [['list'], ['html']],
+  reporter: [['list'], ['html'],['allure-playwright'] ],
   
   use: {
     baseURL: 'https://pruebas-3-3hjs.onrender.com',
@@ -20,7 +20,7 @@ module.exports = defineConfig({
       name: 'setup',
       testMatch: '**/saveStorage.spec.js', 
       use: {
-        // Genera el storage desde cero
+        
       },
     },
     {
