@@ -6,7 +6,7 @@ class TiposEgresoPage extends BasePage {
 
         this.moduloJoyeria = page.locator('#menu-padre-16 > a span:has-text("Módulo de Joyeria")');
         this.menuParametros = page.locator('#menu-padre-17 > a:has-text("Parámetros")');
-        this.submenu = page.locator('#tab-24:has-text("Tipos de Egreso")');
+        this.submenu = page.locator('#tab-21:has-text("Tipos de Egreso")');
 
         this.btnCrear = page.locator('button[name="Crear"]');
         this.btnGuardar = page.locator('#boton_guardar');

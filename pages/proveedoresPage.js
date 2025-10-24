@@ -1,4 +1,4 @@
-const { BasePage } = require('../helpers/base.page');
+const { BasePage } = require('./BasePage');
 
 class ProveedoresPage extends BasePage {
     constructor(page) {
@@ -10,6 +10,9 @@ class ProveedoresPage extends BasePage {
 
         this.btnCrear = page.locator('button[name="Crear"]');
         this.btnGuardar = page.locator('#boton_guardar');
+        this.btnEliminar = page.locator('button[name="Eliminar"]');
+        this.btnActualizar = page.locator('button[name="Actualizar"]');
+        this.btnEditar = page.locator('button[name="Editar"]');
 
         this.inputNombre = page.locator('input[name="joy_proveedor[nombre_proveedor]"]');
         this.textareaDescripcion = page.locator('textarea[name="joy_proveedor[descripcion_proveedor]"]');

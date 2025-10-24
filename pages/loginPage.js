@@ -1,5 +1,5 @@
 // loginPage.js
-const { BasePage } = require('../utils/helperBasepage.js');
+const { BasePage } = require('./BasePage');
 
 class LoginPage extends BasePage {
     constructor(page) {

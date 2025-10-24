@@ -2,10 +2,10 @@
   "cookies": [
     {
       "name": "ci_session",
-      "value": "5521b531a7001c1c8a6cef77bc1622334e702955",
+      "value": "04857cbb687de9ffd2f18440e65dde2efee8b8b9",
       "domain": "pruebas-3-3hjs.onrender.com",
       "path": "/",
-      "expires": 1761266934.081215,
+      "expires": 1761332153.011558,
       "httpOnly": true,
       "secure": false,
       "sameSite": "Lax"

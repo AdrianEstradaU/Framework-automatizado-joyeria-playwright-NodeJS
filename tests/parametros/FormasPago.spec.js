@@ -18,40 +18,41 @@ test.describe('Módulo: Formas de Pago', () => {
   });
 
   
-  test('6. Intentar crear con campos vacíos', async () => {
-    await formasPago.crear(formasPagoData.invalid.nombre, formasPagoData.invalid.descripcion);
+ test('6. Intentar crear con campos vacíos y validar errores inline', async () => {
+  const filasAntes = await formasPago.tabla.locator('tr').count();
 
-    const mensajeVisible = await formasPago.toastMessage.isVisible().catch(() => false);
-    if (mensajeVisible) {
-      const texto = await formasPago.toastMessage.textContent();
-      console.log('📝 Respuesta:', texto);
-      expect(texto.length).toBeGreaterThan(0);
-    } else {
-      const btnHabilitado = await formasPago.btnGuardar.isEnabled();
-      expect(btnHabilitado).toBeDefined();
-    }
-  });
+  // Intentar crear con datos vacíos
+  await formasPago.crear(formasPagoData.invalid.nombre, formasPagoData.invalid.descripcion);
 
-  
+  // Validar solo el error del nombre
+  const errorNombre = formasPago.page.locator('#joy_forma_pago\\[nombre_forma_pago\\]-error');
+  await expect(errorNombre).toHaveText('Este campo es obligatorio');
+
+  // Validar que la tabla no se agregó un nuevo registro
+  const filasDespues = await formasPago.tabla.locator('tr').count();
+  expect(filasDespues).toBe(filasAntes);
+});
+
+
 test('7. Editar registro existente', async () => {
-  const nombreOriginal = `EDIT-${Date.now()}`;
-  const descripcionOriginal = 'Descripción inicial';
-  const nombreEditado = `EDIT-NEW-${Date.now()}`;
+  const nombreOriginal = formasPagoData.valid.nombre; 
+  const nombreEditado = `${nombreOriginal}-EDITED`;
   const descripcionEditada = 'Descripción modificada';
 
- 
-  await formasPago.crear(nombreOriginal, descripcionOriginal);
-  expect(await formasPago.validarToast()).toBeTruthy();
-
-  
-  await formasPago.seleccionarFila(nombreOriginal);
+  // Editar directamente el registro
   await formasPago.editar(nombreOriginal, nombreEditado, descripcionEditada);
+
+  // Validar toast de éxito
   expect(await formasPago.validarToast()).toBeTruthy();
 
-  
-  const filas = await formasPago.tabla.locator('tr').allTextContents();
-  expect(filas.some(f => f.includes(nombreEditado))).toBeTruthy();
+  // Esperar a que la tabla se actualice
+  await formasPago.page.waitForTimeout(1000);
+
+  // Verificar que el nombre editado aparece en la tabla
+  const filasTexto = await formasPago.tabla.locator('tr').allTextContents();
+  expect(filasTexto.some(f => f.includes(nombreEditado))).toBeTruthy();
 });
+
 
 
 test('8. Eliminar registro existente', async () => {
@@ -145,7 +146,6 @@ test('9. Verificar botón actualizar refresca tabla', async () => {
     await formasPago.fill(formasPago.inputDescripcion, descripcionLarga);
 
     const valor = await formasPago.inputDescripcion.inputValue();
-    console.log('📏 Longitud:', valor.length);
     expect(valor.length).toBeGreaterThan(0);
   });
 

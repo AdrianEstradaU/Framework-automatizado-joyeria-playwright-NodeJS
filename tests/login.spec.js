@@ -3,18 +3,20 @@ const { LoginPage } = require('../pages/loginPage');
 const { loginData } = require('../data/logindata');
 
 test.describe('Login', () => {
+  let login;
 
-  test('1. Verificar mensaje de “Campo obligatorio” al enviar campos vacíos', async ({ page }) => {
-    const login = new LoginPage(page);
+  test.beforeEach(async ({ page }) => {
+    login = new LoginPage(page);
     await login.goto();
+  });
+
+  test('1. Verificar mensaje de “Campo obligatorio” al enviar campos vacíos', async () => {
     await login.submitEmpty();
     const mensaje = await login.validarPasswordRequired();
     await expect(mensaje).toContain('Este campo es obligatorio');
   });
 
-  test('2. Verificar mensaje de error si el usuario contiene números o símbolos', async ({ page }) => {
-    const login = new LoginPage(page);
-    await login.goto();
+  test('2. Verificar mensaje de error si el usuario contiene números o símbolos', async () => {
     await login.login(
       loginData.usuarioConSimbolos.usuario,
       loginData.usuarioConSimbolos.password
@@ -23,9 +25,7 @@ test.describe('Login', () => {
     await expect(mensaje).toContain('Solo se permite letras y puntos');
   });
 
-  test('3. Verificar al ingresar una contraseña incorrecta muestre un mensaje de error', async ({ page }) => {
-    const login = new LoginPage(page);
-    await login.goto();
+  test('3. Verificar al ingresar una contraseña incorrecta muestre un mensaje de error', async () => {
     await login.login(
       loginData.contrasenaIncorrecta.usuario,
       loginData.contrasenaIncorrecta.password
@@ -34,9 +34,7 @@ test.describe('Login', () => {
     await expect(visible).toBe(true);
   });
 
-  test('4. Verificar al ingresar usuario no registrado', async ({ page }) => {
-    const login = new LoginPage(page);
-    await login.goto();
+  test('4. Verificar al ingresar usuario no registrado', async () => {
     await login.login(
       loginData.usuarioNoRegistrado.usuario,
       loginData.usuarioNoRegistrado.password
@@ -44,5 +42,4 @@ test.describe('Login', () => {
     const visible = await login.validarUserNotRegistered();
     await expect(visible).toBe(true);
   });
-
 });

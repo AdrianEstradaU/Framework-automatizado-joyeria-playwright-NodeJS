@@ -3,14 +3,14 @@ class BasePage {
     this.page = page;
   }
 
-  // 🔹 Click robusto
+  
   async click(locator, timeout = 10000) {
     await locator.waitFor({ state: 'visible', timeout });
     await locator.scrollIntoViewIfNeeded();
-    await locator.click({ delay: 100 }); // click con un leve delay
+    await locator.click({ delay: 100 }); 
   }
 
-  // 🔹 Llenar campos
+
   async fill(locator, value, timeout = 10000) {
     await locator.waitFor({ state: 'visible', timeout });
     const currentValue = await locator.inputValue().catch(() => '');
@@ -22,7 +22,7 @@ class BasePage {
     await locator.waitFor({ state: 'visible', timeout });
   }
 
-  // 🔹 Seleccionar fila por texto (mejorado)
+  // Seleccionar fila por texto 
   async selectRowByText(tableLocator, text) {
     const row = tableLocator.locator('tr', { hasText: text }).first();
     await row.waitFor({ state: 'visible', timeout: 10000 });
@@ -31,7 +31,7 @@ class BasePage {
     await this.page.waitForTimeout(1500);
   }
 
-  // 🔹 Validar toast (mejorado)
+  
   async validateToastMessage(message = '') {
     const toast = this.page.locator('.toast-message');
     await toast.waitFor({ state: 'visible', timeout: 8000 });
