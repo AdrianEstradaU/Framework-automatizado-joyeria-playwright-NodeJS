@@ -5,6 +5,7 @@ module.exports = defineConfig({
   testDir: './tests',
   timeout: 30000,
   reporter: [['list'], ['html'],['allure-playwright'] ],
+    workers: 1,
   
   use: {
     baseURL: 'https://pruebas-3-3hjs.onrender.com',

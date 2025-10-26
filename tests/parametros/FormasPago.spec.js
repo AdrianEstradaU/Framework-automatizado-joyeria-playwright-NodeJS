@@ -135,17 +135,19 @@ test('9. Verificar botón actualizar refresca tabla', async () => {
     expect(await formasPago.validarToast('El formato JSON solicitado ha fallado.')).toBeTruthy();
   });
 
- 
-  test('14. Validar límite en descripción', async () => {
-    const descripcionLarga = formasPagoData.limites.descripcionLarga;
-    await formasPago.click(formasPago.btnCrear);
-    await formasPago.fill(formasPago.inputNombre, 'TEST-DESC');
-    await formasPago.fill(formasPago.inputDescripcion, descripcionLarga);
+ test('14. Validar límite en descripción', async () => {
+  const descripcionLarga = formasPagoData.limites.descripcionLarga;
 
-    const valor = await formasPago.inputDescripcion.inputValue();
-    expect(valor.length).toBeGreaterThan(0);
-  });
+  await formasPago.click(formasPago.btnCrear);
+  await formasPago.waitForVisible(formasPago.inputNombre);
+  await formasPago.waitForVisible(formasPago.textareaDescripcion); 
 
+  await formasPago.fill(formasPago.inputNombre, 'TEST-DESC');
+  await formasPago.fill(formasPago.textareaDescripcion, descripcionLarga); 
+
+  const valor = await formasPago.textareaDescripcion.inputValue();
+  expect(valor.length).toBeGreaterThan(0);
+});
   
   test('15. Buscar en tabla', async () => {
     const buscador = formasPago.page.locator('input[type="search"]');
