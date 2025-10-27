@@ -1,0 +1,45 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "JOYERIA WILMA" [ref=e4] [cursor=pointer]:
+      - /url: "#"
+      - generic [ref=e5]: JOYERIA WILMA
+    - navigation [ref=e6]:
+      - button " Navegacion" [ref=e7] [cursor=pointer]:
+        - text: 
+        - generic [ref=e8]: Navegacion
+      - list [ref=e10]:
+        - listitem [ref=e11]:
+          - link "" [ref=e12] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e13]:
+          - link "User Image andres" [ref=e14] [cursor=pointer]:
+            - /url: "#"
+            - img "User Image" [ref=e15]
+            - text: andres
+  - complementary [ref=e16]:
+    - generic [ref=e17]:
+      - generic [ref=e19]:
+        - textbox "Buscar..." [ref=e20]
+        - button "" [ref=e22] [cursor=pointer]:
+          - generic [ref=e23]: 
+      - list [ref=e24]:
+        - listitem [ref=e25]:
+          - text: MENU PRINCIPAL
+          - button "" [ref=e26] [cursor=pointer]
+  - generic "Inicio" [ref=e30]:
+    - img [ref=e32]
+    - generic [ref=e33]:
+      - heading "¡Bienvenid@!" [level=2] [ref=e34]
+      - paragraph [ref=e35]: El sistema actual nos ayuda a automatizar la contabilidad de la Joyeria, mediante las ventas y compras de los productos. Asimismo, también se visualizan los reportes y gráficos de las utilidades o pérdidas que tenga el negocio. Asi se tiene un control más riguroso de nuestro negocio.
+  - contentinfo [ref=e36]:
+    - generic [ref=e37]: Version 1.0
+    - strong [ref=e38]:
+      - text: Copyright © 2024-2025
+      - link "CCHECSYS" [ref=e39] [cursor=pointer]:
+        - /url: https://www.ccheca.com
+      - text: .
+    - text: Todos los derechos reservados.
+```

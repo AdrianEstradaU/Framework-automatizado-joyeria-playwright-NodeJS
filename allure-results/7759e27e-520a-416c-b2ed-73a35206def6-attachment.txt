@@ -1,0 +1,2 @@
+ Test: Creando venta Anillo de oro finos, 100, 2, EN EFECTIVO, VENTAS NORMALES, ANILLOS PLATA 925 ITALIANA
+ Creando venta: Anillo de oro finos, 100, 2, EN EFECTIVO, VENTAS NORMALES, ANILLOS PLATA 925 ITALIANA

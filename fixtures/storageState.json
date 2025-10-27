@@ -1,0 +1,15 @@
+{
+  "cookies": [
+    {
+      "name": "ci_session",
+      "value": "7bf3a657e4bb4a33e730d5d8b095408414db8b04",
+      "domain": "pruebas-3-3hjs.onrender.com",
+      "path": "/",
+      "expires": 1761538155.248433,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}
