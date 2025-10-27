@@ -62,7 +62,11 @@ class BasePage {
       return false;
     }
   }
-
+ async selectOptionByText(locator, text, fieldName = '') {
+    await locator.waitFor({ state: 'visible', timeout: 10000 });
+    await locator.selectOption({ label: text });
+    if (fieldName) console.log(` Campo "${fieldName}" seleccionado con: ${text}`);
+  }
   async waitForPageLoad() {
     await this.page.waitForLoadState('networkidle');
   }

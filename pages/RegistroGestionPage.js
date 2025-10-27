@@ -1,9 +1,9 @@
 const { BasePage } = require('./BasePage');
 
+
 class RegistroGestionPage extends BasePage {
   constructor(page) {
     super(page);
-
   
     this.moduloJoyeria = page.locator('#menu-padre-16 > a span:has-text("Módulo de Joyeria")');
     this.menuParametros = page.locator('#menu-padre-17 > a:has-text("Parámetros")');

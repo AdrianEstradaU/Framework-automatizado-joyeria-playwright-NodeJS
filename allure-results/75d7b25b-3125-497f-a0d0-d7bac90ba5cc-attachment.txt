@@ -1,0 +1,1 @@
+ No se pudo llenar el precio (texto inválido o campo bloqueado)

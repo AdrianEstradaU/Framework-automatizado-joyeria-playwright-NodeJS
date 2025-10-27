@@ -1,0 +1,8 @@
+🔹 Abriendo módulo de Ventas...
+ Test: Creando venta:
+      Descripción: Anillo de oro finos
+      Precio: 100
+      Cantidad: 2
+      Forma de pago: EN EFECTIVO
+      Tipo de venta: VENTAS NORMALES
+      Tipo de producto: ANILLOS PLATA 925 ITALIANA

@@ -1,0 +1,19 @@
+🔹 Abriendo módulo de Ventas...
+ Test: Creando venta:
+      Descripción: Anillo de oro finos
+      Precio: 100
+      Cantidad: 2
+      Forma de pago: EN EFECTIVO
+      Tipo de venta: VENTAS NORMALES
+      Tipo de producto: ANILLOS PLATA 925 ITALIANA
+🔹 Iniciando creación de venta...
+✔ Botón "Crear" presionado
+ Campo "Cantidad" seleccionado con: 2
+ Campo "Forma de Pago" seleccionado con: EN EFECTIVO
+ Campo "Tipo de Venta" seleccionado con: VENTAS NORMALES
+ Campo "Tipo de Producto" seleccionado con: ANILLOS PLATA 925 ITALIANA
+✔ Botón "Guardar" presionado
+🎯 Venta creada correctamente y mensaje de éxito visible
+✅ Venta creada, verificando existencia en tabla...
+🔎 Verificando venta "Anillo de oro finos" en tabla: Encontrada
+🎯 Venta verificada correctamente.

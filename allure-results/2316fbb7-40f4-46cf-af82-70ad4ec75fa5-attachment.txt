@@ -1,0 +1,10 @@
+❌ Error al crear o verificar la venta: TypeError: ventasPage.verificarVentaExiste is not a function
+    at C:\Users\PC\Desktop\diplomado\proyecto final\ui playwright\ui-playwright\tests\procesos\Ventas.spec.js:29:39
+    at C:\Users\PC\Desktop\diplomado\proyecto final\ui playwright\ui-playwright\node_modules\playwright\lib\worker\workerMain.js:310:9
+    at C:\Users\PC\Desktop\diplomado\proyecto final\ui playwright\ui-playwright\node_modules\playwright\lib\worker\testInfo.js:305:11
+    at TimeoutManager.withRunnable (C:\Users\PC\Desktop\diplomado\proyecto final\ui playwright\ui-playwright\node_modules\playwright\lib\worker\timeoutManager.js:67:14)
+    at TestInfoImpl._runWithTimeout (C:\Users\PC\Desktop\diplomado\proyecto final\ui playwright\ui-playwright\node_modules\playwright\lib\worker\testInfo.js:303:7)
+    at C:\Users\PC\Desktop\diplomado\proyecto final\ui playwright\ui-playwright\node_modules\playwright\lib\worker\workerMain.js:308:7
+    at WorkerMain._runTest (C:\Users\PC\Desktop\diplomado\proyecto final\ui playwright\ui-playwright\node_modules\playwright\lib\worker\workerMain.js:283:5)
+    at WorkerMain.runTestGroup (C:\Users\PC\Desktop\diplomado\proyecto final\ui playwright\ui-playwright\node_modules\playwright\lib\worker\workerMain.js:198:11)
+    at process.<anonymous> (C:\Users\PC\Desktop\diplomado\proyecto final\ui playwright\ui-playwright\node_modules\playwright\lib\common\process.js:65:22)
