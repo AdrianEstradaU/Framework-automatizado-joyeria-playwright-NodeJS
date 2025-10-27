@@ -49,14 +49,14 @@ class VentasPage extends BasePage {
 
   // Navegación
   async abrirModulo() {
-    console.log('🌐 Abriendo módulo de Ventas...');
+    console.log(' Abriendo módulo de Ventas...');
     await this.moduloJoyeria.waitFor({ state: 'visible', timeout: 10000 });
     await this.navigateMenu(this.moduloJoyeria, this.menuParametros, this.submenu);
     await this.page.waitForLoadState('networkidle');
     await this.page.waitForTimeout(1000);
   }
 
-  // Selección Select2 mejorada por valor
+ 
   async selectOptionSelect2ByValue(locator, text) {
     if (!text) return;
     
@@ -65,7 +65,6 @@ class VentasPage extends BasePage {
     try {
       const name = await locator.getAttribute('name');
       
-      // Usar JavaScript para seleccionar directamente
       const success = await this.page.evaluate(({ name, text }) => {
         const select = document.querySelector(`[name="${name}"]`);
         if (!select) return false;
@@ -79,10 +78,8 @@ class VentasPage extends BasePage {
         if (option) {
           select.value = option.value;
           
-          // Disparar cambios para Select2
           select.dispatchEvent(new Event('change', { bubbles: true }));
-          
-          // Si usa jQuery Select2
+       
           if (window.$ && $(select).data('select2')) {
             $(select).val(option.value).trigger('change');
           }
@@ -93,19 +90,19 @@ class VentasPage extends BasePage {
       }, { name, text });
       
       if (success) {
-        console.log(` ✅ Seleccionado: ${text}`);
+        console.log(`  Seleccionado: ${text}`);
       } else {
-        console.warn(` ⚠️ No se encontró: ${text}`);
+        console.warn(`  No se encontró: ${text}`);
       }
       
       await this.page.waitForTimeout(300);
       
     } catch (error) {
-      console.warn(` ❌ Error: ${error.message}`);
+      console.warn(`  Error: ${error.message}`);
     }
   }
 
-  // Método para cantidad (select normal)
+
   async selectCantidad(cantidad) {
     if (!cantidad) return;
     
@@ -113,21 +110,19 @@ class VentasPage extends BasePage {
       await this.cantidad.selectOption({ label: cantidad.toString() });
       console.log(` Cantidad seleccionada: ${cantidad}`);
     } catch (error) {
-      // Intentar por valor si falla por label
+      
       await this.cantidad.selectOption({ value: cantidad.toString() });
       console.log(` Cantidad seleccionada por valor: ${cantidad}`);
     }
   }
 
-  // Crear venta
+
   async crearVenta(descripcion, precio, cantidad, formaPago, tipoVenta, tipoProducto) {
     console.log(' Iniciando creación de venta...');
     
-    // Abrir modal
     await this.click(this.btnCrear);
     await this.page.waitForTimeout(1500);
-    
-    // Campos básicos
+   
     if (descripcion) {
       await this.descripcion.fill(descripcion);
     }
@@ -140,13 +135,11 @@ class VentasPage extends BasePage {
       }
     }
     
-    // Cantidad (select normal)
     if (cantidad) {
       await this.selectCantidad(cantidad);
       await this.page.waitForTimeout(300);
     }
     
-    // Select2 fields con valores predeterminados
     if (formaPago) {
       await this.selectOptionSelect2ByValue(this.formaPago, formaPago);
       await this.page.waitForTimeout(400);
@@ -162,12 +155,10 @@ class VentasPage extends BasePage {
       await this.page.waitForTimeout(400);
     }
     
-    // Guardar
     await this.click(this.btnGuardar);
     console.log(' Botón "Guardar" presionado');
   }
 
-  // Método auxiliar para crear venta rápida con defaults
   async crearVentaRapida(descripcion, precio, opciones = {}) {
     const defaults = {
       cantidad: '2',
@@ -188,14 +179,12 @@ class VentasPage extends BasePage {
     );
   }
 
-  // Verificar existencia en tabla
   async verificarVentaExiste(descripcion) {
     await this.page.waitForTimeout(500);
     const fila = this.tabla.locator(`tr:has(td:text-is("${descripcion}"))`);
     return (await fila.count()) > 0;
   }
 
-  // Eliminar venta
   async eliminarVenta(descripcion) {
     const fila = this.tabla.locator(`tr:has(td:text-is("${descripcion}"))`);
     if (await fila.count() > 0) {
@@ -209,7 +198,6 @@ class VentasPage extends BasePage {
     }
   }
 
-  // Verificar estado de botones de paginación
   async isAnteriorDisabled() {
     return await this.btnAnterior.evaluate(node => node.classList.contains('disabled'));
   }

@@ -1,0 +1,251 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "JOYERIA WILMA" [ref=e4] [cursor=pointer]:
+      - /url: "#"
+      - generic [ref=e5]: JOYERIA WILMA
+    - navigation [ref=e6]:
+      - button " Navegacion" [ref=e7] [cursor=pointer]:
+        - text: 
+        - generic [ref=e8]: Navegacion
+      - list [ref=e10]:
+        - listitem [ref=e11]:
+          - link "" [ref=e12] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e13]:
+          - link "User Image andres" [ref=e14] [cursor=pointer]:
+            - /url: "#"
+            - img "User Image" [ref=e15]
+            - text: andres
+  - complementary [ref=e16]:
+    - generic [ref=e18]:
+      - generic [ref=e20]:
+        - textbox "Buscar..." [ref=e21]
+        - button "" [ref=e23] [cursor=pointer]:
+          - generic [ref=e24]: 
+      - list [ref=e25]:
+        - listitem [ref=e26]:
+          - text: MENU PRINCIPAL
+          - button "" [ref=e27] [cursor=pointer]
+        - listitem [ref=e28]:
+          - link " Módulo de Joyeria " [ref=e29] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e30]: 
+            - text: Módulo de Joyeria
+            - generic [ref=e32]: 
+          - text:        
+  - generic [ref=e35]:
+    - list [ref=e38]:
+      - listitem [ref=e39]:
+        - link "Inicio" [ref=e40] [cursor=pointer]:
+          - /url: "#"
+          - text: Inicio
+      - listitem [ref=e42]:
+        - link "Compras" [ref=e43] [cursor=pointer]:
+          - /url: "#"
+          - text: Compras
+        - link [ref=e45] [cursor=pointer]:
+          - /url: javascript:;
+    - generic [ref=e52]:
+      - generic [ref=e53]:
+        - generic [ref=e54]:
+          - text: 
+          - button "+" [ref=e55] [cursor=pointer]
+          - button "" [ref=e56] [cursor=pointer]
+          - button "" [ref=e57] [cursor=pointer]
+          - button "" [ref=e58] [cursor=pointer]
+        - generic [ref=e59]:
+          - button "Otras Opciones Toggle Dropdown" [ref=e60] [cursor=pointer]:
+            - text: Otras Opciones
+            - generic [ref=e62]: Toggle Dropdown
+          - text: 
+      - generic [ref=e64]:
+        - generic [ref=e69]:
+          - text: "Buscar:"
+          - searchbox "Buscar:" [ref=e70]
+        - generic [ref=e73]:
+          - grid [ref=e76]:
+            - rowgroup [ref=e77]:
+              - 'row "Descripción: activate to sort column ascending Costo (Bs.): activate to sort column ascending Cantidad: activate to sort column ascending Total: activate to sort column ascending Tipo Compra: activate to sort column ascending Proveedor: activate to sort column ascending Tipo Producto: activate to sort column ascending Fecha: activate to sort column ascending Hora: activate to sort column ascending Usuario Reg.: activate to sort column ascending Usuario Mod.: activate to sort column ascending estado: activate to sort column ascending" [ref=e78]':
+                - 'gridcell "Descripción: activate to sort column ascending" [ref=e79] [cursor=pointer]': Descripción 
+                - 'gridcell "Costo (Bs.): activate to sort column ascending" [ref=e80] [cursor=pointer]': Costo (Bs.) 
+                - 'gridcell "Cantidad: activate to sort column ascending" [ref=e81] [cursor=pointer]': Cantidad 
+                - 'gridcell "Total: activate to sort column ascending" [ref=e82] [cursor=pointer]': Total 
+                - 'gridcell "Tipo Compra: activate to sort column ascending" [ref=e83] [cursor=pointer]': Tipo Compra 
+                - 'gridcell "Proveedor: activate to sort column ascending" [ref=e84] [cursor=pointer]': Proveedor 
+                - 'gridcell "Tipo Producto: activate to sort column ascending" [ref=e85] [cursor=pointer]': Tipo Producto 
+                - 'gridcell "Fecha: activate to sort column ascending" [ref=e86] [cursor=pointer]': Fecha 
+                - 'gridcell "Hora: activate to sort column ascending" [ref=e87] [cursor=pointer]': Hora 
+                - 'gridcell "Usuario Reg.: activate to sort column ascending" [ref=e88] [cursor=pointer]': Usuario Reg. 
+                - 'gridcell "Usuario Mod.: activate to sort column ascending" [ref=e89] [cursor=pointer]': Usuario Mod. 
+                - 'gridcell "estado: activate to sort column ascending" [ref=e90] [cursor=pointer]': estado 
+          - grid [ref=e92]:
+            - rowgroup:
+              - 'row "Descripción: activate to sort column ascending Costo (Bs.): activate to sort column ascending Cantidad: activate to sort column ascending Total: activate to sort column ascending Tipo Compra: activate to sort column ascending Proveedor: activate to sort column ascending Tipo Producto: activate to sort column ascending Fecha: activate to sort column ascending Hora: activate to sort column ascending Usuario Reg.: activate to sort column ascending Usuario Mod.: activate to sort column ascending estado: activate to sort column ascending"':
+                - 'gridcell "Descripción: activate to sort column ascending"':
+                  - generic: Descripción
+                - 'gridcell "Costo (Bs.): activate to sort column ascending"':
+                  - generic: Costo (Bs.)
+                - 'gridcell "Cantidad: activate to sort column ascending"':
+                  - generic: Cantidad
+                - 'gridcell "Total: activate to sort column ascending"':
+                  - generic: Total
+                - 'gridcell "Tipo Compra: activate to sort column ascending"':
+                  - generic: Tipo Compra
+                - 'gridcell "Proveedor: activate to sort column ascending"':
+                  - generic: Proveedor
+                - 'gridcell "Tipo Producto: activate to sort column ascending"':
+                  - generic: Tipo Producto
+                - 'gridcell "Fecha: activate to sort column ascending"':
+                  - generic: Fecha
+                - 'gridcell "Hora: activate to sort column ascending"':
+                  - generic: Hora
+                - 'gridcell "Usuario Reg.: activate to sort column ascending"':
+                  - generic: Usuario Reg.
+                - 'gridcell "Usuario Mod.: activate to sort column ascending"':
+                  - generic: Usuario Mod.
+                - 'gridcell "estado: activate to sort column ascending"':
+                  - generic: estado
+            - rowgroup [ref=e93]:
+              - row "aa -11 -1111 12221 COMPRA NORMAL Diamante azul Anillos Plata 925 Italiana 27/10/2025 00:27:24 andres activo" [ref=e94]:
+                - gridcell "aa" [ref=e95]
+                - gridcell "-11" [ref=e96]
+                - gridcell "-1111" [ref=e97]
+                - gridcell "12221" [ref=e98]
+                - gridcell "COMPRA NORMAL" [ref=e99]
+                - gridcell "Diamante azul" [ref=e100]
+                - gridcell "Anillos Plata 925 Italiana" [ref=e101]
+                - gridcell "27/10/2025" [ref=e102]
+                - gridcell "00:27:24" [ref=e103]
+                - gridcell "andres" [ref=e104]
+                - gridcell [ref=e105]
+                - gridcell "activo" [ref=e106]
+              - row "Compra Decimal 99.99 1 99 COMPRA NORMAL Diamante azul Anillos Plata 925 Italiana 27/10/2025 00:26:59 andres activo" [ref=e107]:
+                - gridcell "Compra Decimal" [ref=e108]
+                - gridcell "99.99" [ref=e109]
+                - gridcell "1" [ref=e110]
+                - gridcell "99" [ref=e111]
+                - gridcell "COMPRA NORMAL" [ref=e112]
+                - gridcell "Diamante azul" [ref=e113]
+                - gridcell "Anillos Plata 925 Italiana" [ref=e114]
+                - gridcell "27/10/2025" [ref=e115]
+                - gridcell "00:26:59" [ref=e116]
+                - gridcell "andres" [ref=e117]
+                - gridcell [ref=e118]
+                - gridcell "activo" [ref=e119]
+              - row "Compra Negativa -100 -5 500 COMPRA NORMAL Diamante azul Anillos Plata 925 Italiana 27/10/2025 00:26:48 andres activo" [ref=e120]:
+                - gridcell "Compra Negativa" [ref=e121]
+                - gridcell "-100" [ref=e122]
+                - gridcell "-5" [ref=e123]
+                - gridcell "500" [ref=e124]
+                - gridcell "COMPRA NORMAL" [ref=e125]
+                - gridcell "Diamante azul" [ref=e126]
+                - gridcell "Anillos Plata 925 Italiana" [ref=e127]
+                - gridcell "27/10/2025" [ref=e128]
+                - gridcell "00:26:48" [ref=e129]
+                - gridcell "andres" [ref=e130]
+                - gridcell [ref=e131]
+                - gridcell "activo" [ref=e132]
+              - row "DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD 100 1 100 COMPRA NORMAL Diamante azul Anillos Plata 925 Italiana 27/10/2025 00:25:59 andres activo" [ref=e133]:
+                - gridcell "DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD" [ref=e134]
+                - gridcell "100" [ref=e135]
+                - gridcell "1" [ref=e136]
+                - gridcell "100" [ref=e137]
+                - gridcell "COMPRA NORMAL" [ref=e138]
+                - gridcell "Diamante azul" [ref=e139]
+                - gridcell "Anillos Plata 925 Italiana" [ref=e140]
+                - gridcell "27/10/2025" [ref=e141]
+                - gridcell "00:25:59" [ref=e142]
+                - gridcell "andres" [ref=e143]
+                - gridcell [ref=e144]
+                - gridcell "activo" [ref=e145]
+              - row "Compra de anillos de plata 100 1 100 COMPRA NORMAL Diamante azul Anillos Plata 925 Italiana 27/10/2025 00:25:18 andres activo" [ref=e146]:
+                - gridcell "Compra de anillos de plata" [ref=e147]
+                - gridcell "100" [ref=e148]
+                - gridcell "1" [ref=e149]
+                - gridcell "100" [ref=e150]
+                - gridcell "COMPRA NORMAL" [ref=e151]
+                - gridcell "Diamante azul" [ref=e152]
+                - gridcell "Anillos Plata 925 Italiana" [ref=e153]
+                - gridcell "27/10/2025" [ref=e154]
+                - gridcell "00:25:18" [ref=e155]
+                - gridcell "andres" [ref=e156]
+                - gridcell [ref=e157]
+                - gridcell "activo" [ref=e158]
+              - row "Compra de anillos de plata 250 5 1250 COMPRA NORMAL Diamante azul Anillos Plata 925 Italiana 27/10/2025 00:24:53 andres activo" [ref=e159]:
+                - gridcell "Compra de anillos de plata" [ref=e160]
+                - gridcell "250" [ref=e161]
+                - gridcell "5" [ref=e162]
+                - gridcell "1250" [ref=e163]
+                - gridcell "COMPRA NORMAL" [ref=e164]
+                - gridcell "Diamante azul" [ref=e165]
+                - gridcell "Anillos Plata 925 Italiana" [ref=e166]
+                - gridcell "27/10/2025" [ref=e167]
+                - gridcell "00:24:53" [ref=e168]
+                - gridcell "andres" [ref=e169]
+                - gridcell [ref=e170]
+                - gridcell "activo" [ref=e171]
+              - row "Compra de anillos de plata 250 5 1250 COMPRA NORMAL Diamante azul Anillos Plata 925 Italiana 27/10/2025 00:04:19 andres activo" [ref=e172]:
+                - gridcell "Compra de anillos de plata" [ref=e173]
+                - gridcell "250" [ref=e174]
+                - gridcell "5" [ref=e175]
+                - gridcell "1250" [ref=e176]
+                - gridcell "COMPRA NORMAL" [ref=e177]
+                - gridcell "Diamante azul" [ref=e178]
+                - gridcell "Anillos Plata 925 Italiana" [ref=e179]
+                - gridcell "27/10/2025" [ref=e180]
+                - gridcell "00:04:19" [ref=e181]
+                - gridcell "andres" [ref=e182]
+                - gridcell [ref=e183]
+                - gridcell "activo" [ref=e184]
+              - row "Collar de plata 2000 1 2000 COMPRA NORMAL Diamante azul COLLARES DE PLATA 04/07/2025 18:56:17 lucia lucia activo" [ref=e185]:
+                - gridcell "Collar de plata" [ref=e186]
+                - gridcell "2000" [ref=e187]
+                - gridcell "1" [ref=e188]
+                - gridcell "2000" [ref=e189]
+                - gridcell "COMPRA NORMAL" [ref=e190]
+                - gridcell "Diamante azul" [ref=e191]
+                - gridcell "COLLARES DE PLATA" [ref=e192]
+                - gridcell "04/07/2025" [ref=e193]
+                - gridcell "18:56:17" [ref=e194]
+                - gridcell "lucia" [ref=e195]
+                - gridcell "lucia" [ref=e196]
+                - gridcell "activo" [ref=e197]
+              - row "anillos 150.12 1 150 COMPRA NORMAL Anillos Plata 925 Italiana 17/04/2024 10:17:47 morgan.checa lucia activo" [ref=e198]:
+                - gridcell "anillos" [ref=e199]
+                - gridcell "150.12" [ref=e200]
+                - gridcell "1" [ref=e201]
+                - gridcell "150" [ref=e202]
+                - gridcell "COMPRA NORMAL" [ref=e203]
+                - gridcell [ref=e204]
+                - gridcell "Anillos Plata 925 Italiana" [ref=e205]
+                - gridcell "17/04/2024" [ref=e206]
+                - gridcell "10:17:47" [ref=e207]
+                - gridcell "morgan.checa" [ref=e208]
+                - gridcell "lucia" [ref=e209]
+                - gridcell "activo" [ref=e210]
+        - generic [ref=e211]:
+          - status [ref=e213]:
+            - text: Mostrando la pagina 1 de 1
+            - generic [ref=e214]: 0 seleccionado(s)
+          - list [ref=e217]:
+            - listitem:
+              - link "Anterior" [ref=e218]:
+                - /url: "#"
+            - listitem:
+              - link "1" [ref=e219]:
+                - /url: "#"
+            - listitem:
+              - link "Siguiente" [ref=e220]:
+                - /url: "#"
+  - contentinfo [ref=e221]:
+    - generic [ref=e222]: Version 1.0
+    - strong [ref=e223]:
+      - text: Copyright © 2024-2025
+      - link "CCHECSYS" [ref=e224] [cursor=pointer]:
+        - /url: https://www.ccheca.com
+      - text: .
+    - text: Todos los derechos reservados.
+```
