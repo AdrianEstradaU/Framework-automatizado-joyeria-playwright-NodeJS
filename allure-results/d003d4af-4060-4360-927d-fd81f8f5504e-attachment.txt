@@ -1,7 +1,0 @@
-🔹 Iniciando creación de venta...
-✔ Botón "Crear" presionado
- Campo "Cantidad" seleccionado con: 2
- Campo "Forma de Pago" seleccionado con: EN EFECTIVO
- Campo "Tipo de Venta" seleccionado con: VENTAS NORMALES
- Campo "Tipo de Producto" seleccionado con: ANILLOS PLATA 925 ITALIANA
- Botón "Guardar" presionado

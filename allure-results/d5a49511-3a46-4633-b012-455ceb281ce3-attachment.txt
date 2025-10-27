@@ -1,4 +1,0 @@
- Iniciando creación de venta...
- Botón "Crear" presionado
-  No se pudo llenar el precio con texto inválido
- Campo "Cantidad" seleccionado con: 2
