@@ -1,4 +1,4 @@
-// Genera un año único basado en timestamp + random para evitar duplicados
+
 const generarAnioUnico = () => {
   const timestamp = Date.now().toString();
   const random = Math.floor(Math.random() * 1000);

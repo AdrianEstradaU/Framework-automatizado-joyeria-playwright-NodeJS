@@ -28,7 +28,6 @@ test.describe('Módulo: Tipos de Egreso', () => {
         tiposEgresoData.invalid.rol 
     );
 
-    // Validar mensaje de error
     const errorNombre = tiposEgreso.page.locator('input[name="joy_tipo_egreso[nombre_tipo_egreso]"] + span');
     await expect(errorNombre).toHaveText(/obligatorio/i);
 
@@ -39,18 +38,15 @@ test.describe('Módulo: Tipos de Egreso', () => {
    test('51. Editar tipo de egreso existente', async () => {
   const nombreOriginal = `EGRESO-${Date.now()}`;
   const descripcionOriginal = 'Tipo de egreso temporal';
-
-  // Crear registro
   await tiposEgreso.crear(nombreOriginal, descripcionOriginal);
   expect(await tiposEgreso.validarToast()).toBeTruthy();
 
   const nombreEditado = `${nombreOriginal}-EDIT`;
   const descripcionEditada = 'Tipo de egreso modificado';
 
-  // Editar registro
+
   await tiposEgreso.editar(nombreOriginal, nombreEditado, descripcionEditada);
 
-  // Verificar que la fila editada aparece
   const filaEditada = tiposEgreso.tabla.locator(`tr:has-text("${nombreEditado}")`).first();
   await filaEditada.waitFor({ state: 'visible', timeout: 15000 });
   const filas = await tiposEgreso.tabla.locator('tr').allTextContents();
@@ -134,7 +130,6 @@ test('58. Verificar que botón actualizar refresca tabla de tipos de egreso', as
   await tiposEgreso.confirmarEliminacion();
   expect(await tiposEgreso.validarToast()).toBeTruthy();
 
-  // Esperar a que la fila desaparezca antes de actualizar
   await tiposEgreso.page.waitForSelector(`text=${nombreRegistro}`, { state: 'detached', timeout: 5000 });
 
   await tiposEgreso.btnActualizar.click();

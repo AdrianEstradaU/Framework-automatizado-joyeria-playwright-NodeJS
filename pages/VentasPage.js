@@ -4,12 +4,10 @@ class VentasPage extends BasePage {
   constructor(page) {
     super(page);
 
-    // Menús y navegación
     this.moduloJoyeria = page.locator('#menu-padre-16 > a span:has-text("Módulo de Joyeria")');
     this.menuParametros = page.locator('#menu-padre-18 > a:has-text("Procesos")');
     this.submenu = page.locator('#tab-25:has-text("Ventas")');
 
-    // Botones
     this.btnCrear = page.locator('button[name="Crear"]');
     this.btnGuardar = page.locator('#boton_guardar');
     this.btnEditar = page.locator('button[name="Editar"]');
@@ -21,11 +19,10 @@ class VentasPage extends BasePage {
     this.btnAnterior = page.locator('#ingreso_previous');
     this.btnSiguiente = page.locator('#ingreso_next');
 
-    // Tabla y búsqueda
+   
     this.tabla = page.locator('#ingreso tbody');
     this.buscarVentas = page.locator('#ingreso_filter input');
 
-    // Campos de formulario
     this.descripcion = page.locator("[name='joy_ingreso[descripcion_ingreso]']");
     this.precio = page.locator("[name='joy_ingreso[precio_ingreso]']");
     this.cantidad = page.locator("[name='joy_ingreso[cantidad]']");
@@ -33,7 +30,7 @@ class VentasPage extends BasePage {
     this.tipoVenta = page.locator("[name='joy_ingreso[id_tipo_ingreso]']");
     this.tipoProducto = page.locator("[name='joy_ingreso[id_tipo_producto]']");
 
-    // Mensajes de error
+   
     this.errorDescripcion = page.locator('.error:near([name="joy_ingreso[descripcion_ingreso]"])').first();
     this.errorPrecio = page.locator('.error:near([name="joy_ingreso[precio_ingreso]"])').first();
     this.errorCantidad = page.locator('.error:near([name="joy_ingreso[cantidad]"])').first();
@@ -41,13 +38,12 @@ class VentasPage extends BasePage {
     this.errorTipoVenta = page.locator('.error:near([name="joy_ingreso[id_tipo_ingreso]"])').first();
     this.errorTipoProducto = page.locator('.error:near([name="joy_ingreso[id_tipo_producto]"])').first();
 
-    // Mensajes toast
     this.toastExito = page.locator('.overhang-message', { hasText: 'El proceso se ha realizado exitosamente' });
     this.toastError = page.locator('.overhang-message', { hasText: 'El formato JSON solicitado ha fallado' });
     this.mensajeEliminar = page.locator('.overhang-message', { hasText: '¿Desea eliminar el registro seleccionado?' });
   }
 
-  // Navegación
+
   async abrirModulo() {
     console.log(' Abriendo módulo de Ventas...');
     await this.moduloJoyeria.waitFor({ state: 'visible', timeout: 10000 });
@@ -69,7 +65,7 @@ class VentasPage extends BasePage {
         const select = document.querySelector(`[name="${name}"]`);
         if (!select) return false;
         
-        // Buscar la opción por texto
+     
         const options = Array.from(select.options);
         const option = options.find(opt => 
           opt.text.trim().toUpperCase() === text.trim().toUpperCase()
