@@ -20,15 +20,9 @@ test.describe('Módulo: Formas de Pago', () => {
   
  test('6. Intentar crear con campos vacíos y validar errores inline', async () => {
   const filasAntes = await formasPago.tabla.locator('tr').count();
-
-  // Intentar crear con datos vacíos
   await formasPago.crear(formasPagoData.invalid.nombre, formasPagoData.invalid.descripcion);
-
-  // Validar solo el error del nombre
   const errorNombre = formasPago.page.locator('#joy_forma_pago\\[nombre_forma_pago\\]-error');
   await expect(errorNombre).toHaveText('Este campo es obligatorio');
-
-  // Validar que la tabla no se agregó un nuevo registro
   const filasDespues = await formasPago.tabla.locator('tr').count();
   expect(filasDespues).toBe(filasAntes);
 });
@@ -39,16 +33,12 @@ test('7. Editar registro existente', async () => {
   const nombreEditado = `${nombreOriginal}-EDITED`;
   const descripcionEditada = 'Descripción modificada';
 
-  // Editar directamente el registro
   await formasPago.editar(nombreOriginal, nombreEditado, descripcionEditada);
 
-  // Validar toast de éxito
   expect(await formasPago.validarToast()).toBeTruthy();
 
-  // Esperar a que la tabla se actualice
   await formasPago.page.waitForTimeout(1000);
 
-  // Verificar que el nombre editado aparece en la tabla
   const filasTexto = await formasPago.tabla.locator('tr').allTextContents();
   expect(filasTexto.some(f => f.includes(nombreEditado))).toBeTruthy();
 });
@@ -58,19 +48,14 @@ test('7. Editar registro existente', async () => {
 test('8. Eliminar registro existente', async () => {
   const nombreEliminar = `DELETE-${Date.now()}`;
   const descripcionEliminar = 'Registro a eliminar';
-
-  
   await formasPago.crear(nombreEliminar, descripcionEliminar);
   expect(await formasPago.validarToast()).toBeTruthy();
-
  
   await formasPago.seleccionarFila(nombreEliminar);
   await formasPago.btnEliminar.scrollIntoViewIfNeeded();
   await formasPago.btnEliminar.click();
   await formasPago.confirmarEliminacion();
   expect(await formasPago.validarToast()).toBeTruthy();
-
-
   await formasPago.btnActualizar.scrollIntoViewIfNeeded();
   await formasPago.btnActualizar.click();
   await formasPago.tabla.waitFor({ state: 'visible', timeout: 10000 });
@@ -84,21 +69,13 @@ test('8. Eliminar registro existente', async () => {
 test('9. Verificar botón actualizar refresca tabla', async () => {
   const nombreRegistro = `REFRESH-${Date.now()}`;
   const descripcionRegistro = 'Registro para refrescar';
-
-  // Crear registro
   await formasPago.crear(nombreRegistro, descripcionRegistro);
   expect(await formasPago.validarToast()).toBeTruthy();
-
-  // Seleccionar y eliminar registro
   await formasPago.seleccionarFila(nombreRegistro);
   await formasPago.btnEliminar.click();
   await formasPago.confirmarEliminacion();
   expect(await formasPago.validarToast()).toBeTruthy();
-
-  // Actualizar tabla
   await formasPago.btnActualizar.click();
-
-  // Verificar que la fila eliminada ya no está
   const filas = await formasPago.tabla.locator('tr').allTextContents();
   expect(filas.some(f => f.includes(nombreRegistro))).toBeFalsy();
 });

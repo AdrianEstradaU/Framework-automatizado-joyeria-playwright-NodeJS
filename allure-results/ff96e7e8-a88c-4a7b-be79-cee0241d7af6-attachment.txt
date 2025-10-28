@@ -1,1 +1,0 @@
-Botón "Otras opciones" no encontrado, puede estar en un dropdown de acciones

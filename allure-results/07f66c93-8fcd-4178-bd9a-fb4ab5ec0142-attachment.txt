@@ -1,4 +1,0 @@
- Iniciando creación de venta...
- Botón "Crear" presionado
- Campo "Cantidad" seleccionado con: 2
- Botón "Guardar" presionado
