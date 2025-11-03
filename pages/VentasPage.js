@@ -71,9 +71,9 @@ class VentasPage extends BasePage {
     // Verificar que se haya creado correctamente
     const existe = await this.verificarVentaExiste(flujo.descripcion);
     if (existe) {
-        console.log(`✅ La venta "${flujo.descripcion}" fue creada y verificada.`);
+        console.log(` La venta "${flujo.descripcion}" fue creada y verificada.`);
     } else {
-        console.warn(`⚠️ No se encontró la venta "${flujo.descripcion}" después de crearla.`);
+        console.warn(` No se encontró la venta "${flujo.descripcion}" después de crearla.`);
     }
 }
 

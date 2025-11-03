@@ -1,0 +1,5 @@
+[INFO] 2025-11-03T21:25:20.805Z : Página cargada correctamente. Ingresando al módulo Formas de Pago...
+[INFO] 2025-11-03T21:25:24.711Z : Módulo Formas de Pago abierto exitosamente.
+[INFO] 2025-11-03T21:25:24.718Z :  AE-TC-10: Seleccionando registro en tabla.
+[INFO] 2025-11-03T21:25:24.722Z : Seleccionando registro con nombre: QR
+[INFO] 2025-11-03T21:25:25.279Z : AE-TC-10 completado: Registro seleccionado correctamente.

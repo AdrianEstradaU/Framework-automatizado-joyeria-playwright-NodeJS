@@ -1,5 +1,5 @@
 const { test, expect } = require('@playwright/test');
-const { FormasPagoPage } = require('../../pages/FormasPagoPage');
+const { FormasPagoPage } = require('../../pages/FormasPagoPage.js');
 const { formasPagoData } = require('../../data/FormasPagoData.js');
 const logger = require("../../utils/loggers.js");
 const { allure } = require('allure-playwright');

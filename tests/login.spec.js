@@ -1,7 +1,7 @@
 const { test, expect } = require('@playwright/test');
-const { LoginPage } = require('../pages/loginPage');
-const { loginData } = require('../data/logindata');
-const logger = require("../utils/loggers.js");
+const { LoginPage } = require('../pages/LoginPage.js');
+const { loginData } = require('../data/LoginData.js');
+const logger = require("./utils/loggers.js");
 const { allure } = require('allure-playwright');
 test.describe('Login', () => {
   let login;

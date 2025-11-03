@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
-const { VentasPage } = require('../../pages/VentasPage');
-const { VentasData } = require('../../data/VentasData');
+const { VentasPage } = require('../../pages/VentasPage.js');
+const { VentasData } = require('../../data/VentasData.js');
 const logger = require("../../utils/loggers.js");
 const { allure } = require('allure-playwright');
 const { limpiarVentasCreadas, registrarVentaCreada } = require('../../utils/teardownVentas');

@@ -1,5 +1,5 @@
 const { test } = require('@playwright/test');
-const { LoginPage } = require('../pages/loginPage');
+const { LoginPage } = require('../pages/LoginPage.js');
 
 test('Generar storage de autenticación', async ({ page }) => {
   const login = new LoginPage(page);
