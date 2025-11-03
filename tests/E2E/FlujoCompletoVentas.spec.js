@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 const { FormasPagoPage } = require('../../pages/FormasPagoPage.js');
-const { formasPagoData } = require('../../data/FormasPagoData.js');
+const { formasPagoData } = require('../../data/FormasPagodata.js');
 const { TiposIngresoPage } = require('../../pages/TiposIngresoPage.js');
 const { tiposIngresoData } = require('../../data/TiposIngresoData.js');
 const { TiposProductoPage } = require('../../pages/TiposProductoPage.js');
