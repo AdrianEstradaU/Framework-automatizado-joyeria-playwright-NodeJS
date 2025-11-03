@@ -10,11 +10,10 @@
   "devDependencies": {
     "@playwright/test": "^1.56.1",
     "@types/node": "^24.5.2",
-    "allure-playwright": "^3.4.1",
-    "dotenv": "^17.2.3"
+    "allure-playwright": "^3.4.1"
   },
   "directories": {
-    "test": "test"
+    "test": "tests"
   },
   "repository": {
     "type": "git",

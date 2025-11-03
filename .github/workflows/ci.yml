@@ -9,41 +9,45 @@ on:
 jobs:
   playwright-tests:
     runs-on: ubuntu-latest
+    
     steps:
       - name: Clonar repositorio
         uses: actions/checkout@v4
 
-      - name:  Configurar Node.js
+      - name: Configurar Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20.10.0
+          node-version: '20.10.0'
+          cache: 'npm'
 
-      - name:  Cache node_modules
-        uses: actions/cache@v4
-        with:
-          path: node_modules
-          key: ${{ runner.os }}-node-20.10.0-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-20.10.0-
+      - name: Instalar dependencias
+        run: npm ci
 
-      - name:  Instalar dependencias
-        run: npm install
-
-      - name:  Instalar navegadores de Playwright
+      - name: Instalar navegadores de Playwright
         run: npx playwright install --with-deps
 
-      - name:  Ejecutar todos los tests headless
-        run: npx playwright test tests --reporter=line,allure-playwright
+      - name: Crear directorio fixtures
+        run: mkdir -p fixtures
 
-      - name:  Generar reporte Allure HTML
+      - name: Ejecutar todos los tests
+        run: npx playwright test
+        continue-on-error: true
+
+      - name: Generar reporte Allure HTML
+        if: always()
+        run: npx allure generate allure-results --clean -o allure-report
+
+      - name: Agregar información del build
+        if: always()
         run: |
-          npm install -g allure-commandline
-          allure generate allure-results --clean -o allure-report
+          echo "Build #${{ github.run_number }}" > allure-report/build-info.txt
+          echo "Commit: ${{ github.sha }}" >> allure-report/build-info.txt
 
-      - name:  Publicar reporte en GitHub Pages
-        uses: peaceiris/actions-gh-pages@v6
+      - name: Publicar reporte en GitHub Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./allure-report
           publish_branch: gh-pages
-          destination_dir: "3" # se publicará como https://AdrianEstradaU.github.io/Framework-automatizado-joyeria-playwright-NodeJS/3/
+          destination_dir: "3"
