@@ -1,53 +1,37 @@
-name: CI Playwright Tests con Allure Pages
-
+name: Ejecución de tests joyeria wilma 
 on:
   push:
     branches: [main]
   pull_request:
     branches: [main]
-
 jobs:
   playwright-tests:
     runs-on: ubuntu-latest
-    
+    strategy:
+      fail-fast: false
+      matrix:
+        node-version: [20.10.0]
     steps:
-      - name: Clonar repositorio
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Configurar Node.js
+      - name: Configurando Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v4
         with:
-          node-version: '20.10.0'
-          cache: 'npm'
+          node-version: ${{ matrix.node-version }}
 
-      - name: Instalar dependencias
-        run: npm ci
+      - name: Cache node_modules
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ matrix.node-version }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-${{ matrix.node-version }}-
 
-      - name: Instalar navegadores de Playwright
+      - name: Instalar dependencies
+        run: npm install
+
+      - name: Instalar Playwright Browsers
         run: npx playwright install --with-deps
 
-      - name: Crear directorio fixtures
-        run: mkdir -p fixtures
-
-      - name: Ejecutar todos los tests
-        run: npx playwright test
-        continue-on-error: true
-
-      - name: Generar reporte Allure HTML
-        if: always()
-        run: npx allure generate allure-results --clean -o allure-report
-
-      - name: Agregar información del build
-        if: always()
-        run: |
-          echo "Build #${{ github.run_number }}" > allure-report/build-info.txt
-          echo "Commit: ${{ github.sha }}" >> allure-report/build-info.txt
-
-      - name: Publicar reporte en GitHub Pages
-        if: always()
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./allure-report
-          publish_branch: gh-pages
-          destination_dir: "3"
+      - name: Ejecutar tests
+        run: npx playwright test tests
