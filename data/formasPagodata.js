@@ -19,6 +19,11 @@ const formasPagoData = {
     descripcionMaxima: 'B'.repeat(255) // Justo en el límite
   },
 
+  FLujoPago: {
+    nombreFlujo: 'PAGO TARJETA DEBITO',
+    descripcionFlujo:'Pago con tarjeta debito'
+  
+  },
  
   escenarios: {
     efectivo: {

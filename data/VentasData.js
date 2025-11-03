@@ -17,7 +17,15 @@ const VentasData = {
     tipoProducto:''
 
   },
+  flujoVentas: { 
+    descripcion: 'anillo de plata fino',
+    precio:200, 
+    cantidad:4, 
+    formaPago:'PAGO TARJETA DEBITO' , 
+    tipoVenta:'COMPRAS ESPECIALES 2', 
+    tipoProducto:'ANILLO ESPECIAL'
 
+  },
   limites: {
     preciolargo: 'A'.repeat(310), 
     descripcionLarga: 'D'.repeat(256),
@@ -37,5 +45,6 @@ const VentasData = {
     tipoVenta: 'VENTAS NORMALES',
     tipoProducto: 'ANILLOS PLATA 925 ITALIANA'
   }
+  
 };
 module.exports = { VentasData };

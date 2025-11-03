@@ -1,6 +1,9 @@
 const { test, expect } = require('@playwright/test');
 const { RegistroGestionPage } = require('../../pages/RegistroGestionPage');
 const { registroGestionData } = require('../../data/registroGestionData');
+const logger = require("../../utils/loggers.js");
+const { allure } = require('allure-playwright');
+const { teardownRegistroGestion, ejecutarLimpiezaRegistroGestion } = require('../../utils/RegistroGestionTeardown');
 
 test.describe('Módulo: Registro de Gestión', () => {
   let registro;
@@ -8,29 +11,57 @@ test.describe('Módulo: Registro de Gestión', () => {
   test.beforeEach(async ({ page }) => {
     registro = new RegistroGestionPage(page);
     await page.goto('/');
+    logger.info('Página principal cargada.');
+    logger.info('Ingresando al módulo Registro de Gestión...');
     await registro.abrirModulo();
+    logger.info('Módulo Registro de Gestión abierto correctamente.');
   });
 
-  test('59. Crear registro válido', async () => {
+  test.afterAll(async ({ browser }) => {
+    test.setTimeout(90000); 
+    await ejecutarLimpiezaRegistroGestion(browser);
+    
+  });
+
+  test('AE-TC-59. Crear registro de gestión válido @Smoke @Regression @positive', async () => {
+    allure.owner('Andres Adrian Estrada Uzeda');
+    allure.severity('critical');
     const anio = registroGestionData.valid.generarAnio();
-    console.log(` Test 59: Creando ${anio}`);
+    teardownRegistroGestion.registrar(anio);
+    logger.info(`Creando registro de gestión con año: ${anio}`);
     
     await registro.crearRegistro(anio);
+    logger.info('Registro creado, validando existencia...');
+    
+    await registro.page.waitForTimeout(2000);
+    await registro.btnActualizar.click();
+    await registro.page.waitForLoadState('networkidle');
+    await registro.page.waitForTimeout(1500);
     
     const existe = await registro.verificarRegistroExiste(anio);
     expect(existe).toBeTruthy();
+    logger.info('Registro validado correctamente.');
   });
 
-  test('60. Validar campo obligatorio', async () => {
+  test('AE-TC-60. Validar campo obligatorio en registro de gestión @Regression @negative', async () => {
+    allure.owner('Andres Adrian Estrada Uzeda');
+    allure.severity('critical');
+    logger.info('Abriendo ventana de creación de registro...');
+    
     await registro.click(registro.btnCrear);
     await registro.modal.waitFor({ state: 'visible' });
+    logger.info('Intentando guardar sin ingresar datos...');
+    
     await registro.click(registro.btnGuardar);
-
     expect(await registro.validarError('obligatorio')).toBeTruthy();
+    logger.info('Mensaje de campo obligatorio validado correctamente.');
   });
 
-  test('61. Validar año demasiado largo', async () => {
+  test('AE-TC-61. Validar año demasiado largo @Regression @negative', async () => {
+    allure.owner('Andres Adrian Estrada Uzeda');
+    allure.severity('minor');
     const anioLargo = registroGestionData.invalid.demasiadoLargo;
+    logger.info(`Probando año demasiado largo: ${anioLargo}`);
     
     await registro.click(registro.btnCrear);
     await registro.modal.waitFor({ state: 'visible' });
@@ -38,105 +69,212 @@ test.describe('Módulo: Registro de Gestión', () => {
     await registro.click(registro.btnGuardar);
     await registro.page.waitForTimeout(2000);
     
+   
+    await registro.btnActualizar.click();
+    await registro.page.waitForLoadState('networkidle');
+    await registro.page.waitForTimeout(1500);
+    
     const existe = await registro.verificarRegistroExiste(anioLargo);
-    expect(existe).toBeFalsy();
+    
+   
+    if (existe) {
+      logger.warn(` BUG DETECTADO: Sistema permitió crear año con ${anioLargo.length} dígitos`);
+      teardownRegistroGestion.registrar(anioLargo); 
+      
+   
+      expect.soft(existe).toBeFalsy();
+      logger.info(' Validación falló como se esperaba (bug pendiente de corrección)');
+    } else {
+      logger.info(' Año largo no fue creado, validación correcta.');
+      expect(existe).toBeFalsy();
+    }
   });
 
-  test('62. Validar año no numérico', async () => {
+  test('AE-TC-62. Validar año no numérico @Regression @negative', async () => {
+    allure.owner('Andres Adrian Estrada Uzeda');
+    allure.severity('minor');
     const anioTexto = registroGestionData.invalid.noNumerico;
+    logger.info(`Probando año no numérico: ${anioTexto}`);
     
     await registro.click(registro.btnCrear);
     await registro.modal.waitFor({ state: 'visible' });
     await registro.inputAnio.fill(anioTexto);
     await registro.click(registro.btnGuardar);
-
+    
     expect(await registro.validarError('número')).toBeTruthy();
+    logger.info('Error de formato de número validado correctamente.');
   });
 
-  test('63. Editar registro', async () => {
+  test('AE-TC-63. Editar registro de gestión existente @Regression @positive', async () => {
+    allure.owner('Andres Adrian Estrada Uzeda');
+    allure.severity('major');
     const original = registroGestionData.valid.generarAnio();
-    const editado = registroGestionData.valid.generarAnio(); 
-  
-    console.log(` Test 63: ${original} → ${editado}`);
-
+    const editado = registroGestionData.valid.generarAnio();
+    teardownRegistroGestion.registrar(editado); 
+    logger.info(`Creando registro para edición: ${original}`);
+    
     await registro.crearRegistro(original);
-    let existe = await registro.verificarRegistroExiste(original);
-    expect(existe).toBeTruthy();
-    await registro.editarRegistro(original, editado);
-    
-    existe = await registro.verificarRegistroExiste(editado);
-    expect(existe).toBeTruthy();
-  });
-
-  test('64. Eliminar registro', async () => {
-    const anio = registroGestionData.valid.generarAnio();
-    console.log(` Test 64: Eliminar ${anio}`);
-    
-    await registro.crearRegistro(anio);
-    let existe = await registro.verificarRegistroExiste(anio);
-    expect(existe).toBeTruthy();
-    await registro.eliminarRegistro(anio);
-    
+    await registro.page.waitForTimeout(2000);
     await registro.btnActualizar.click();
+    await registro.page.waitForLoadState('networkidle');
     await registro.page.waitForTimeout(1500);
     
-    existe = await registro.verificarRegistroExiste(anio);
+    expect(await registro.verificarRegistroExiste(original)).toBeTruthy();
+    
+    logger.info(`Editando registro: ${original} → ${editado}`);
+    await registro.editarRegistro(original, editado);
+    await registro.page.waitForTimeout(2000);
+    await registro.btnActualizar.click();
+    await registro.page.waitForLoadState('networkidle');
+    await registro.page.waitForTimeout(1500);
+    
+    const existe = await registro.verificarRegistroExiste(editado);
+    expect(existe).toBeTruthy();
+    logger.info('Registro editado validado correctamente.');
+  });
+
+  test('AE-TC-64. Eliminar registro de gestión existente @Regression @positive', async () => {
+    allure.owner('Andres Adrian Estrada Uzeda');
+    allure.severity('critical');
+    const anio = registroGestionData.valid.generarAnio();
+
+    logger.info(`Creando registro para eliminación: ${anio}`);
+    
+    await registro.crearRegistro(anio);
+    await registro.page.waitForTimeout(2000);
+    await registro.btnActualizar.click();
+    await registro.page.waitForLoadState('networkidle');
+    await registro.page.waitForTimeout(1500);
+    
+    expect(await registro.verificarRegistroExiste(anio)).toBeTruthy();
+    
+    await registro.eliminarRegistro(anio);
+    await registro.btnActualizar.click();
+    await registro.page.waitForLoadState('networkidle');
+    await registro.page.waitForTimeout(1500);
+    
+    const existe = await registro.verificarRegistroExiste(anio);
     expect(existe).toBeFalsy();
+    logger.info('Registro eliminado correctamente.');
   });
 
-  test('65. Buscar registro', async () => {
-    const anio = registroGestionData.valid.generarAnio();
-    console.log(` Test 65: Buscar ${anio}`);
-    await registro.crearRegistro(anio);
-    await registro.buscarRegistro(anio);
-    const filas = await registro.tabla.locator('tr').allTextContents();
-    expect(filas.some(f => f.includes(anio))).toBeTruthy();
+  test('AE-TC-65. Buscar registro de gestión existente @Smoke @Regression @positive', async () => {
+    allure.owner('Andres Adrian Estrada Uzeda');
+    allure.severity('critical');
+    logger.info('AE-TC-65: Iniciando prueba de búsqueda de registro de gestión existente');
+
+    const anioBuscar = registroGestionData.valid.generarAnio();
+    teardownRegistroGestion.registrar(anioBuscar); 
+    logger.info(`Creando registro para buscar: ${anioBuscar}`);
+    
+    await registro.crearRegistro(anioBuscar);
+    await registro.page.waitForTimeout(2000);
+    await registro.btnActualizar.click();
+    await registro.page.waitForLoadState('networkidle');
+    await registro.page.waitForTimeout(1500);
+    
+    await registro.buscador.fill(anioBuscar);
+    logger.info(`Filtro aplicado: ${anioBuscar}`);
+
+    await registro.btnActualizar.click();
+    logger.info('Botón "Actualizar" presionado');
+
+    await registro.page.waitForLoadState('networkidle');
+    await registro.page.waitForTimeout(1000);
+
+    const existe = await registro.verificarRegistroExiste(anioBuscar);
+    expect(existe).toBeTruthy();
+    logger.info('Validación exitosa: registro encontrado correctamente');
   });
 
-  test('66. Seleccionar registro', async () => {
+  test('AE-TC-66. Seleccionar registro de gestión en tabla @Regression @positive', async () => {
+    allure.owner('Andres Adrian Estrada Uzeda');
+    allure.severity('normal');
     const anio = registroGestionData.valid.generarAnio();
-    console.log(` Test 66: Seleccionar ${anio}`);
-  
+    teardownRegistroGestion.registrar(anio); 
+    logger.info(`Creando registro para selección: ${anio}`);
+    
     await registro.crearRegistro(anio);
+    await registro.page.waitForTimeout(2000);
+    await registro.btnActualizar.click();
+    await registro.page.waitForLoadState('networkidle');
+    await registro.page.waitForTimeout(1500);
     
     await registro.seleccionarRegistro(anio);
     
     const fila = registro.tabla.locator(`tr:has-text("${anio}")`);
     expect(await fila.isVisible()).toBeTruthy();
+    logger.info('Registro seleccionado correctamente en la tabla.');
   });
 
-  test('67. Paginación - botón anterior deshabilitado', async () => {
+  test('AE-TC-67. Paginación - botón anterior deshabilitado @Regression @positive', async () => {
+    allure.owner('Andres Adrian Estrada Uzeda');
+    allure.severity('minor');
     const btnAnterior = registro.page.locator('#gestion_previous');
-    expect(await btnAnterior.getAttribute('class')).toContain('disabled');
+    const clase = await btnAnterior.getAttribute('class');
+    logger.info(`Clase botón anterior: ${clase}`);
+    expect(clase).toContain('disabled');
   });
 
-  test('68. Paginación - botón siguiente', async () => {
+  test('AE-TC-68. Paginación - botón siguiente @Regression @positive', async () => {
+    allure.owner('Andres Adrian Estrada Uzeda');
+    allure.severity('minor');
     const btnSiguiente = registro.page.locator('#gestion_next');
     const clase = await btnSiguiente.getAttribute('class');
+    logger.info(`Clase botón siguiente: ${clase}`);
     
     if (clase.includes('disabled')) {
-      console.log(' No hay más páginas');
+      logger.info('No hay más páginas disponibles.');
     } else {
-      console.log(' Hay más páginas disponibles');
+      logger.info('Hay más páginas disponibles.');
     }
   });
 
-  test('69. Cancelar eliminación', async () => {
-    const anio = registroGestionData.valid.generarAnio();
-    console.log(` Test 69: Cancelar eliminación ${anio}`);
+  test('AE-TC-69. Cancelar eliminación de registro de gestión existente @Regression @positive', async ({ page }) => {
+    allure.owner('Andres Adrian Estrada Uzeda');
+    allure.severity('major');
+    logger.info('AE-TC-69: Iniciando prueba de cancelación de eliminación');
+
+    const anioEliminar = registroGestionData.valid.generarAnio();
+    teardownRegistroGestion.registrar(anioEliminar); 
+    logger.info(`Creando registro para cancelar eliminación: ${anioEliminar}`);
     
-    
-    await registro.crearRegistro(anio);
-    let existe = await registro.verificarRegistroExiste(anio);
-    expect(existe).toBeTruthy();
   
-    await registro.seleccionarRegistro(anio);
-    await registro.click(registro.btnEliminar);
-    await registro.cancelarEliminacion();
+    await page.goto('/');
+    await page.waitForTimeout(1000);
+    await registro.abrirModulo();
+    await page.waitForTimeout(2000);
+    logger.info('Módulo recargado correctamente');
+    
+  
+    await registro.crearRegistro(anioEliminar);
+    await page.waitForTimeout(2000);
+    await registro.btnActualizar.click();
+    await page.waitForLoadState('networkidle');
+    await page.waitForTimeout(1500);
     
    
-    await registro.page.waitForTimeout(1000);
-    existe = await registro.verificarRegistroExiste(anio);
-    expect(existe).toBeTruthy();
+    const existeAntes = await registro.verificarRegistroExiste(anioEliminar);
+    expect(existeAntes).toBeTruthy();
+    logger.info('Registro creado correctamente');
+    
+    
+    await registro.seleccionarFila(anioEliminar);
+    await registro.btnEliminar.click();
+    logger.info('Modal de eliminación abierto');
+    await page.waitForTimeout(500);
+
+   
+    await registro.cancelarEliminacion();
+    await page.waitForTimeout(1000);
+
+    
+    await registro.btnActualizar.click();
+    await page.waitForLoadState('networkidle');
+    await page.waitForTimeout(1500);
+    
+    const existeDespues = await registro.verificarRegistroExiste(anioEliminar);
+    expect(existeDespues).toBeTruthy();
+    logger.info('Validación exitosa: el registro no fue eliminado');
   });
 });

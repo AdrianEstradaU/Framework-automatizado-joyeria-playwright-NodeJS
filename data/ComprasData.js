@@ -32,6 +32,14 @@ const ComprasData = {
     precioTexto: 'ABC',      
     cantidadTexto: 'XYZ'     
   },
+  FlujoCompras: {
+    descripcion: 'Compras  anillo Flujo completo',
+    precio: 200,
+    cantidad: 5,
+    tipoEgreso: 'COMPRA ESPECIAL 1',
+    proveedor: 'DIAMANTE BLANCO',
+    tipoProducto: 'ANILLO ESPECIAL'
+  },
 
   defaults: {
     cantidad: 1,

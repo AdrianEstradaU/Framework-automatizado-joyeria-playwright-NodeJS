@@ -21,9 +21,10 @@ class ReporteIngresosPage extends BasePage {
 
 
   async abrirModulo() {
-    await this.click(this.moduloJoyeria);
-    await this.click(this.menuProcesos);
-    await this.click(this.submenuIngresos);
+    console.log(' Abriendo módulo de Ventas...');
+    await this.moduloJoyeria.waitFor({ state: 'visible', timeout: 10000 });
+    await this.navigateMenu(this.moduloJoyeria, this.menuProcesos, this.submenuIngresos);
+    await this.page.waitForTimeout(1000);
   }
 
   async seleccionarUsuario(nombreOValor) {

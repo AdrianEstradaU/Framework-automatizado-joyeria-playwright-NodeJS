@@ -20,15 +20,33 @@ class ReporteEgresoPage extends BasePage {
   }
 
 
+
   async abrirModulo() {
-    await this.click(this.moduloJoyeria);
-    await this.click(this.menuProcesos);
-    await this.click(this.submenuEgresos);
+    console.log(' Abriendo módulo de Compras...');
+    await this.moduloJoyeria.waitFor({ state: 'visible', timeout: 10000 });
+    await this.navigateMenu(this.moduloJoyeria, this.menuProcesos, this.submenuEgresos);
+    await this.page.waitForTimeout(1000);
   }
 
-  async seleccionarUsuario(nombreOValor) {
-    await this.selectUsuario.selectOption(nombreOValor);
+ async seleccionarUsuario(nombreOValor) {
+  console.log(' Seleccionando usuario en reporte...');
+  await this.selectUsuario.waitFor({ state: 'visible', timeout: 20000 });
+  await this.page.waitForTimeout(1500);
+  const opciones = await this.page.$$eval(
+    'select[name="reporte_egreso[id_usuario]"] option',
+    opts => opts.map(o => o.textContent.trim())
+  );
+  console.log(' Opciones disponibles:', opciones);
+
+  if (!opciones || opciones.length <= 1) {
+    throw new Error('El select de usuarios no tiene opciones cargadas.');
   }
+  await this.selectUsuario.selectOption({ label: nombreOValor }).catch(async () => {
+    await this.selectUsuario.selectOption(nombreOValor);
+  });
+
+  console.log(`Usuario "${nombreOValor}" seleccionado correctamente.`);
+}   
 
  async ingresarFechas(fechaInicio, fechaFin) {
   if (fechaInicio) {

@@ -1,7 +1,7 @@
 const tiposIngresoData = {
   valid: {
-    nombre: 'SALARIO',
-    descripcion: 'Ingreso mensual por trabajo',
+    nombre: 'VENTAS NORMALES 2',
+    descripcion: 'Ingreso por ventas normales 2',
   },
   invalid: {
     nombre: '',
@@ -10,6 +10,10 @@ const tiposIngresoData = {
   limites: {
     nombreLargo: 'N'.repeat(65),
     descripcionLarga: 'D'.repeat(300),
+  },
+   flujoIngresos: {
+    nombreFlujo: 'COMPRAS ESPECIALES 2',
+    descripcionFlujo : 'Ingreso por compras especiales 2',
   },
   busqueda: {
     termino: 'VENTAS NORMALES',

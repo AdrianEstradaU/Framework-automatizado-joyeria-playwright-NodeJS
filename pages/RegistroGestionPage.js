@@ -157,32 +157,81 @@ class RegistroGestionPage extends BasePage {
   }
 
   async verificarRegistroExiste(anio) {
-    try {
-      await this.buscar(anio);
-      
-      const filas = await this.tabla.locator('tr').allTextContents();
-      
-      const sinDatos = filas.some(f => 
-        f.includes('No data available') || 
-        f.includes('Sin datos') ||
-        f.includes('No hay') ||
-        f.includes('No matching records')
-      );
-      
-      if (sinDatos) {
-        console.log(` No se encontró registro ${anio} (sin datos)`);
-        return false;
-      }
-      
-      const existe = filas.some(f => f.includes(anio));
-      
-      return existe;
-    } catch (error) {
-      console.log(` Error al verificar registro ${anio}:`, error.message);
+  try {
+   
+    await this.buscador.clear();
+    await this.page.waitForTimeout(500);
+    
+ 
+    await this.buscador.fill(anio);
+    await this.page.waitForTimeout(1000);
+    
+   
+    await this.page.waitForLoadState('networkidle');
+    await this.page.waitForTimeout(500);
+    
+ 
+    const filas = await this.tabla.locator('tr').allTextContents();
+    
+    
+    const sinDatos = filas.some(f => 
+      f.includes('No data available') || 
+      f.includes('Sin datos') ||
+      f.includes('No hay') ||
+      f.includes('No matching records')
+    );
+    
+    if (sinDatos) {
+      console.log(` No se encontró registro ${anio} (sin datos)`);
       return false;
     }
+    
+    // Verificar si el año existe en alguna fila
+    const existe = filas.some(f => f.includes(anio));
+    
+    if (existe) {
+      console.log(` Registro ${anio} encontrado`);
+    } else {
+      console.log(` Registro ${anio} no encontrado`);
+      console.log('Filas disponibles:', filas);
+    }
+    
+    return existe;
+  } catch (error) {
+    console.log(` Error al verificar registro ${anio}:`, error.message);
+    return false;
   }
+}
 
+
+
+async eliminarRegistroSilencioso(anio) {
+  try {
+    console.log(` Intentando eliminar registro: ${anio}`);
+    
+  
+    await this.btnActualizar.click();
+    await this.page.waitForTimeout(1000);
+    
+    
+    const existe = await this.verificarRegistroExiste(anio);
+    if (!existe) {
+      console.log(`Registro ${anio} no existe, saltando eliminación`);
+      return;
+    }
+    
+
+    await this.seleccionarFila(anio);
+    await this.click(this.btnEliminar);
+    await this.confirmarEliminacion();
+    await this.page.waitForTimeout(1500);
+    
+    console.log(` Registro ${anio} eliminado exitosamente`);
+  } catch (error) {
+    console.log(`⚠ No se pudo eliminar ${anio}: ${error.message}`);
+    
+  }
+}
   async validarToast(mensajeEsperado = 'El proceso se ha realizado exitosamente') {
     try {
       await this.toastMessage.waitFor({ state: 'visible', timeout: 8000 });

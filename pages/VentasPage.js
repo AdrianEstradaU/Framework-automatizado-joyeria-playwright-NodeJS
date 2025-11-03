@@ -1,4 +1,5 @@
 const { BasePage } = require('./BasePage');
+const { VentasData } = require('../data/VentasData');
 
 class VentasPage extends BasePage {
   constructor(page) {
@@ -51,8 +52,31 @@ class VentasPage extends BasePage {
     await this.page.waitForLoadState('networkidle');
     await this.page.waitForTimeout(1000);
   }
+ async crearVentaFlujo() {
+    console.log('Iniciando creación de venta del flujo...');
 
- 
+    const flujo = VentasData.flujoVentas;
+
+    await this.crearVenta(
+        flujo.descripcion,
+        flujo.precio,
+        flujo.cantidad,
+        flujo.formaPago,
+        flujo.tipoVenta,
+        flujo.tipoProducto
+    );
+
+    console.log('Venta del flujo creada correctamente');
+    
+    // Verificar que se haya creado correctamente
+    const existe = await this.verificarVentaExiste(flujo.descripcion);
+    if (existe) {
+        console.log(`✅ La venta "${flujo.descripcion}" fue creada y verificada.`);
+    } else {
+        console.warn(`⚠️ No se encontró la venta "${flujo.descripcion}" después de crearla.`);
+    }
+}
+
   async selectOptionSelect2ByValue(locator, text) {
     if (!text) return;
     
