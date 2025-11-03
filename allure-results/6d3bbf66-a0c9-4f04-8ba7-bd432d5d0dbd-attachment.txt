@@ -1,6 +1,0 @@
-[INFO] 2025-11-03T21:25:53.515Z : Página cargada correctamente. Ingresando al módulo Formas de Pago...
-[INFO] 2025-11-03T21:25:57.172Z : Módulo Formas de Pago abierto exitosamente.
-[INFO] 2025-11-03T21:25:57.175Z :  AE-TC-15: Iniciando búsqueda de forma de pago.
-[INFO] 2025-11-03T21:25:57.184Z : Buscando registro: PAGO TARJETA
-[INFO] 2025-11-03T21:25:57.190Z : Filas encontradas: 2
-[INFO] 2025-11-03T21:25:57.192Z : AE-TC-15 completado: Búsqueda validada con éxito.

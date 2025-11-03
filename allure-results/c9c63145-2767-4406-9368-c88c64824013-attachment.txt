@@ -1,9 +1,0 @@
-[INFO] 2025-11-03T21:24:48.101Z : Página cargada correctamente. Ingresando al módulo Formas de Pago...
-[INFO] 2025-11-03T21:24:52.224Z : Módulo Formas de Pago abierto exitosamente.
-[INFO] 2025-11-03T21:24:52.227Z :  AE-TC-07: Iniciando edición de forma de pago existente.
-[INFO] 2025-11-03T21:24:52.227Z :  Editando registro: PAGO TARJETA → PAGO TARJETA-EDITED
-[INFO] 2025-11-03T21:24:54.215Z : Mensaje de éxito validado.
-[INFO] 2025-11-03T21:24:54.221Z :  AE-TC-07 completado: Registro 'PAGO TARJETA-EDITED' actualizado correctamente.
-[INFO] 2025-11-03T21:24:54.222Z :  Eliminando registro editado: PAGO TARJETA-EDITED
-[INFO] 2025-11-03T21:24:56.980Z : Registro 'PAGO TARJETA-EDITED' eliminado correctamente.
-[INFO] 2025-11-03T21:24:57.000Z : Tabla actualizada para verificar eliminación.
