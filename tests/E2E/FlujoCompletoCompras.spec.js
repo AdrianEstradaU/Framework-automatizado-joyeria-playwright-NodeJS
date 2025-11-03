@@ -1,13 +1,13 @@
 const { test, expect } = require('@playwright/test');
-const { TiposEgresoPage } = require('../../pages/TiposEgresoPage');
-const { tiposEgresoData } = require('../../data/TiposEgresoData');
-const { ProveedoresPage } = require('../../pages/ProveedoresPage');
-const { proveedoresData } = require('../../data/ProveedoresData');
-const { TiposProductoPage } = require('../../pages/TiposProductoPage');
-const { tiposProductoData } = require('../../data/TiposProductoData');
-const { ComprasPage } = require('../../pages/ComprasPage');
-const { ComprasData } = require('../../data/ComprasData');
-const { ReporteEgresoPage } = require('../../pages/ReporteEgresosPage');
+const { TiposEgresoPage } = require('../../pages/TiposEgresoPage.js');
+const { tiposEgresoData } = require('../../data/TiposEgresoData.js');
+const { ProveedoresPage } = require('../../pages/ProveedoresPage.js');
+const { proveedoresData } = require('../../data/ProveedoresData.js');
+const { TiposProductoPage } = require('../../pages/TiposProductoPage.js');
+const { tiposProductoData } = require('../../data/TiposProductoData.js');
+const { ComprasPage } = require('../../pages/ComprasPage.js');
+const { ComprasData } = require('../../data/ComprasData.js');
+const { ReporteEgresoPage } = require('../../pages/ReporteEgresosPage.js');
 const logger = require("../../utils/loggers.js");
 const { allure } = require('allure-playwright');
 

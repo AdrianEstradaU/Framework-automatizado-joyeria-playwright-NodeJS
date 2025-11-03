@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
-const { RegistroGestionPage } = require('../../pages/RegistroGestionPage');
-const { registroGestionData } = require('../../data/registroGestionData');
+const { RegistroGestionPage } = require('../../pages/RegistroGestionPage.js');
+const { registroGestionData } = require('../../data/RegistroGestionData.js');
 const logger = require("../../utils/loggers.js");
 const { allure } = require('allure-playwright');
 const { teardownRegistroGestion, ejecutarLimpiezaRegistroGestion } = require('../../utils/RegistroGestionTeardown');
