@@ -10,7 +10,7 @@ module.exports = defineConfig({
   use: {
     baseURL: 'https://pruebas-3-3hjs.onrender.com',
     headless: false,
-    viewport: { width: 1280, height: 720 },
+    viewport: { width: 1920, height: 1080 },
     actionTimeout: 15000,
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',

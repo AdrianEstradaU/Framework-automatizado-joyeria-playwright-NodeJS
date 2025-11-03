@@ -7,7 +7,7 @@ class BasePage {
   async click(locator, timeout = 10000) {
     await locator.waitFor({ state: 'visible', timeout });
     await locator.scrollIntoViewIfNeeded();
-    await locator.click({ delay: 100 }); 
+    await locator.click();
   }
 
 

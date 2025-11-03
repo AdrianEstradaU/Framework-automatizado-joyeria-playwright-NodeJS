@@ -19,7 +19,8 @@ class ComprasPage extends BasePage {
     this.btnCancelarEliminar = page.locator('.overhang-no-option');
     this.btnAnterior = page.locator('#egreso_previous');
     this.btnSiguiente = page.locator('#egreso_next');
-
+  this.modalEditarCompra = page.locator('#modal-egreso .modal-dialog');
+  this.modalEditarTitulo = page.locator('#modal-egreso .modal-title:has-text("Editar la Compra")');
     this.tabla = page.locator('#egreso tbody');
     this.buscarCompras = page.locator('#egreso_filter input');
 
@@ -44,12 +45,18 @@ class ComprasPage extends BasePage {
   }
 
   async abrirModulo() {
-    console.log('Abriendo módulo de Compras...');
-    await this.moduloJoyeria.waitFor({ state: 'visible', timeout: 10000 });
-    await this.navigateMenu(this.moduloJoyeria, this.menuProcesos, this.submenuCompras);
-    await this.page.waitForLoadState('networkidle');
-    await this.page.waitForTimeout(1000);
-  }
+  console.log('Abriendo módulo de Compras...');
+  await this.moduloJoyeria.waitFor({ state: 'visible', timeout: 15000 });
+  await this.moduloJoyeria.scrollIntoViewIfNeeded();
+  await this.moduloJoyeria.click();
+  await this.menuProcesos.waitFor({ state: 'visible', timeout: 15000 });
+  await this.menuProcesos.scrollIntoViewIfNeeded();
+  await this.menuProcesos.click();
+  await this.submenuCompras.waitFor({ state: 'visible', timeout: 15000 });
+  await this.submenuCompras.scrollIntoViewIfNeeded();
+  await this.submenuCompras.click();
+  console.log('Módulo de Compras cargado correctamente.');
+}
 
   async selectOptionSelect2ByValue(locator, text) {
     if (!text) return;
@@ -80,14 +87,11 @@ class ComprasPage extends BasePage {
     }
   }
 
-  /**
-   * Llena el campo cantidad con manejo especial para valores negativos
-   */
+ 
   async fillCantidad(cantidad) {
     if (!cantidad) return;
     
     try {
-      // Para valores negativos, usar evaluate para forzar el valor
       if (cantidad < 0) {
         await this.page.evaluate((val) => {
           const input = document.querySelector('[name="joy_egreso[cantidad]"]');
@@ -106,14 +110,12 @@ class ComprasPage extends BasePage {
     }
   }
 
-  /**
-   * Llena el campo precio con manejo especial para valores negativos o texto
-   */
+  
   async fillPrecio(precio) {
     if (precio === undefined || precio === '') return;
     
     try {
-      // Si es un número negativo o texto, usar evaluate
+
       if (typeof precio === 'string' || precio < 0) {
         await this.page.evaluate((val) => {
           const input = document.querySelector('[name="joy_egreso[precio_egreso]"]');

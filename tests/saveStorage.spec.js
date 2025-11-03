@@ -21,5 +21,5 @@ test('Generar storage de autenticación', async ({ page }) => {
   //  Guardar storage
   await page.context().storageState({ path: 'fixtures/storageState.json' });
   
-  console.log('✅ Storage guardado en fixtures/storageState.json');
+  console.log(' Storage guardado en fixtures/storageState.json');
 });

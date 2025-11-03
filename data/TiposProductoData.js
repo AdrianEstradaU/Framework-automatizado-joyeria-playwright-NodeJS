@@ -3,6 +3,10 @@ const tiposProductoData = {
     nombre: 'ANILLO', 
     descripcion: 'Anillo de oro fino' 
   },
+   validFlujo: { 
+    nombre: 'ANILLO ESPECIAL', 
+    descripcion: 'Anillo de oro fino especial' 
+  },
   invalid: { 
     nombre: '', 
     descripcion: '' 

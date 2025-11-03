@@ -1,9 +1,16 @@
-
 const generarAnioUnico = () => {
-  const timestamp = Date.now().toString();
+  const timestamp = Date.now();
   const random = Math.floor(Math.random() * 1000);
-  // Combinar timestamp y random para crear año único de 4 dígitos
-  const anio = (timestamp.slice(-3) + random.toString().padStart(1, '0')).slice(0, 4);
+  
+ 
+  const primerDigito = Math.floor(Math.random() * 9) + 1; // 1-9
+  
+  
+  const restoDigitos = ((timestamp + random) % 1000).toString().padStart(3, '0');
+  
+  
+  const anio = primerDigito + restoDigitos;
+  
   return anio;
 };
 

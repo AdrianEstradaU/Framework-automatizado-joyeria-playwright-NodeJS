@@ -4,6 +4,11 @@ const tiposEgresoData = {
     descripcion: 'Compra realizada a un cliente preferencial',
     rol: 'Vendedor de Joyeria'
   },
+   validFlujo: {
+    nombre: 'COMPRA ESPECIAL 1',
+    descripcion: 'Compra realizada a un cliente especial  1',
+    rol: 'Vendedor de Joyeria'
+  },
   invalid: {
     nombre: '',          
     descripcion: '',
