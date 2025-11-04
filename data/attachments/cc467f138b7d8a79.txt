@@ -1,0 +1,20 @@
+[INFO] 2025-11-04T07:18:43.222Z : Página principal cargada correctamente.
+[INFO] 2025-11-04T07:18:43.223Z : Ingresando al módulo Reportes - Egresos por Fecha...
+ Abriendo módulo de Compras...
+[INFO] 2025-11-04T07:18:45.936Z : Módulo Reportes - Egresos por Fecha abierto exitosamente.
+[INFO] 2025-11-04T07:18:45.938Z : AE-TC-111: Verificar la funcionalidad del botón Generar PDF en Reporte de Egresos.
+[INFO] 2025-11-04T07:18:45.939Z : Llenando campos requeridos antes de generar el reporte.
+ Seleccionando usuario en reporte...
+ Opciones disponibles: [
+  'Todos',
+  'Andres Estrada Uzeda',
+  'lucia Montaño Mamani',
+  'Alejandra Orellana Mamani',
+  'alex vargas  lopez',
+  'WILMA CARITA YAVI',
+  'MORGAN HUASCAR CHECA LOPEZ'
+]
+Usuario "1" seleccionado correctamente.
+[INFO] 2025-11-04T07:19:04.480Z : Archivo generado: REPORTE DE EGRESOS.pdf
+[INFO] 2025-11-04T07:19:04.486Z : El reporte PDF se generó correctamente.
+[INFO] 2025-11-04T07:19:04.490Z : AE-TC-111 finalizado exitosamente.

@@ -1,0 +1,9 @@
+[INFO] 2025-11-04T07:05:47.526Z : Página principal cargada.
+[INFO] 2025-11-04T07:05:47.527Z : Ingresando al módulo Registro de Gestión...
+[INFO] 2025-11-04T07:05:51.681Z : Módulo Registro de Gestión abierto correctamente.
+[INFO] 2025-11-04T07:05:51.684Z :  Registro 8782 agregado para limpieza
+[INFO] 2025-11-04T07:05:51.684Z : Creando registro para selección: 8782
+ Creando registro: 8782
+Registro 8782 creado
+Fila 8782 seleccionada
+[INFO] 2025-11-04T07:06:00.058Z : Registro seleccionado correctamente en la tabla.

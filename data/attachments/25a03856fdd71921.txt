@@ -1,0 +1,3 @@
+[INFO] 2025-11-04T07:03:31.886Z : Ingreso al módulo Proveedores
+[INFO] 2025-11-04T07:03:31.890Z : AE-TC-33: Validando límite de 64 caracteres en nombre
+[INFO] 2025-11-04T07:03:32.901Z : Mensaje de error correctamente mostrado por exceso de caracteres

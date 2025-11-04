@@ -1,0 +1,19 @@
+[INFO] 2025-11-04T07:08:35.527Z : Página principal cargada correctamente.
+[INFO] 2025-11-04T07:08:35.528Z : Ingresando al módulo Tipos de Ingreso...
+[INFO] 2025-11-04T07:08:38.009Z : Módulo Tipos de Ingreso abierto exitosamente.
+[INFO] 2025-11-04T07:08:38.012Z : === AE-TC-19: Editar un tipo de ingreso existente con datos válidos y eliminarlo ===
+[INFO] 2025-11-04T07:08:38.012Z : Editando registro "VENTAS NORMALES 2" → "VENTAS NORMALES 2-EDIT" con descripción: "Ingreso modificado"
+[INFO] 2025-11-04T07:08:39.531Z : Mensaje de éxito tras la edición validado.
+[INFO] 2025-11-04T07:08:41.400Z : Tabla actualizada después de la edición.
+[INFO] 2025-11-04T07:08:41.405Z : Contenido actual de la tabla:
+VENTAS NORMALES 2-EDITIngreso modificado04/11/202503:08:29andresandresactivo
+COMPRAS ESPECIALES 2Ingreso por compras especiales 204/11/202503:01:22andresactivo
+TRASFERENCIA QRIngreso  por pago QR04/07/202518:33:16luciaactivo
+VENTAS NORMALESVentas Normales16/04/202410:16:50morgan.checamorgan.checaactivo
+[INFO] 2025-11-04T07:08:41.409Z : El registro editado "VENTAS NORMALES 2-EDIT" fue encontrado en la tabla.
+[INFO] 2025-11-04T07:08:41.409Z : Procediendo a eliminar el registro editado "VENTAS NORMALES 2-EDIT"...
+[INFO] 2025-11-04T07:08:41.981Z : Fila "VENTAS NORMALES 2-EDIT" seleccionada para eliminación.
+[INFO] 2025-11-04T07:08:42.006Z : Botón eliminar presionado, confirmando eliminación...
+[INFO] 2025-11-04T07:08:43.820Z : Mensaje de eliminación exitosa validado.
+[INFO] 2025-11-04T07:08:45.844Z : Registro "VENTAS NORMALES 2-EDIT" eliminado correctamente de la tabla.
+[INFO] 2025-11-04T07:08:45.845Z : AE-TC-19 finalizado exitosamente con edición y eliminación.

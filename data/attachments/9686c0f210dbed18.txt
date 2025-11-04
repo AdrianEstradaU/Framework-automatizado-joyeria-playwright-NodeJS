@@ -1,0 +1,6 @@
+[INFO] 2025-11-04T06:55:47.278Z : Página principal cargada.
+[INFO] 2025-11-04T06:55:47.278Z : Ingresando al módulo Registro de Gestión...
+[INFO] 2025-11-04T06:55:51.942Z : Módulo Registro de Gestión abierto correctamente.
+[INFO] 2025-11-04T06:55:51.946Z : Probando año no numérico: 20AB
+[INFO] 2025-11-04T06:55:52.571Z : Error de formato de número validado correctamente.
+[INFO] 2025-11-04T06:55:52.718Z :  No hay registros para limpiar en Registro de Gestión

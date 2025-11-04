@@ -1,0 +1,12 @@
+ Abriendo módulo de Ventas...
+[INFO] 2025-11-04T07:16:55.176Z : AE-TC-82: Validar que campo cantidad sea numérico
+[INFO] 2025-11-04T07:16:56.262Z : Campo cantidad contiene únicamente opciones numéricas.
+ Limpiando 4 ventas...
+ Abriendo módulo de Ventas...
+  1 eliminadas
+  2 eliminadas
+ Error: locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator('.overhang-message').filter({ hasText: '¿Desea eliminar el registro seleccionado?' }) to be visible
+
+ 2 ventas eliminadas

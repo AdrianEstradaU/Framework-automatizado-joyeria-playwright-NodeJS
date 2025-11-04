@@ -1,0 +1,12 @@
+[INFO] 2025-11-04T07:05:33.639Z : Página principal cargada.
+[INFO] 2025-11-04T07:05:33.642Z : Ingresando al módulo Registro de Gestión...
+[INFO] 2025-11-04T07:05:37.189Z : Módulo Registro de Gestión abierto correctamente.
+[INFO] 2025-11-04T07:05:37.192Z : AE-TC-65: Iniciando prueba de búsqueda de registro de gestión existente
+[INFO] 2025-11-04T07:05:37.192Z :  Registro 1139 agregado para limpieza
+[INFO] 2025-11-04T07:05:37.193Z : Creando registro para buscar: 1139
+ Creando registro: 1139
+Registro 1139 creado
+[INFO] 2025-11-04T07:05:42.893Z : Filtro aplicado: 1139
+[INFO] 2025-11-04T07:05:42.967Z : Botón "Actualizar" presionado
+ Registro 1139 encontrado
+[INFO] 2025-11-04T07:05:46.004Z : Validación exitosa: registro encontrado correctamente

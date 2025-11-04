@@ -1,0 +1,20 @@
+[INFO] 2025-11-04T07:17:14.200Z : Página principal cargada correctamente.
+[INFO] 2025-11-04T07:17:14.202Z : Ingresando al módulo Reportes - Egresos por Fecha...
+ Abriendo módulo de Compras...
+[INFO] 2025-11-04T07:17:17.025Z : Módulo Reportes - Egresos por Fecha abierto exitosamente.
+[INFO] 2025-11-04T07:17:17.028Z : AE-TC-107: Verificar la funcionalidad del campo Usuario en Reporte de Egresos.
+[INFO] 2025-11-04T07:17:17.028Z : Seleccionando usuario con ID = 6.
+ Seleccionando usuario en reporte...
+ Opciones disponibles: [
+  'Todos',
+  'Andres Estrada Uzeda',
+  'lucia Montaño Mamani',
+  'Alejandra Orellana Mamani',
+  'alex vargas  lopez',
+  'WILMA CARITA YAVI',
+  'MORGAN HUASCAR CHECA LOPEZ'
+]
+Usuario "6" seleccionado correctamente.
+[INFO] 2025-11-04T07:17:33.569Z : Valor obtenido del campo Usuario: 6
+[INFO] 2025-11-04T07:17:33.572Z : Campo Usuario funciona correctamente.
+[INFO] 2025-11-04T07:17:33.573Z : AE-TC-107 finalizado exitosamente.

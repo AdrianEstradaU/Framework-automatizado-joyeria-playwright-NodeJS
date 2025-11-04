@@ -1,0 +1,9 @@
+[INFO] 2025-11-04T07:02:03.850Z : Página cargada correctamente. Ingresando al módulo Formas de Pago...
+[INFO] 2025-11-04T07:02:06.384Z : Módulo Formas de Pago abierto exitosamente.
+[INFO] 2025-11-04T07:02:06.386Z :  AE-TC-08: Iniciando creación de registro para eliminar.
+[INFO] 2025-11-04T07:02:07.919Z : Registro temporal creado: DELETE-1762239726387
+[INFO] 2025-11-04T07:02:07.920Z : Seleccionando registro para eliminación...
+[INFO] 2025-11-04T07:02:08.756Z : Confirmando eliminación...
+[INFO] 2025-11-04T07:02:10.575Z : Mensaje de eliminación validado.
+[INFO] 2025-11-04T07:02:10.625Z : Tabla actualizada para verificar eliminación.
+[INFO] 2025-11-04T07:02:10.992Z :  AE-TC-08 completado: Registro DELETE-1762239726387 eliminado exitosamente.

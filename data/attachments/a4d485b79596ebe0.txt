@@ -1,0 +1,10 @@
+ Abriendo módulo de Ventas...
+[INFO] 2025-11-04T07:16:33.368Z : AE-TC-80: Validar rechazo con precio inválido y forma de pago vacía
+ Iniciando creación de venta...
+ Cantidad seleccionada: 1
+ Seleccionando: VENTAS NORMALES
+  Seleccionado: VENTAS NORMALES
+ Seleccionando: ANILLOS PLATA 925 ITALIANA
+  Seleccionado: ANILLOS PLATA 925 ITALIANA
+ Botón "Guardar" presionado
+[INFO] 2025-11-04T07:16:38.753Z : Errores mostrados correctamente por datos inválidos.
