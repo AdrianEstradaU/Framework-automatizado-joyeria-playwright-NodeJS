@@ -211,9 +211,9 @@ test.describe('Módulo: Proveedores', () => {
     await proveedores.btnEliminar.click();
     await proveedores.confirmarEliminacion();
     expect(await proveedores.validarToast()).toBeTruthy();
-    await page.waitForTimeout(5000);
+    await proveedores.page.waitForTimeout(5000);
     await proveedores.btnActualizar.click();
-    await page.waitForTimeout(3000);
+   await proveedores.page.waitForTimeout(3000);
     const filas = await proveedores.tabla.locator('tr').allTextContents();
     expect(filas.some(f => f.includes(nombreRegistro))).toBeFalsy();
 
