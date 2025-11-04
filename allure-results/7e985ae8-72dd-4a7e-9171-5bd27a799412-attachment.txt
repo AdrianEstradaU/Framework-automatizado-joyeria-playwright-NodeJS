@@ -1,0 +1,7 @@
+[INFO] 2025-11-04T02:13:07.100Z : Página principal cargada correctamente.
+[INFO] 2025-11-04T02:13:07.101Z : Ingresando al módulo Tipos de Ingreso...
+[INFO] 2025-11-04T02:13:11.662Z : Módulo Tipos de Ingreso abierto exitosamente.
+[INFO] 2025-11-04T02:13:11.664Z :  AE-TC-23: Buscar tipo de ingreso en la tabla mediante el campo de búsqueda 
+[INFO] 2025-11-04T02:13:11.664Z : Buscando término: "VENTAS NORMALES"
+[INFO] 2025-11-04T02:13:11.676Z : Cantidad de resultados visibles: 3
+[INFO] 2025-11-04T02:13:11.677Z : AE-TC-23 finalizado correctamente.

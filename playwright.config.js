@@ -29,7 +29,7 @@ module.exports = defineConfig({
       testMatch: '**/login.spec.js',
       use: {
         // No se usa storage, login inicia desde cero
-        headless: false,
+        headless: true,
         viewport: { width: 1280, height: 720 },
         actionTimeout: 15000,
         screenshot: 'only-on-failure',
