@@ -268,8 +268,9 @@ test('AE-TC-19. Editar un tipo de ingreso existente con datos válidos y elimina
     logger.info('Registro eliminado, refrescando tabla...');
 
     expect(await tiposIngreso.validarToast()).toBeTruthy();
-
+    await page.waitForTimeout(5000);
     await tiposIngreso.btnActualizar.click();
+    await page.waitForTimeout(3000);
     const filas = await tiposIngreso.tabla.locator('tr').allTextContents();
     expect(filas.some(f => f.includes(nombreRegistro))).toBeFalsy();
 

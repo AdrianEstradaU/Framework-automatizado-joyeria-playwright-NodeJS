@@ -49,7 +49,7 @@ test.describe('Módulo: Reporte de Utilidades', () => {
     allure.owner('Andres Adrian Estrada Uzeda');
     allure.severity('critical');
     logger.info('AE-TC-118: Validar restricción de fechas.');
-
+    test.fail(true, 'BUG-007: Sistema no valida fecha fin < fecha inicio en Utilidades');
     await utilidadesPage.llenarFechaInicio('10/10/2025');
     await utilidadesPage.llenarFechaFin('01/10/2025');
     logger.info('Fecha inicio: 10/10/2025 | Fecha fin: 01/10/2025.');

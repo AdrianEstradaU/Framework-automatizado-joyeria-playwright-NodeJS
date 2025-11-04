@@ -1,8 +1,0 @@
-[INFO] 2025-11-04T02:13:00.868Z : Página principal cargada correctamente.
-[INFO] 2025-11-04T02:13:00.869Z : Ingresando al módulo Tipos de Ingreso...
-[INFO] 2025-11-04T02:13:04.337Z : Módulo Tipos de Ingreso abierto exitosamente.
-[INFO] 2025-11-04T02:13:04.339Z :  AE-TC-22: Validar límite de caracteres en el campo "descripción" 
-[INFO] 2025-11-04T02:13:04.340Z : Ingresando descripción de longitud: 300
-[INFO] 2025-11-04T02:13:04.387Z : Ventana de creación abierta.
-[INFO] 2025-11-04T02:13:04.625Z : Descripción ingresada (300 caracteres).
-[INFO] 2025-11-04T02:13:04.626Z : AE-TC-22 finalizado correctamente.

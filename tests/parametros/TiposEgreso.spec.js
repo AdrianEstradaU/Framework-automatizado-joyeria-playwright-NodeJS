@@ -42,6 +42,7 @@ test.describe('Módulo: Tipos de Egreso', () => {
     allure.owner('Andres Adrian Estrada Uzeda');
     allure.severity('major');
     logger.info('AE-TC-50: Intentando crear tipo de egreso con campos vacíos');
+    test.fail(true, 'BUG-005: Sistema no muestra mensaje de campo obligatorio');
 
     const filasAntes = await tiposEgreso.tabla.locator('tr').count();
     await tiposEgreso.crear(

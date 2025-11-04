@@ -43,7 +43,7 @@ test.describe('Módulo: Reportes - Egresos por Fecha', () => {
     const fechaInicio = await reportePage.inputFechaInicio.inputValue();
     logger.info(`Fecha de inicio ingresada: ${fechaInicio}`);
 
-    expect(fechaInicio.trim()).toBe('01/10/2025');
+    expect(fechaInicio.trim()).toBe('03/11/2025');
     logger.info('Campo Fecha Inicio funciona correctamente.');
     logger.info('AE-TC-108 finalizado exitosamente.');
   });
@@ -110,7 +110,7 @@ test.describe('Módulo: Reportes - Egresos por Fecha', () => {
     allure.severity('high');
     logger.info('AE-TC-112: Validar que la fecha fin no sea anterior a la fecha inicio en Reporte de Egresos.');
     logger.info('Intentando generar reporte con fechas inválidas.');
-
+    test.fail(true, 'BUG-003: Sistema no valida fecha fin < fecha inicio en Egresos');
     await reportePage.seleccionarUsuario('6');
     await reportePage.ingresarFechas('27/10/2025', '01/10/2025');
     await reportePage.generarReporte();

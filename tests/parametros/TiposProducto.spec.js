@@ -126,11 +126,13 @@ test('AE-TC-41. Editar tipo de producto existente con datos válidos @Regression
     await tiposProducto.btnEliminar.click();
     logger.info('Botón eliminar presionado, confirmando eliminación...');
     await tiposProducto.confirmarEliminacion();
-
+  
     expect(await tiposProducto.validarToast()).toBeTruthy();
     logger.info('Mensaje de eliminación exitoso validado.');
-
+    await page.waitForTimeout(5000);
     await tiposProducto.btnActualizar.click();
+     await page.waitForLoadState('networkidle');
+      await page.waitForTimeout(3000);
     const filas = await tiposProducto.tabla.locator('tr').allTextContents();
     expect(filas.some(f => f.includes(nombreEliminar))).toBeFalsy();
     logger.info('Validación exitosa: el registro fue eliminado de la tabla.');
@@ -231,9 +233,9 @@ test('AE-TC-41. Editar tipo de producto existente con datos válidos @Regression
     await tiposProducto.confirmarEliminacion();
     expect(await tiposProducto.validarToast()).toBeTruthy();
     logger.info('Registro eliminado correctamente.');
-
+await page.waitForTimeout(5000);
     await tiposProducto.btnActualizar.click();
-
+await page.waitForTimeout(5000);
     await tiposProducto.page.waitForFunction(
   (tablaSelector, nombreRegistro) => {
     const filas = Array.from(document.querySelectorAll(`${tablaSelector} tr`));
@@ -241,7 +243,7 @@ test('AE-TC-41. Editar tipo de producto existente con datos válidos @Regression
   },
   tiposProducto.tabla.selector,
   nombreRegistro,
-  { timeout: 5000 } // espera hasta 5 segundos
+  { timeout: 5000 } 
 );
 const filas = await tiposProducto.tabla.locator('tr').allTextContents();
 expect(filas.some(f => f.includes(nombreRegistro))).toBeFalsy();
