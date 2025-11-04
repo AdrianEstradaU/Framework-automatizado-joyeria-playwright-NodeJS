@@ -1,0 +1,4 @@
+[INFO] 2025-11-04T07:38:16.512Z : Iniciando prueba AE-TC-03: Validar contraseña incorrecta
+[INFO] 2025-11-04T07:38:16.747Z : Se ingresó usuario: morgan.checa con contraseña incorrecta
+[INFO] 2025-11-04T07:38:19.062Z : Mensaje de contraseña incorrecta visible: true
+[INFO] 2025-11-04T07:38:19.069Z : Validación exitosa: mensaje de contraseña incorrecta mostrado correctamente

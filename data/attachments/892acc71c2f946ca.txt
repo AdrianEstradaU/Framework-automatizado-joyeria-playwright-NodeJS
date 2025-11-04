@@ -1,0 +1,8 @@
+[INFO] 2025-11-04T07:57:25.478Z : Página principal cargada correctamente.
+[INFO] 2025-11-04T07:57:25.480Z : Ingresando al módulo Reporte de Utilidades...
+[INFO] 2025-11-04T07:57:27.371Z : Módulo Reporte de Utilidades abierto exitosamente.
+[INFO] 2025-11-04T07:57:27.375Z : AE-TC-119: Verificar funcionalidad del botón Limpiar.
+[INFO] 2025-11-04T07:57:29.616Z : Fechas ingresadas: inicio=01/10/2025, fin=28/10/2025.
+[INFO] 2025-11-04T07:57:29.663Z : Se presionó el botón Limpiar.
+[INFO] 2025-11-04T07:57:29.671Z : Campos de fecha limpiados correctamente.
+[INFO] 2025-11-04T07:57:29.672Z : AE-TC-119 finalizado exitosamente.

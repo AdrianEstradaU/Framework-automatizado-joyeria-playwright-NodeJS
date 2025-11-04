@@ -1,0 +1,5 @@
+[INFO] 2025-11-04T07:40:10.289Z : Página cargada correctamente. Ingresando al módulo Formas de Pago...
+[INFO] 2025-11-04T07:40:12.780Z : Módulo Formas de Pago abierto exitosamente.
+[INFO] 2025-11-04T07:40:12.783Z :  AE-TC-12: Validando botón Siguiente.
+[INFO] 2025-11-04T07:40:12.787Z : Estado del botón Siguiente: Deshabilitado
+[INFO] 2025-11-04T07:40:12.790Z :  AE-TC-12 completado: Botón Siguiente verificado.

@@ -1,0 +1,29 @@
+[INFO] 2025-11-04T07:50:54.295Z : Página principal cargada correctamente.
+[INFO] 2025-11-04T07:50:54.296Z : Ingresando al módulo Compras...
+Abriendo módulo de Compras...
+Módulo de Compras cargado correctamente.
+[INFO] 2025-11-04T07:50:55.863Z : Módulo Compras abierto exitosamente.
+[INFO] 2025-11-04T07:50:55.866Z :  PASO 1: Crear compra: "Compra Test 1762242655866" 
+[INFO] 2025-11-04T07:50:59.269Z :  Compra creada exitosamente
+[INFO] 2025-11-04T07:51:01.272Z :  PASO 2: Actualizar tabla 
+[INFO] 2025-11-04T07:51:03.297Z :  Tabla actualizada
+[INFO] 2025-11-04T07:51:03.298Z :  PASO 3: Verificar compra existe 
+[INFO] 2025-11-04T07:51:03.801Z : ¿Compra existe?: true
+[INFO] 2025-11-04T07:51:03.803Z :  PASO 4: Seleccionar fila 
+[INFO] 2025-11-04T07:51:03.822Z : Haciendo clic en la fila para seleccionarla...
+[INFO] 2025-11-04T07:51:04.864Z :  Fila seleccionada
+[INFO] 2025-11-04T07:51:04.865Z :  PASO 5: Hacer clic en botón Editar 
+[INFO] 2025-11-04T07:51:04.898Z :  Botón Editar clickeado
+[INFO] 2025-11-04T07:51:04.899Z :  PASO 6: Verificar modal de edición 
+[INFO] 2025-11-04T07:51:05.259Z :  Modal de edición abierto
+[INFO] 2025-11-04T07:51:06.261Z :  PASO 7: Editar descripción 
+[INFO] 2025-11-04T07:51:06.262Z : Cambiando descripción a: "Compra Test 1762242655866 Editada"
+[INFO] 2025-11-04T07:51:06.289Z : ✓ Nueva descripción ingresada
+[INFO] 2025-11-04T07:51:06.290Z : PASO 8: Guardar cambios 
+[INFO] 2025-11-04T07:51:06.335Z : PASO 9: Validar mensaje de éxito 
+[INFO] 2025-11-04T07:51:06.340Z :  Mensaje de éxito mostrado: "El proceso se ha realizado exitosamente"
+[INFO] 2025-11-04T07:51:08.342Z :  PASO 10: Verificar compra editada 
+[INFO] 2025-11-04T07:51:10.867Z : ¿Compra editada existe?: true
+[INFO] 2025-11-04T07:51:10.869Z :  TEST COMPLETADO EXITOSAMENTE
+[INFO] 2025-11-04T07:51:10.869Z :    Original: "Compra Test 1762242655866"
+[INFO] 2025-11-04T07:51:10.870Z :    Editada: "Compra Test 1762242655866 Editada"

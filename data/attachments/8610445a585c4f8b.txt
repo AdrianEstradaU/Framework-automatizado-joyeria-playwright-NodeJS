@@ -1,0 +1,9 @@
+[INFO] 2025-11-04T07:43:16.025Z : Página principal cargada.
+[INFO] 2025-11-04T07:43:16.027Z : Ingresando al módulo Registro de Gestión...
+[INFO] 2025-11-04T07:43:19.572Z : Módulo Registro de Gestión abierto correctamente.
+[INFO] 2025-11-04T07:43:19.574Z :  Registro 8028 agregado para limpieza
+[INFO] 2025-11-04T07:43:19.575Z : Creando registro para selección: 8028
+ Creando registro: 8028
+Registro 8028 creado
+Fila 8028 seleccionada
+[INFO] 2025-11-04T07:43:27.942Z : Registro seleccionado correctamente en la tabla.

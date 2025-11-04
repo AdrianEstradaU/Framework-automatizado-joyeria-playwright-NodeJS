@@ -1,0 +1,12 @@
+[INFO] 2025-11-04T07:40:46.566Z : Ingreso al módulo Proveedores
+[INFO] 2025-11-04T07:40:46.569Z :  AE-TC-31: Editar proveedor existente con datos válidos y eliminarlo posteriormente
+[INFO] 2025-11-04T07:40:47.464Z : Proveedor temporal creado: EDIT-1762242046569
+[INFO] 2025-11-04T07:40:49.010Z : Proveedor editado: EDIT-1762242046569-MOD
+[INFO] 2025-11-04T07:40:51.910Z : Filas encontradas: 4
+[INFO] 2025-11-04T07:40:51.910Z : Buscando nombre editado: EDIT-1762242046569-MOD
+[INFO] 2025-11-04T07:40:51.912Z : Validación de edición exitosa.
+[INFO] 2025-11-04T07:40:51.912Z : Procediendo a eliminar el proveedor editado: EDIT-1762242046569-MOD
+[INFO] 2025-11-04T07:40:52.504Z : Botón eliminar presionado, confirmando eliminación...
+[INFO] 2025-11-04T07:40:54.324Z : Proveedor EDIT-1762242046569-MOD eliminado correctamente.
+[INFO] 2025-11-04T07:40:55.356Z : Validación de eliminación confirmada.
+[INFO] 2025-11-04T07:40:55.357Z : AE-TC-31 finalizado exitosamente con edición y eliminación.

@@ -1,0 +1,12 @@
+[INFO] 2025-11-04T07:43:02.300Z : Página principal cargada.
+[INFO] 2025-11-04T07:43:02.302Z : Ingresando al módulo Registro de Gestión...
+[INFO] 2025-11-04T07:43:05.851Z : Módulo Registro de Gestión abierto correctamente.
+[INFO] 2025-11-04T07:43:05.854Z : AE-TC-65: Iniciando prueba de búsqueda de registro de gestión existente
+[INFO] 2025-11-04T07:43:05.854Z :  Registro 7414 agregado para limpieza
+[INFO] 2025-11-04T07:43:05.855Z : Creando registro para buscar: 7414
+ Creando registro: 7414
+Registro 7414 creado
+[INFO] 2025-11-04T07:43:11.631Z : Filtro aplicado: 7414
+[INFO] 2025-11-04T07:43:11.705Z : Botón "Actualizar" presionado
+ Registro 7414 encontrado
+[INFO] 2025-11-04T07:43:14.779Z : Validación exitosa: registro encontrado correctamente

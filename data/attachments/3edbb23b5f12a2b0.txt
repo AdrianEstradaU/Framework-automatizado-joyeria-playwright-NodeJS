@@ -1,3 +1,0 @@
-[INFO] 2025-11-04T07:03:48.584Z : Ingreso al módulo Proveedores
-[INFO] 2025-11-04T07:03:48.586Z : AE-TC-36: Iniciando cancelación de eliminación
-[INFO] 2025-11-04T07:03:49.719Z : Eliminación cancelada correctamente, la tabla sigue visible

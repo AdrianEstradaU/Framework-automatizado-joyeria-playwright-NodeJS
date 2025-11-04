@@ -1,7 +1,0 @@
-[INFO] 2025-11-04T07:20:34.863Z : Página principal cargada correctamente.
-[INFO] 2025-11-04T07:20:34.866Z : Ingresando al módulo Reporte de Utilidades...
-[INFO] 2025-11-04T07:20:37.145Z : Módulo Reporte de Utilidades abierto exitosamente.
-[INFO] 2025-11-04T07:20:37.147Z : AE-TC-117: Verificar la funcionalidad del campo Fecha Fin.
-[INFO] 2025-11-04T07:20:38.235Z : Fecha fin ingresada: 10/10/2025.
-[INFO] 2025-11-04T07:20:38.241Z : Campo Fecha Fin validado correctamente.
-[INFO] 2025-11-04T07:20:38.241Z : AE-TC-117 finalizado exitosamente.
