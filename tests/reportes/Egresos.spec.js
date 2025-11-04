@@ -127,7 +127,7 @@ test.describe('Módulo: Reportes - Egresos por Fecha', () => {
 
     await reportePage.limpiarFormulario();
     await reportePage.generarReporte();
-
+   logger.info('Generando reporte con datos vacíos...');
     await expect(reportePage.toastError).toBeVisible();
     logger.info('Se mostró mensaje de error correctamente al generar reporte sin datos.');
     logger.info('AE-TC-113 finalizado exitosamente.');
