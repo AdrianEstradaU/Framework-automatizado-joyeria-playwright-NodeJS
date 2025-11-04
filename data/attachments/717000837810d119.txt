@@ -1,0 +1,6 @@
+[INFO] 2025-11-04T17:00:17.836Z : Página principal cargada correctamente.
+[INFO] 2025-11-04T17:00:17.837Z : Ingresando al módulo Reporte de Utilidades...
+[INFO] 2025-11-04T17:00:19.914Z : Módulo Reporte de Utilidades abierto exitosamente.
+[INFO] 2025-11-04T17:00:19.918Z : AE-TC-118: Validar restricción de fechas.
+[INFO] 2025-11-04T17:00:22.122Z : Fecha inicio: 10/10/2025 | Fecha fin: 01/10/2025.
+[INFO] 2025-11-04T17:00:24.165Z : Intentando generar reporte con fechas inválidas.

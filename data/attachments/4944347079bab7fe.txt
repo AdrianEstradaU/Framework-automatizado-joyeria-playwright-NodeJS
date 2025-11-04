@@ -1,0 +1,9 @@
+[INFO] 2025-11-04T16:51:45.031Z : Página principal cargada correctamente.
+[INFO] 2025-11-04T16:51:45.032Z : Ingresando al módulo Compras...
+Abriendo módulo de Compras...
+Módulo de Compras cargado correctamente.
+[INFO] 2025-11-04T16:51:46.510Z : Módulo Compras abierto exitosamente.
+Iniciando creación de compra...
+[INFO] 2025-11-04T16:51:51.146Z : Número de compras encontradas con el término "Compra de anillos de plata": 1
+[INFO] 2025-11-04T16:51:51.652Z : Teardown: eliminando compra "Compra de anillos de plata"
+[INFO] 2025-11-04T16:51:53.428Z : Compra "Compra de anillos de plata" eliminada exitosamente en teardown.

@@ -1,0 +1,3 @@
+[INFO] 2025-11-04T16:48:34.360Z : Navegación al módulo Tipos de Egreso completada
+[INFO] 2025-11-04T16:48:34.362Z : AE-TC-54: Validando longitud máxima en descripción
+[INFO] 2025-11-04T16:48:34.665Z : Validación de longitud en descripción completada

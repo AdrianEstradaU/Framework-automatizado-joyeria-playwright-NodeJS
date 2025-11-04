@@ -1,0 +1,9 @@
+[INFO] 2025-11-04T16:50:32.569Z : Página principal cargada correctamente.
+[INFO] 2025-11-04T16:50:32.570Z : Accediendo al módulo Tipos de Producto...
+[INFO] 2025-11-04T16:50:34.967Z : Módulo Tipos de Producto abierto exitosamente.
+[INFO] 2025-11-04T16:50:34.969Z :  AE-TC-42: Eliminar tipo de producto existente 
+[INFO] 2025-11-04T16:50:35.888Z : Registro temporal creado para eliminación: DEL-1762275034969
+[INFO] 2025-11-04T16:50:37.236Z : Fila seleccionada: DEL-1762275034969
+[INFO] 2025-11-04T16:50:37.264Z : Botón eliminar presionado, confirmando eliminación...
+[INFO] 2025-11-04T16:50:39.541Z : Mensaje de eliminación exitoso validado.
+[INFO] 2025-11-04T16:50:47.587Z : Validación exitosa: el registro fue eliminado de la tabla.

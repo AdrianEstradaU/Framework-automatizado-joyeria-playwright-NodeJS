@@ -1,0 +1,10 @@
+[INFO] 2025-11-04T16:59:23.941Z : Página principal cargada correctamente.
+[INFO] 2025-11-04T16:59:23.942Z : Ingresando al módulo Reportes - Gráficos Mensual/Anual...
+[INFO] 2025-11-04T16:59:25.476Z : Módulo Reportes - Gráficos Mensual/Anual abierto exitosamente.
+[INFO] 2025-11-04T16:59:25.479Z : AE-TC-115: Verificar funcionalidad de campo Tipo de Gráfico por Mes.
+[INFO] 2025-11-04T16:59:25.479Z : Seleccionando tipo de gráfico "Por Mes".
+[INFO] 2025-11-04T16:59:26.646Z : Tipo de gráfico seleccionado: Por Mes.
+[INFO] 2025-11-04T16:59:27.456Z : Gestión seleccionada: 2025.
+[INFO] 2025-11-04T16:59:28.266Z : Mes seleccionado: Noviembre (11).
+[INFO] 2025-11-04T16:59:28.276Z : Gráfico mensual cargado correctamente.
+[INFO] 2025-11-04T16:59:28.277Z : AE-TC-115 finalizado exitosamente.

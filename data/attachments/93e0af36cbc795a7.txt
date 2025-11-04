@@ -1,0 +1,9 @@
+[INFO] 2025-11-04T16:46:23.008Z : Página principal cargada.
+[INFO] 2025-11-04T16:46:23.009Z : Ingresando al módulo Registro de Gestión...
+[INFO] 2025-11-04T16:46:26.561Z : Módulo Registro de Gestión abierto correctamente.
+[INFO] 2025-11-04T16:46:26.564Z :  Registro 5921 agregado para limpieza
+[INFO] 2025-11-04T16:46:26.564Z : Creando registro para selección: 5921
+ Creando registro: 5921
+Registro 5921 creado
+Fila 5921 seleccionada
+[INFO] 2025-11-04T16:46:34.799Z : Registro seleccionado correctamente en la tabla.

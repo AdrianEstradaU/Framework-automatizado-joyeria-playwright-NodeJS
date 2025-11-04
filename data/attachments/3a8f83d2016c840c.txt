@@ -1,1 +1,0 @@
-[INFO] 2025-11-04T15:52:53.564Z : Iniciando prueba AE-TC-01: Validar mensaje de campo obligatorio al enviar campos vacíos

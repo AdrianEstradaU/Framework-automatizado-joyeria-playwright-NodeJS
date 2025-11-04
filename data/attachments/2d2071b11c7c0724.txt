@@ -1,0 +1,9 @@
+[INFO] 2025-11-04T16:59:47.793Z : Página principal cargada correctamente.
+[INFO] 2025-11-04T16:59:47.794Z : Ingresando al módulo Reportes - Ingresos por Fecha...
+ Abriendo módulo de Ventas...
+[INFO] 2025-11-04T16:59:50.496Z : Módulo Reportes - Ingresos por Fecha abierto exitosamente.
+[INFO] 2025-11-04T16:59:50.499Z : AE-TC-104: Verificar la funcionalidad del botón Generar PDF.
+[INFO] 2025-11-04T16:59:50.499Z : Llenando campos requeridos antes de generar el reporte.
+[INFO] 2025-11-04T16:59:52.034Z : Archivo generado: REPORTE DE INGRESOS.pdf
+[INFO] 2025-11-04T16:59:52.038Z : El reporte PDF se generó correctamente.
+[INFO] 2025-11-04T16:59:52.038Z : AE-TC-104 finalizado exitosamente.

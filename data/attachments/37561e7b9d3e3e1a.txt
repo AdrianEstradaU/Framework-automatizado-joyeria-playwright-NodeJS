@@ -1,0 +1,7 @@
+[INFO] 2025-11-04T16:52:42.929Z : Página principal cargada correctamente.
+[INFO] 2025-11-04T16:52:42.930Z : Ingresando al módulo Compras...
+Abriendo módulo de Compras...
+Módulo de Compras cargado correctamente.
+[INFO] 2025-11-04T16:52:44.408Z : Módulo Compras abierto exitosamente.
+[INFO] 2025-11-04T16:52:46.487Z : Valor en campo Precio: "", Valor en campo Cantidad: ""
+[INFO] 2025-11-04T16:52:46.488Z : Valor en campo Cantidad: ""

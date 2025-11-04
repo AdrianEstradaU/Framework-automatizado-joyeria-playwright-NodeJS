@@ -1,0 +1,14 @@
+[INFO] 2025-11-04T16:45:24.712Z : Página principal cargada.
+[INFO] 2025-11-04T16:45:24.712Z : Ingresando al módulo Registro de Gestión...
+[INFO] 2025-11-04T16:45:28.300Z : Módulo Registro de Gestión abierto correctamente.
+[INFO] 2025-11-04T16:45:28.303Z :  Registro 2777 agregado para limpieza
+[INFO] 2025-11-04T16:45:28.304Z : Creando registro para edición: 1901
+ Creando registro: 1901
+Registro 1901 creado
+ Registro 1901 encontrado
+[INFO] 2025-11-04T16:45:35.969Z : Editando registro: 1901 → 2777
+ Editando: 1901 → 2777
+Fila 1901 seleccionada
+ Registro editado exitosamente
+ Registro 2777 encontrado
+[INFO] 2025-11-04T16:45:46.235Z : Registro editado validado correctamente.

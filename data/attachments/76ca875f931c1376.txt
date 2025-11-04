@@ -1,0 +1,8 @@
+[INFO] 2025-11-04T16:44:08.966Z : Ingreso al módulo Proveedores
+[INFO] 2025-11-04T16:44:08.968Z : AE-TC-32: Iniciando eliminación de proveedor existente.
+[INFO] 2025-11-04T16:44:09.788Z : Proveedor temporal creado: DEL-1762274648969
+[INFO] 2025-11-04T16:44:10.579Z : Botón eliminar presionado para "DEL-1762274648969".
+[INFO] 2025-11-04T16:44:12.331Z : Proveedor "DEL-1762274648969" eliminado correctamente.
+[INFO] 2025-11-04T16:44:12.689Z : El registro ya no aparece en la tabla.
+[INFO] 2025-11-04T16:44:12.736Z : Validación final de eliminación confirmada.
+[INFO] 2025-11-04T16:44:12.737Z : AE-TC-32 finalizado exitosamente.
