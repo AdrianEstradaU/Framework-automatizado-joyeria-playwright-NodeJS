@@ -1,0 +1,9 @@
+[INFO] 2025-11-04T17:40:09.748Z : Página principal cargada correctamente.
+[INFO] 2025-11-04T17:40:09.749Z : Ingresando al módulo Compras...
+Abriendo módulo de Compras...
+Módulo de Compras cargado correctamente.
+[INFO] 2025-11-04T17:40:11.311Z : Módulo Compras abierto exitosamente.
+Iniciando creación de compra...
+[INFO] 2025-11-04T17:40:15.481Z : Verificación de existencia para "Compra Decimal": true
+[INFO] 2025-11-04T17:40:19.013Z : Teardown: eliminando compra "Compra Decimal"
+[INFO] 2025-11-04T17:40:20.794Z : Compra "Compra Decimal" eliminada exitosamente en teardown.

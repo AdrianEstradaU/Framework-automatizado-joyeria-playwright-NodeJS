@@ -1,0 +1,10 @@
+[INFO] 2025-11-04T17:31:23.943Z : Página principal cargada.
+[INFO] 2025-11-04T17:31:23.944Z : Ingresando al módulo Registro de Gestión...
+[INFO] 2025-11-04T17:31:27.360Z : Módulo Registro de Gestión abierto correctamente.
+[INFO] 2025-11-04T17:31:27.363Z :  Registro 7110 agregado para limpieza
+[INFO] 2025-11-04T17:31:27.364Z : Creando registro de gestión con año: 7110
+ Creando registro: 7110
+Registro 7110 creado
+[INFO] 2025-11-04T17:31:29.487Z : Registro creado, validando existencia...
+ Registro 7110 encontrado
+[INFO] 2025-11-04T17:31:35.040Z : Registro validado correctamente.

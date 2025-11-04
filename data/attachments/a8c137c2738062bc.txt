@@ -1,0 +1,9 @@
+[INFO] 2025-11-04T17:46:04.237Z : Página principal cargada correctamente.
+[INFO] 2025-11-04T17:46:04.238Z : Ingresando al módulo Reportes - Ingresos por Fecha...
+ Abriendo módulo de Ventas...
+[INFO] 2025-11-04T17:46:07.015Z : Módulo Reportes - Ingresos por Fecha abierto exitosamente.
+[INFO] 2025-11-04T17:46:07.017Z : AE-TC-103: Verificar la funcionalidad del botón Limpiar.
+[INFO] 2025-11-04T17:46:07.018Z : Llenando campos de usuario y fechas antes de limpiar.
+[INFO] 2025-11-04T17:46:08.298Z : Se ejecutó el botón Limpiar.
+[INFO] 2025-11-04T17:46:08.308Z : Todos los campos fueron limpiados correctamente.
+[INFO] 2025-11-04T17:46:08.309Z : AE-TC-103 finalizado exitosamente.

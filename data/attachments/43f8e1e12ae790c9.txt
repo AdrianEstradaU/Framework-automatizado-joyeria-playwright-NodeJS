@@ -1,0 +1,4 @@
+[INFO] 2025-11-04T17:34:50.864Z : Navegación al módulo Tipos de Egreso completada
+[INFO] 2025-11-04T17:34:50.867Z : AE-TC-52: Iniciando creación de tipo de egreso para eliminar
+[INFO] 2025-11-04T17:34:54.264Z : Validación de eliminación exitosa
+[INFO] 2025-11-04T17:34:55.294Z : Confirmación de que el registro fue eliminado correctamente

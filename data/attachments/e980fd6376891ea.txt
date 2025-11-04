@@ -1,6 +1,0 @@
-[INFO] 2025-11-04T16:49:53.302Z : Página principal cargada correctamente.
-[INFO] 2025-11-04T16:49:53.303Z : Ingresando al módulo Tipos de Ingreso...
-[INFO] 2025-11-04T16:49:55.763Z : Módulo Tipos de Ingreso abierto exitosamente.
-[INFO] 2025-11-04T16:49:55.765Z : AE-TC-27: Validar funcionamiento del botón "Siguiente" en la paginación 
-[INFO] 2025-11-04T16:49:55.769Z : Clases del botón siguiente: paginate_button next disabled
-[INFO] 2025-11-04T16:49:55.771Z : AE-TC-27 finalizado correctamente.

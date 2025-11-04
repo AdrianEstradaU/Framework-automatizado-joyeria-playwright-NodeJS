@@ -1,0 +1,2 @@
+[INFO] 2025-11-04T17:34:31.157Z : Navegación al módulo Tipos de Egreso completada
+[INFO] 2025-11-04T17:34:31.159Z : AE-TC-50: Intentando crear tipo de egreso con campos vacíos

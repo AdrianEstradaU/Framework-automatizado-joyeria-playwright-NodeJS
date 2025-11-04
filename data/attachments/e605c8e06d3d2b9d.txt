@@ -1,0 +1,12 @@
+[INFO] 2025-11-04T17:35:46.165Z : Página principal cargada correctamente.
+[INFO] 2025-11-04T17:35:46.166Z : Ingresando al módulo Tipos de Ingreso...
+[INFO] 2025-11-04T17:35:48.633Z : Módulo Tipos de Ingreso abierto exitosamente.
+[INFO] 2025-11-04T17:35:48.635Z :  AE-TC-20: Eliminar un tipo de ingreso existente y validar eliminación 
+[INFO] 2025-11-04T17:35:48.635Z : Creando registro temporal para eliminar: DEL-1762277748635
+[INFO] 2025-11-04T17:35:50.028Z : Registro temporal creado correctamente.
+[INFO] 2025-11-04T17:35:50.614Z : Fila "DEL-1762277748635" seleccionada.
+[INFO] 2025-11-04T17:35:50.639Z : Botón eliminar presionado, confirmando eliminación...
+[INFO] 2025-11-04T17:35:52.393Z : Mensaje de eliminación exitosa validado.
+[INFO] 2025-11-04T17:35:53.399Z : Registro eliminado correctamente de la tabla.
+[INFO] 2025-11-04T17:35:53.421Z : Tabla actualizada tras la eliminación.
+[INFO] 2025-11-04T17:35:53.422Z : AE-TC-20 finalizado correctamente.

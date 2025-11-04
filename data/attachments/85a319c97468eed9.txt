@@ -1,0 +1,13 @@
+[INFO] 2025-11-04T17:32:19.960Z : Página principal cargada.
+[INFO] 2025-11-04T17:32:19.961Z : Ingresando al módulo Registro de Gestión...
+[INFO] 2025-11-04T17:32:23.368Z : Módulo Registro de Gestión abierto correctamente.
+[INFO] 2025-11-04T17:32:23.371Z : Creando registro para eliminación: 1853
+ Creando registro: 1853
+Registro 1853 creado
+ Registro 1853 encontrado
+ Eliminando: 1853
+Fila 1853 seleccionada
+ Registro 1853 eliminado
+ Registro 1853 no encontrado
+Filas disponibles: [ 'No existen registros' ]
+[INFO] 2025-11-04T17:32:40.005Z : Registro eliminado correctamente.

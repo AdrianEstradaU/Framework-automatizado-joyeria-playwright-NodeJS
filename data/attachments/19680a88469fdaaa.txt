@@ -1,0 +1,3 @@
+ Abriendo módulo de Ventas...
+[INFO] 2025-11-04T17:41:40.859Z : AE-TC-74: Rechazo con campos vacíos
+[INFO] 2025-11-04T17:41:44.008Z : Se detectaron errores por campos vacíos.

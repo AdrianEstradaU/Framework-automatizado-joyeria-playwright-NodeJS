@@ -1,0 +1,7 @@
+[INFO] 2025-11-04T17:37:36.041Z : Página principal cargada correctamente.
+[INFO] 2025-11-04T17:37:36.042Z : Accediendo al módulo Tipos de Producto...
+[INFO] 2025-11-04T17:37:38.467Z : Módulo Tipos de Producto abierto exitosamente.
+[INFO] 2025-11-04T17:37:38.469Z :  AE-TC-48: Verificar que el botón actualizar refresca la tabla 
+[INFO] 2025-11-04T17:37:39.290Z : Registro temporal creado: REFRESH-1762277858469
+[INFO] 2025-11-04T17:37:41.889Z : Registro eliminado correctamente.
+[INFO] 2025-11-04T17:37:49.943Z : Validación completada: la tabla se refresca correctamente.
