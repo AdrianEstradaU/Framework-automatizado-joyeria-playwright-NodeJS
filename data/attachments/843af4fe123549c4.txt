@@ -1,8 +1,0 @@
-[INFO] 2025-11-04T07:56:14.500Z : Página principal cargada correctamente.
-[INFO] 2025-11-04T07:56:14.502Z : Ingresando al módulo Reportes - Egresos por Fecha...
- Abriendo módulo de Compras...
-[INFO] 2025-11-04T07:56:17.221Z : Módulo Reportes - Egresos por Fecha abierto exitosamente.
-[INFO] 2025-11-04T07:56:17.223Z : AE-TC-113: Validar mensaje de error al intentar generar reporte con datos vacíos en Reporte de Egresos.
-[INFO] 2025-11-04T07:56:17.224Z : Limpiando campos e intentando generar el reporte.
-[INFO] 2025-11-04T07:56:17.761Z : Se mostró mensaje de error correctamente al generar reporte sin datos.
-[INFO] 2025-11-04T07:56:17.762Z : AE-TC-113 finalizado exitosamente.

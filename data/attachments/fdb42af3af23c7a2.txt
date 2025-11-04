@@ -1,5 +1,0 @@
-[INFO] 2025-11-04T07:45:03.658Z : Navegación al módulo Tipos de Egreso completada
-[INFO] 2025-11-04T07:45:03.661Z : AE-TC-51: Iniciando edición de tipo de egreso existente
-[INFO] 2025-11-04T07:45:06.910Z : Validación de edición exitosa
-[INFO] 2025-11-04T07:45:09.328Z : Confirmación de eliminación ejecutada
-[INFO] 2025-11-04T07:45:09.340Z : Validación de eliminación exitosa

@@ -1,4 +1,0 @@
-[INFO] 2025-11-04T07:38:15.745Z : Iniciando prueba AE-TC-02: Validar usuario con números o símbolos
-[INFO] 2025-11-04T07:38:15.961Z : Se ingresó usuario: morg@123
-[INFO] 2025-11-04T07:38:15.980Z : Mensaje recibido: Solo se permite letras y puntos
-[INFO] 2025-11-04T07:38:15.982Z : Validación exitosa: mensaje de error de formato mostrado correctamente

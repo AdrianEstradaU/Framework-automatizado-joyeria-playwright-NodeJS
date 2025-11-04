@@ -1,3 +1,0 @@
-[ERROR] 2025-11-04T07:39:44.377Z :  No se pudo eliminar el registro 'PAGO TARJETA-EDITED': Error: expect(received).toBeFalsy()
-
-Received: true
