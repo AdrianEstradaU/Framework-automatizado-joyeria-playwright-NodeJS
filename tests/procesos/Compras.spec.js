@@ -212,7 +212,7 @@ test.describe('Módulo Compras', () => {
   test('AE-TC-95: Rechazo por valores negativos en costo y cantidad @Regression @negative', async () => {
     allure.owner('Andres Adrian Estrada Uzeda');
     allure.severity('critical');
-  test.fail(true, 'BUG-002: Sistema acepta valores negativos en compras');
+  
 logger.info('Intentando crear compra con costo y cantidad negativos...');
     await comprasPage.crearCompraRapida('Compra Negativa', -100, { cantidad: -5 });
 

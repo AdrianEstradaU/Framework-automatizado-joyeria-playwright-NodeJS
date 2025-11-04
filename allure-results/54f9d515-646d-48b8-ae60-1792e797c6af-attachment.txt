@@ -1,4 +1,0 @@
-[INFO] 2025-11-04T06:55:15.054Z : Ingreso al módulo Proveedores
-[INFO] 2025-11-04T06:55:15.057Z : AE-TC-30: Intentando crear proveedor con campos vacíos
-[INFO] 2025-11-04T06:55:15.667Z : Validando mensaje de campo obligatorio
-[INFO] 2025-11-04T06:55:15.674Z : No se creó ningún registro con campos vacíos

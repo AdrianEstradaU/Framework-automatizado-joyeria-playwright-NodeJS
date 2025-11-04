@@ -163,8 +163,7 @@ test.describe('Módulo Ventas', () => {
     allure.owner('Andres Adrian Estrada Uzeda');
     allure.severity('critical');
     logger.info('AE-TC-78: Rechazo con precio negativo');
-    test.fail(true, 'BUG-001: Sistema acepta precios negativos en ventas');
-
+    
     await ventasPage.crearVentaRapida('Anillo Negativo', -50);
 
     await ventasPage.toastError.waitFor({ state: 'visible', timeout: 10000 });

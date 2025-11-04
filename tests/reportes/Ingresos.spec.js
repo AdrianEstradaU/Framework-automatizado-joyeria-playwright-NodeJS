@@ -110,7 +110,7 @@ test.describe('Módulo: Reportes - Ingresos por Fecha', () => {
     allure.severity('high');
     logger.info('AE-TC-105: Validar que la fecha fin no sea anterior a la fecha inicio.');
     logger.info('Intentando generar reporte con fechas inválidas.');
-    test.fail(true, 'BUG-004: Sistema no valida fecha fin < fecha inicio en Ingresos');
+
     await reportePage.seleccionarUsuario('6');
     await reportePage.ingresarFechas('27/10/2025', '01/10/2025');
     await reportePage.generarReporte();
