@@ -25,11 +25,12 @@ npx playwright test
 ```
 allure serve allure-results
 ```
-npx playwright test --grep "@Regression"
-O para varios tags combinados:
 
-bash
-Copiar código
+* Ejecutar por Etiquetas
+# solo @Regression
+npx playwright test --grep "@Regression"
+
+
 # Solo @Regression y @Smoke
 npx playwright test --grep "@Regression|@Smoke"
 
