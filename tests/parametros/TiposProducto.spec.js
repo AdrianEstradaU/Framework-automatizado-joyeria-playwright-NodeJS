@@ -131,7 +131,7 @@ test('AE-TC-41. Editar tipo de producto existente con datos válidos @Regression
     logger.info('Mensaje de eliminación exitoso validado.');
     await tiposProducto.page.waitForTimeout(5000);
     await tiposProducto.btnActualizar.click();
-    await page.waitForLoadState('networkidle');
+    await tiposProducto.page.waitForLoadState('networkidle');
     await tiposProducto.page.waitForTimeout(3000);
     const filas = await tiposProducto.tabla.locator('tr').allTextContents();
     expect(filas.some(f => f.includes(nombreEliminar))).toBeFalsy();
