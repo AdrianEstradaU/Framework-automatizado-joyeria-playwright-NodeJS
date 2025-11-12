@@ -17,8 +17,6 @@ test.describe('Módulo Compras', () => {
     logger.info('Módulo Compras abierto exitosamente.');
   });
 
-
-
   test('AE-TC-83: Crear compra válida y verificar existencia @Smoke @Regression @positive', async () => {
     allure.owner('Andres Adrian Estrada Uzeda');
     allure.severity('critical');
