@@ -1,0 +1,14 @@
+[INFO] 2025-11-12T18:07:51.969Z : Página principal cargada.
+[INFO] 2025-11-12T18:07:51.970Z : Ingresando al módulo Registro de Gestión...
+[INFO] 2025-11-12T18:07:56.167Z : Módulo Registro de Gestión abierto correctamente.
+[INFO] 2025-11-12T18:07:56.170Z :  Registro 9072 agregado para limpieza
+[INFO] 2025-11-12T18:07:56.170Z : Creando registro para edición: 6662
+ Creando registro: 6662
+Registro 6662 creado
+ Registro 6662 encontrado
+[INFO] 2025-11-12T18:08:03.825Z : Editando registro: 6662 → 9072
+ Editando: 6662 → 9072
+Fila 6662 seleccionada
+ Registro editado exitosamente
+ Registro 9072 encontrado
+[INFO] 2025-11-12T18:08:14.093Z : Registro editado validado correctamente.

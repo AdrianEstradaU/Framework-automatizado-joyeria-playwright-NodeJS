@@ -1,0 +1,8 @@
+[INFO] 2025-11-12T18:12:19.827Z : Página principal cargada correctamente.
+[INFO] 2025-11-12T18:12:19.828Z : Ingresando al módulo Tipos de Ingreso...
+[INFO] 2025-11-12T18:12:22.999Z : Módulo Tipos de Ingreso abierto exitosamente.
+[INFO] 2025-11-12T18:12:23.001Z :  AE-TC-25: Seleccionar un registro en la tabla de tipos de ingreso 
+[INFO] 2025-11-12T18:12:23.004Z : Primer registro encontrado: "COMPRAS ESPECIALES 2"
+[INFO] 2025-11-12T18:12:23.580Z : Registro "COMPRAS ESPECIALES 2" seleccionado.
+[INFO] 2025-11-12T18:12:23.583Z : Selección validada correctamente.
+[INFO] 2025-11-12T18:12:23.584Z : AE-TC-25 finalizado correctamente.

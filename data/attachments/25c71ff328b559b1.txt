@@ -1,0 +1,21 @@
+[INFO] 2025-11-12T18:04:31.111Z :  INICIO AE-TC-123: Flujo completo de Ventas 
+[INFO] 2025-11-12T18:04:31.112Z :  Creando los parámetros necesarios para el flujo de ventas 
+[INFO] 2025-11-12T18:04:36.132Z :  Creando Forma de Pago para el flujo de ventas 
+[INFO] 2025-11-12T18:04:40.595Z :  Creando Tipo de Producto para el flujo de ventas 
+[INFO] 2025-11-12T18:04:44.589Z :  Registrando una nueva venta en el sistema 
+ Abriendo módulo de Ventas...
+ Iniciando creación de venta...
+ Cantidad seleccionada: 4
+ Seleccionando: PAGO TARJETA DEBITO
+  Seleccionado: PAGO TARJETA DEBITO
+ Seleccionando: COMPRAS ESPECIALES 2
+  Seleccionado: COMPRAS ESPECIALES 2
+ Seleccionando: ANILLO ESPECIAL
+  Seleccionado: ANILLO ESPECIAL
+ Botón "Guardar" presionado
+[INFO] 2025-11-12T18:04:53.037Z :  Generando y validando el reporte de ingresos 
+ Abriendo módulo de Ventas...
+[INFO] 2025-11-12T18:04:57.383Z : Descargando reporte de ingresos en PDF.
+Reporte generado correctamente: ./downloads/Reporte_Ingresos_Flujo.pdf
+Validación final: el reporte de ingresos fue descargado correctamente.
+[INFO] 2025-11-12T18:04:57.388Z :  FIN AE-TC-123: Flujo completo ejecutado exitosamente 

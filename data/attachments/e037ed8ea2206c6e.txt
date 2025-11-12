@@ -1,5 +1,0 @@
-[INFO] 2025-11-12T17:40:06.206Z : Página principal cargada correctamente.
-[INFO] 2025-11-12T17:40:06.207Z : Ingresando al módulo Tipos de Ingreso...
-[INFO] 2025-11-12T17:40:09.211Z : Módulo Tipos de Ingreso abierto exitosamente.
-[INFO] 2025-11-12T17:40:09.214Z : === AE-TC-19: Editar un tipo de ingreso existente con datos válidos y eliminarlo ===
-[INFO] 2025-11-12T17:40:09.214Z : Editando registro "VENTAS NORMALES 2" → "VENTAS NORMALES 2-EDIT" con descripción: "Ingreso modificado"

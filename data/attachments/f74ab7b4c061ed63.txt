@@ -1,3 +1,0 @@
-[INFO] 2025-11-12T17:34:28.960Z : Ingreso al módulo Proveedores
-[INFO] 2025-11-12T17:34:28.962Z : AE-TC-34: Validando límite en descripción
-[INFO] 2025-11-12T17:34:29.272Z : Longitud ingresada en descripción: 256

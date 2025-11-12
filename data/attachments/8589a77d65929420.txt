@@ -1,0 +1,8 @@
+[INFO] 2025-11-12T18:13:00.455Z : Página principal cargada correctamente.
+[INFO] 2025-11-12T18:13:00.456Z : Accediendo al módulo Tipos de Producto...
+[INFO] 2025-11-12T18:13:03.259Z : Módulo Tipos de Producto abierto exitosamente.
+[INFO] 2025-11-12T18:13:03.264Z :  AE-TC-40: Intentar crear tipo de producto con campos vacíos 
+[INFO] 2025-11-12T18:13:03.268Z : Filas iniciales en tabla: 5
+[INFO] 2025-11-12T18:13:03.898Z : Intento de creación con campos vacíos realizado.
+[INFO] 2025-11-12T18:13:03.907Z : Mensaje de validación de campo obligatorio mostrado correctamente.
+[INFO] 2025-11-12T18:13:03.911Z : Validación completada: no se creó ningún registro nuevo.

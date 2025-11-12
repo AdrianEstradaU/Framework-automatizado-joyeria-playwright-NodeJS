@@ -1,0 +1,13 @@
+[INFO] 2025-11-12T18:08:15.338Z : Página principal cargada.
+[INFO] 2025-11-12T18:08:15.339Z : Ingresando al módulo Registro de Gestión...
+[INFO] 2025-11-12T18:08:18.947Z : Módulo Registro de Gestión abierto correctamente.
+[INFO] 2025-11-12T18:08:18.949Z : Creando registro para eliminación: 6015
+ Creando registro: 6015
+Registro 6015 creado
+ Registro 6015 encontrado
+ Eliminando: 6015
+Fila 6015 seleccionada
+ Registro 6015 eliminado
+ Registro 6015 no encontrado
+Filas disponibles: [ 'No existen registros' ]
+[INFO] 2025-11-12T18:08:36.076Z : Registro eliminado correctamente.

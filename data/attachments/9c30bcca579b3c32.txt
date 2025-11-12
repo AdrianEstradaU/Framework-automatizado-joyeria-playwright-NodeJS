@@ -1,0 +1,69 @@
+[INFO] 2025-11-12T18:09:15.922Z : Página principal cargada.
+[INFO] 2025-11-12T18:09:15.923Z : Ingresando al módulo Registro de Gestión...
+[INFO] 2025-11-12T18:09:19.558Z : Módulo Registro de Gestión abierto correctamente.
+[INFO] 2025-11-12T18:09:19.560Z : AE-TC-69: Iniciando prueba de cancelación de eliminación
+[INFO] 2025-11-12T18:09:19.561Z :  Registro 1513 agregado para limpieza
+[INFO] 2025-11-12T18:09:19.561Z : Creando registro para cancelar eliminación: 1513
+[INFO] 2025-11-12T18:09:26.117Z : Módulo recargado correctamente
+ Creando registro: 1513
+Registro 1513 creado
+ Registro 1513 encontrado
+[INFO] 2025-11-12T18:09:33.825Z : Registro creado correctamente
+Fila 1513 seleccionada
+[INFO] 2025-11-12T18:09:36.432Z : Modal de eliminación abierto
+ Registro 1513 encontrado
+[INFO] 2025-11-12T18:09:41.560Z : Validación exitosa: el registro no fue eliminado
+[INFO] 2025-11-12T18:09:41.662Z : 
+ Iniciando limpieza de 5 registros de Gestión...
+[INFO] 2025-11-12T18:09:41.690Z : 
+============================================================
+[INFO] 2025-11-12T18:09:41.691Z :   LIMPIEZA FINAL: 5 registro(s)
+[INFO] 2025-11-12T18:09:41.692Z :   Registros: 2309, 9072, 3255, 8607, 1513
+[INFO] 2025-11-12T18:09:41.693Z : ============================================================
+
+[INFO] 2025-11-12T18:09:49.543Z : 
+ [1/5]   Eliminando: 2309
+[INFO] 2025-11-12T18:09:52.398Z :     Registro encontrado
+[INFO] 2025-11-12T18:09:52.931Z :     Fila seleccionada
+[INFO] 2025-11-12T18:09:53.752Z :     Botón eliminar presionado
+[INFO] 2025-11-12T18:09:53.756Z :     Modal de confirmación visible
+[INFO] 2025-11-12T18:09:55.778Z :     Registro 2309 ELIMINADO
+[INFO] 2025-11-12T18:09:55.779Z : 
+ [2/5]   Eliminando: 9072
+[INFO] 2025-11-12T18:09:58.618Z :     Registro encontrado
+[INFO] 2025-11-12T18:09:59.148Z :     Fila seleccionada
+[INFO] 2025-11-12T18:09:59.964Z :     Botón eliminar presionado
+[INFO] 2025-11-12T18:09:59.968Z :     Modal de confirmación visible
+[INFO] 2025-11-12T18:10:01.978Z :     Registro 9072 ELIMINADO
+[INFO] 2025-11-12T18:10:01.979Z : 
+ [3/5]   Eliminando: 3255
+[INFO] 2025-11-12T18:10:04.832Z :     Registro encontrado
+[INFO] 2025-11-12T18:10:05.363Z :     Fila seleccionada
+[INFO] 2025-11-12T18:10:06.181Z :     Botón eliminar presionado
+[INFO] 2025-11-12T18:10:06.185Z :     Modal de confirmación visible
+[INFO] 2025-11-12T18:10:08.212Z :     Registro 3255 ELIMINADO
+[INFO] 2025-11-12T18:10:08.213Z : 
+ [4/5]   Eliminando: 8607
+[INFO] 2025-11-12T18:10:11.071Z :     Registro encontrado
+[INFO] 2025-11-12T18:10:11.596Z :     Fila seleccionada
+[INFO] 2025-11-12T18:10:12.413Z :     Botón eliminar presionado
+[INFO] 2025-11-12T18:10:12.418Z :     Modal de confirmación visible
+[INFO] 2025-11-12T18:10:14.446Z :     Registro 8607 ELIMINADO
+[INFO] 2025-11-12T18:10:14.447Z : 
+ [5/5]   Eliminando: 1513
+[INFO] 2025-11-12T18:10:17.304Z :     Registro encontrado
+[INFO] 2025-11-12T18:10:17.830Z :     Fila seleccionada
+[INFO] 2025-11-12T18:10:18.678Z :     Botón eliminar presionado
+[INFO] 2025-11-12T18:10:18.691Z :     Modal de confirmación visible
+[INFO] 2025-11-12T18:10:20.712Z :     Registro 1513 ELIMINADO
+[INFO] 2025-11-12T18:10:20.713Z : 
+============================================================
+[INFO] 2025-11-12T18:10:20.714Z :   RESUMEN DE LIMPIEZA:
+[INFO] 2025-11-12T18:10:20.714Z :     Eliminados exitosamente: 5
+[INFO] 2025-11-12T18:10:20.715Z :     Fallidos: 0
+[INFO] 2025-11-12T18:10:20.715Z :     Total procesados: 5
+[INFO] 2025-11-12T18:10:20.716Z :     ¡100% de limpieza exitosa!
+[INFO] 2025-11-12T18:10:20.717Z : ============================================================
+
+[INFO] 2025-11-12T18:10:20.725Z :  Contexto de limpieza cerrado
+

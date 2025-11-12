@@ -1,0 +1,12 @@
+ Abriendo módulo de Ventas...
+[INFO] 2025-11-12T18:19:38.255Z : AE-TC-81: Validar rechazo por valores fuera de límite
+ Iniciando creación de venta...
+ Cantidad seleccionada: 2
+ Seleccionando: EN EFECTIVO
+  Seleccionado: EN EFECTIVO
+ Seleccionando: VENTAS NORMALES
+  Seleccionado: VENTAS NORMALES
+ Seleccionando: ANILLOS PLATA 925 ITALIANA
+  Seleccionado: ANILLOS PLATA 925 ITALIANA
+ Botón "Guardar" presionado
+[INFO] 2025-11-12T18:19:44.353Z : Se detectaron correctamente errores por límites excedidos.

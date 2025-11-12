@@ -1,0 +1,6 @@
+[INFO] 2025-11-12T18:13:48.891Z : Página principal cargada correctamente.
+[INFO] 2025-11-12T18:13:48.892Z : Accediendo al módulo Tipos de Producto...
+[INFO] 2025-11-12T18:13:51.546Z : Módulo Tipos de Producto abierto exitosamente.
+[INFO] 2025-11-12T18:13:51.548Z : AE-TC-47: Seleccionar registro de tipo de producto en la tabla
+[INFO] 2025-11-12T18:13:51.552Z : Registro seleccionado: ANILLO
+[INFO] 2025-11-12T18:13:52.130Z : Validación completada: selección única confirmada.

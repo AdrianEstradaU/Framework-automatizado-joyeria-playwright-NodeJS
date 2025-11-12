@@ -1,6 +1,0 @@
-[INFO] 2025-11-12T17:43:24.612Z : Página principal cargada correctamente.
-[INFO] 2025-11-12T17:43:24.613Z : Ingresando al módulo Compras...
-Abriendo módulo de Compras...
-Módulo de Compras cargado correctamente.
-[INFO] 2025-11-12T17:43:26.168Z : Módulo Compras abierto exitosamente.
-[INFO] 2025-11-12T17:43:26.958Z : Estado del botón "Siguiente": Deshabilitado

@@ -1,0 +1,7 @@
+[INFO] 2025-11-12T18:07:35.126Z : Página principal cargada.
+[INFO] 2025-11-12T18:07:35.127Z : Ingresando al módulo Registro de Gestión...
+[INFO] 2025-11-12T18:07:38.896Z : Módulo Registro de Gestión abierto correctamente.
+[INFO] 2025-11-12T18:07:38.899Z : Probando año demasiado largo: 12345
+ Registro 12345 no encontrado
+Filas disponibles: [ 'No existen registros' ]
+[INFO] 2025-11-12T18:07:45.045Z :  Año largo no fue creado, validación correcta.

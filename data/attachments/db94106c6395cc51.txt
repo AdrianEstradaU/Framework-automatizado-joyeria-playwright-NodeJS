@@ -1,0 +1,12 @@
+[INFO] 2025-11-12T18:08:37.760Z : Página principal cargada.
+[INFO] 2025-11-12T18:08:37.761Z : Ingresando al módulo Registro de Gestión...
+[INFO] 2025-11-12T18:08:41.977Z : Módulo Registro de Gestión abierto correctamente.
+[INFO] 2025-11-12T18:08:41.979Z : AE-TC-65: Iniciando prueba de búsqueda de registro de gestión existente
+[INFO] 2025-11-12T18:08:41.980Z :  Registro 3255 agregado para limpieza
+[INFO] 2025-11-12T18:08:41.980Z : Creando registro para buscar: 3255
+ Creando registro: 3255
+Registro 3255 creado
+[INFO] 2025-11-12T18:08:47.626Z : Filtro aplicado: 3255
+[INFO] 2025-11-12T18:08:47.675Z : Botón "Actualizar" presionado
+ Registro 3255 encontrado
+[INFO] 2025-11-12T18:08:50.709Z : Validación exitosa: registro encontrado correctamente

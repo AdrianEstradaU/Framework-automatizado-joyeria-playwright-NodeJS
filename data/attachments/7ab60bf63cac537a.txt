@@ -1,0 +1,3 @@
+[INFO] 2025-11-12T18:06:58.872Z : Ingreso al módulo Proveedores
+[INFO] 2025-11-12T18:06:58.874Z : AE-TC-37: Seleccionando registro en la tabla
+[INFO] 2025-11-12T18:06:59.462Z : Registro seleccionado correctamente: DIAMANTE BLANCO

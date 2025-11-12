@@ -1,0 +1,13 @@
+ Abriendo módulo de Ventas...
+[INFO] 2025-11-12T18:18:35.862Z : AE-TC-77: Crear venta con precio decimal
+ Iniciando creación de venta...
+ Cantidad seleccionada: 2
+ Seleccionando: EN EFECTIVO
+  Seleccionado: EN EFECTIVO
+ Seleccionando: VENTAS NORMALES
+  Seleccionado: VENTAS NORMALES
+ Seleccionando: ANILLOS PLATA 925 ITALIANA
+  Seleccionado: ANILLOS PLATA 925 ITALIANA
+ Botón "Guardar" presionado
+ Registrada: "Anillo Decimal"
+[INFO] 2025-11-12T18:18:40.729Z : Venta con precio decimal creada y verificada.

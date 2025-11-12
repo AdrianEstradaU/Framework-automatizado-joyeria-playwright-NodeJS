@@ -1,0 +1,4 @@
+[INFO] 2025-11-12T18:03:50.098Z : Iniciando prueba AE-TC-04: Validar usuario no registrado
+[INFO] 2025-11-12T18:03:50.236Z : Se ingresó usuario no registrado: noexiste
+[INFO] 2025-11-12T18:03:50.523Z : Mensaje de usuario no registrado visible: true
+[INFO] 2025-11-12T18:03:50.524Z : Validación exitosa: mensaje de usuario no registrado mostrado correctamente

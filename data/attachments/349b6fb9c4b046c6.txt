@@ -1,0 +1,13 @@
+ Abriendo módulo de Ventas...
+[INFO] 2025-11-12T18:17:37.866Z : AE-TC-70: Crear una venta con datos válidos
+ Iniciando creación de venta...
+ Cantidad seleccionada: 2
+ Seleccionando: EN EFECTIVO
+  Seleccionado: EN EFECTIVO
+ Seleccionando: VENTAS NORMALES
+  Seleccionado: VENTAS NORMALES
+ Seleccionando: ANILLOS PLATA 925 ITALIANA
+  Seleccionado: ANILLOS PLATA 925 ITALIANA
+ Botón "Guardar" presionado
+ Registrada: "Anillo de oro finos"
+[INFO] 2025-11-12T18:17:43.247Z : Venta creada correctamente y verificada en la tabla.

@@ -1,0 +1,3 @@
+ Abriendo módulo de Ventas...
+[INFO] 2025-11-12T18:19:21.761Z : AE-TC-79: Validar letras en campo precio
+[INFO] 2025-11-12T18:19:22.854Z : Campo precio no acepta letras correctamente.

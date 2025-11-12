@@ -1,0 +1,7 @@
+[INFO] 2025-11-12T18:05:50.006Z : Página cargada correctamente. Ingresando al módulo Formas de Pago...
+[INFO] 2025-11-12T18:05:53.445Z : Módulo Formas de Pago abierto exitosamente.
+[INFO] 2025-11-12T18:05:53.448Z :  AE-TC-14: Verificando límite de caracteres en descripción.
+[INFO] 2025-11-12T18:05:53.708Z : Campos de formulario visibles.
+[INFO] 2025-11-12T18:05:53.738Z : Campos completados con descripción larga.
+[INFO] 2025-11-12T18:05:53.741Z : Longitud capturada: 260
+[INFO] 2025-11-12T18:05:53.742Z : AE-TC-14 completado: Límite de descripción validado correctamente.
