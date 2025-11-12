@@ -1,8 +1,0 @@
-[INFO] 2025-11-04T17:29:18.650Z : Página cargada correctamente. Ingresando al módulo Formas de Pago...
-[INFO] 2025-11-04T17:29:21.167Z : Módulo Formas de Pago abierto exitosamente.
-[INFO] 2025-11-04T17:29:21.169Z :  AE-TC-06: Iniciando prueba con campos vacíos.
-[INFO] 2025-11-04T17:29:21.171Z : Número de filas antes de la creación: 4
-[INFO] 2025-11-04T17:29:21.796Z : Intentando crear forma de pago sin datos.
-[INFO] 2025-11-04T17:29:21.801Z : Mensaje de error inline validado correctamente.
-[INFO] 2025-11-04T17:29:21.804Z : Número de filas después del intento: 4
-[INFO] 2025-11-04T17:29:21.805Z :  AE-TC-06 completado: No se creó registro con campos vacíos.

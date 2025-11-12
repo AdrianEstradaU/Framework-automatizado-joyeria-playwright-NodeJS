@@ -1,7 +1,0 @@
-[INFO] 2025-11-04T17:35:54.552Z : Página principal cargada correctamente.
-[INFO] 2025-11-04T17:35:54.553Z : Ingresando al módulo Tipos de Ingreso...
-[INFO] 2025-11-04T17:35:56.966Z : Módulo Tipos de Ingreso abierto exitosamente.
-[INFO] 2025-11-04T17:35:56.968Z :  AE-TC-21: Validar límite de 64 caracteres en el campo "nombre" 
-[INFO] 2025-11-04T17:35:57.594Z : Nombre ingresado con longitud: 65
-[INFO] 2025-11-04T17:35:57.776Z : Validación del límite de 64 caracteres completada.
-[INFO] 2025-11-04T17:35:57.777Z : AE-TC-21 finalizado correctamente.

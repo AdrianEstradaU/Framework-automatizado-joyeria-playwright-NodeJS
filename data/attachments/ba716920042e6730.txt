@@ -1,0 +1,45 @@
+[INFO] 2025-11-05T18:31:39.116Z : Página principal cargada.
+[INFO] 2025-11-05T18:31:39.117Z : Ingresando al módulo Registro de Gestión...
+[INFO] 2025-11-05T18:31:43.522Z : Módulo Registro de Gestión abierto correctamente.
+[INFO] 2025-11-05T18:31:43.540Z : AE-TC-65: Iniciando prueba de búsqueda de registro de gestión existente
+[INFO] 2025-11-05T18:31:43.541Z :  Registro 8490 agregado para limpieza
+[INFO] 2025-11-05T18:31:43.542Z : Creando registro para buscar: 8490
+ Creando registro: 8490
+Registro 8490 creado
+[INFO] 2025-11-05T18:31:49.201Z : Filtro aplicado: 8490
+[INFO] 2025-11-05T18:31:49.241Z : Botón "Actualizar" presionado
+ Registro 8490 encontrado
+[INFO] 2025-11-05T18:31:52.288Z : Validación exitosa: registro encontrado correctamente
+[INFO] 2025-11-05T18:31:52.379Z : 
+ Iniciando limpieza de 2 registros de Gestión...
+[INFO] 2025-11-05T18:31:52.420Z : 
+============================================================
+[INFO] 2025-11-05T18:31:52.421Z :   LIMPIEZA FINAL: 2 registro(s)
+[INFO] 2025-11-05T18:31:52.421Z :   Registros: 7183, 8490
+[INFO] 2025-11-05T18:31:52.422Z : ============================================================
+
+[INFO] 2025-11-05T18:32:02.300Z : 
+ [1/2]   Eliminando: 7183
+[INFO] 2025-11-05T18:32:05.171Z :     Registro encontrado
+[INFO] 2025-11-05T18:32:05.702Z :     Fila seleccionada
+[INFO] 2025-11-05T18:32:06.543Z :     Botón eliminar presionado
+[INFO] 2025-11-05T18:32:06.551Z :     Modal de confirmación visible
+[INFO] 2025-11-05T18:32:08.576Z :     Registro 7183 ELIMINADO
+[INFO] 2025-11-05T18:32:08.577Z : 
+ [2/2]   Eliminando: 8490
+[INFO] 2025-11-05T18:32:11.469Z :     Registro encontrado
+[INFO] 2025-11-05T18:32:12.011Z :     Fila seleccionada
+[INFO] 2025-11-05T18:32:12.846Z :     Botón eliminar presionado
+[INFO] 2025-11-05T18:32:12.851Z :     Modal de confirmación visible
+[INFO] 2025-11-05T18:32:14.885Z :     Registro 8490 ELIMINADO
+[INFO] 2025-11-05T18:32:14.887Z : 
+============================================================
+[INFO] 2025-11-05T18:32:14.888Z :   RESUMEN DE LIMPIEZA:
+[INFO] 2025-11-05T18:32:14.888Z :     Eliminados exitosamente: 2
+[INFO] 2025-11-05T18:32:14.889Z :     Fallidos: 0
+[INFO] 2025-11-05T18:32:14.890Z :     Total procesados: 2
+[INFO] 2025-11-05T18:32:14.890Z :     ¡100% de limpieza exitosa!
+[INFO] 2025-11-05T18:32:14.890Z : ============================================================
+
+[INFO] 2025-11-05T18:32:14.898Z : ✓ Contexto de limpieza cerrado
+

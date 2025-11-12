@@ -1,3 +1,0 @@
-[INFO] 2025-11-04T17:35:11.471Z : Navegación al módulo Tipos de Egreso completada
-[INFO] 2025-11-04T17:35:11.473Z : AE-TC-56: Probando cancelación de eliminación de tipo de egreso
-[INFO] 2025-11-04T17:35:12.508Z : Validación de cancelación de eliminación completada

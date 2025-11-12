@@ -1,0 +1,7 @@
+[INFO] 2025-11-05T18:32:59.862Z : Página principal cargada correctamente.
+[INFO] 2025-11-05T18:32:59.863Z : Accediendo al módulo Tipos de Producto...
+[INFO] 2025-11-05T18:33:03.897Z : Módulo Tipos de Producto abierto exitosamente.
+[INFO] 2025-11-05T18:33:03.902Z :  AE-TC-45: Buscar tipo de producto en la tabla 
+[INFO] 2025-11-05T18:33:03.914Z : Término de búsqueda ingresado: "ANILLO"
+[INFO] 2025-11-05T18:33:03.917Z : Resultados encontrados: 4
+[INFO] 2025-11-05T18:33:03.918Z : Validación exitosa: resultados de búsqueda visibles.

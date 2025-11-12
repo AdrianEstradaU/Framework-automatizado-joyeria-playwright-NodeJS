@@ -1,0 +1,10 @@
+[INFO] 2025-11-05T18:31:23.338Z : Página principal cargada.
+[INFO] 2025-11-05T18:31:23.339Z : Ingresando al módulo Registro de Gestión...
+[INFO] 2025-11-05T18:31:28.470Z : Módulo Registro de Gestión abierto correctamente.
+[INFO] 2025-11-05T18:31:28.473Z :  Registro 7183 agregado para limpieza
+[INFO] 2025-11-05T18:31:28.476Z : Creando registro de gestión con año: 7183
+ Creando registro: 7183
+Registro 7183 creado
+[INFO] 2025-11-05T18:31:30.569Z : Registro creado, validando existencia...
+ Registro 7183 encontrado
+[INFO] 2025-11-05T18:31:36.178Z : Registro validado correctamente.

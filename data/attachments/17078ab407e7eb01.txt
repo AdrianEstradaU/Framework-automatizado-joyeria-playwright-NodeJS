@@ -1,9 +1,0 @@
-[INFO] 2025-11-04T17:36:50.343Z : Página principal cargada correctamente.
-[INFO] 2025-11-04T17:36:50.344Z : Accediendo al módulo Tipos de Producto...
-[INFO] 2025-11-04T17:36:53.057Z : Módulo Tipos de Producto abierto exitosamente.
-[INFO] 2025-11-04T17:36:53.059Z : AE-TC-41: Editar tipo de producto existente con datos válidos
-[INFO] 2025-11-04T17:36:53.863Z : Registro temporal creado: EDIT-1762277813060
-[INFO] 2025-11-04T17:36:55.326Z : Registro editado: EDIT-1762277813060-MOD
-[INFO] 2025-11-04T17:36:56.239Z : Fila editada visible en la tabla.
-[INFO] 2025-11-04T17:36:56.243Z : Validación exitosa: el nombre editado se refleja en la tabla.
-[INFO] 2025-11-04T17:36:58.136Z : Registro EDIT-1762277813060-MOD eliminado correctamente en teardown.
