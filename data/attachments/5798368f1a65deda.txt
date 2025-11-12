@@ -1,0 +1,14 @@
+[INFO] 2025-11-12T17:35:57.075Z : Página principal cargada.
+[INFO] 2025-11-12T17:35:57.076Z : Ingresando al módulo Registro de Gestión...
+[INFO] 2025-11-12T17:36:00.754Z : Módulo Registro de Gestión abierto correctamente.
+[INFO] 2025-11-12T17:36:00.757Z :  Registro 7430 agregado para limpieza
+[INFO] 2025-11-12T17:36:00.758Z : Creando registro para edición: 5043
+ Creando registro: 5043
+Registro 5043 creado
+ Registro 5043 encontrado
+[INFO] 2025-11-12T17:36:08.459Z : Editando registro: 5043 → 7430
+ Editando: 5043 → 7430
+Fila 5043 seleccionada
+ Registro editado exitosamente
+ Registro 7430 encontrado
+[INFO] 2025-11-12T17:36:18.788Z : Registro editado validado correctamente.

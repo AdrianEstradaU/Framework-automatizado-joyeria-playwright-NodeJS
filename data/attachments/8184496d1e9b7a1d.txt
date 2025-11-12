@@ -1,0 +1,17 @@
+[INFO] 2025-11-12T17:50:09.845Z : Página principal cargada correctamente.
+[INFO] 2025-11-12T17:50:09.846Z : Ingresando al módulo Reportes - Egresos por Fecha...
+ Abriendo módulo de Compras...
+[INFO] 2025-11-12T17:50:12.621Z : Módulo Reportes - Egresos por Fecha abierto exitosamente.
+[INFO] 2025-11-12T17:50:12.623Z : AE-TC-112: Validar que la fecha fin no sea anterior a la fecha inicio en Reporte de Egresos.
+[INFO] 2025-11-12T17:50:12.624Z : Intentando generar reporte con fechas inválidas.
+ Seleccionando usuario en reporte...
+ Opciones disponibles: [
+  'Todos',
+  'Andres Estrada Uzeda',
+  'lucia Montaño Mamani',
+  'Alejandra Orellana Mamani',
+  'alex vargas  lopez',
+  'WILMA CARITA YAVI',
+  'MORGAN HUASCAR CHECA LOPEZ'
+]
+Usuario "6" seleccionado correctamente.

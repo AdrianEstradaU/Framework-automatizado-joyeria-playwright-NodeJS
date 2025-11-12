@@ -1,0 +1,3 @@
+[INFO] 2025-11-12T17:39:19.358Z : Navegación al módulo Tipos de Egreso completada
+[INFO] 2025-11-12T17:39:19.360Z : AE-TC-57: Seleccionando registro en la tabla
+[INFO] 2025-11-12T17:39:19.936Z : Validación de selección en tabla completada

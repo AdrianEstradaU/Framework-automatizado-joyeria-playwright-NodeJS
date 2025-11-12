@@ -1,0 +1,6 @@
+[INFO] 2025-11-12T17:51:18.624Z : Página principal cargada correctamente.
+[INFO] 2025-11-12T17:51:18.625Z : Ingresando al módulo Reportes - Ingresos por Fecha...
+ Abriendo módulo de Ventas...
+[INFO] 2025-11-12T17:51:21.420Z : Módulo Reportes - Ingresos por Fecha abierto exitosamente.
+[INFO] 2025-11-12T17:51:21.422Z : AE-TC-105: Validar que la fecha fin no sea anterior a la fecha inicio.
+[INFO] 2025-11-12T17:51:21.423Z : Intentando generar reporte con fechas inválidas.

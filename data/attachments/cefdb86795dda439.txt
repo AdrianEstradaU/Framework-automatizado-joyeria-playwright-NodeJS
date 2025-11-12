@@ -1,0 +1,10 @@
+[INFO] 2025-11-12T17:35:00.460Z : Página principal cargada.
+[INFO] 2025-11-12T17:35:00.462Z : Ingresando al módulo Registro de Gestión...
+[INFO] 2025-11-12T17:35:04.267Z : Módulo Registro de Gestión abierto correctamente.
+[INFO] 2025-11-12T17:35:04.269Z :  Registro 4008 agregado para limpieza
+[INFO] 2025-11-12T17:35:04.271Z : Creando registro de gestión con año: 4008
+ Creando registro: 4008
+Registro 4008 creado
+[INFO] 2025-11-12T17:35:06.396Z : Registro creado, validando existencia...
+ Registro 4008 encontrado
+[INFO] 2025-11-12T17:35:11.952Z : Registro validado correctamente.

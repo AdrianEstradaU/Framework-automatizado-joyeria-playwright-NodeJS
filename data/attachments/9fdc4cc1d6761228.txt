@@ -1,0 +1,9 @@
+[INFO] 2025-11-12T17:41:19.436Z : Página principal cargada correctamente.
+[INFO] 2025-11-12T17:41:19.438Z : Accediendo al módulo Tipos de Producto...
+[INFO] 2025-11-12T17:41:22.050Z : Módulo Tipos de Producto abierto exitosamente.
+[INFO] 2025-11-12T17:41:22.052Z :  AE-TC-39: Crear tipo de producto válido 
+[INFO] 2025-11-12T17:41:22.679Z : Datos ingresados: nombre="ANILLO", descripción="Anillo de oro fino".
+[INFO] 2025-11-12T17:41:22.965Z : Mensaje de éxito validado correctamente.
+[INFO] 2025-11-12T17:41:23.782Z : Fila seleccionada: ANILLO
+[INFO] 2025-11-12T17:41:23.807Z : Botón eliminar presionado, confirmando eliminación...
+[INFO] 2025-11-12T17:41:25.568Z : Mensaje de eliminación exitoso validado.

@@ -1,0 +1,8 @@
+[INFO] 2025-11-12T17:51:29.809Z : Página principal cargada correctamente.
+[INFO] 2025-11-12T17:51:29.810Z : Ingresando al módulo Reportes - Ingresos por Fecha...
+ Abriendo módulo de Ventas...
+[INFO] 2025-11-12T17:51:32.538Z : Módulo Reportes - Ingresos por Fecha abierto exitosamente.
+[INFO] 2025-11-12T17:51:32.544Z : AE-TC-106: Validar mensaje de error al intentar generar reporte con datos vacíos.
+[INFO] 2025-11-12T17:51:32.544Z : Limpiando campos e intentando generar el reporte.
+[INFO] 2025-11-12T17:51:33.577Z : Se mostró mensaje de error correctamente al generar reporte sin datos.
+[INFO] 2025-11-12T17:51:33.578Z : AE-TC-106 finalizado exitosamente.
