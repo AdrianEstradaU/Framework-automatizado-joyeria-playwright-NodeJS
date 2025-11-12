@@ -1,1 +1,0 @@
-[INFO] 2025-11-12T06:28:26.372Z : Iniciando prueba AE-TC-04: Validar usuario no registrado

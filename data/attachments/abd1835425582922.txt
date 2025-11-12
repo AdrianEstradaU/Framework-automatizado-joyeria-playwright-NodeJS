@@ -1,0 +1,1 @@
+[INFO] 2025-11-12T06:30:19.590Z : Iniciando prueba AE-TC-03: Validar contraseña incorrecta

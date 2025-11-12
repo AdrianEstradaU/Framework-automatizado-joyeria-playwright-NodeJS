@@ -1,0 +1,1 @@
+[INFO] 2025-11-12T06:30:08.516Z : Iniciando prueba AE-TC-02: Validar usuario con números o símbolos
