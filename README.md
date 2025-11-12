@@ -860,4 +860,3 @@ npx playwright test --grep "@Regression|@Smoke"
 
 # Solo los @negative
 npx playwright test --grep "@negative"
->>>>>>> eaa7d5c0786762e58ae2be0b9a9cd3c1048421de
