@@ -35,7 +35,7 @@ async function ejecutarLimpiezaRegistroGestion(browser, storageStatePath = 'fixt
     
     if (page) await page.close();
     if (context) await context.close();
-    logger.info('✓ Contexto de limpieza cerrado\n');
+    logger.info(' Contexto de limpieza cerrado\n');
   }
 }
 

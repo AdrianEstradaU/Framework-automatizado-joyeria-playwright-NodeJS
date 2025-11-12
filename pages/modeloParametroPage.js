@@ -1,6 +1,5 @@
 const { expect } = require('@playwright/test');
 const { BasePage } = require('./BasePage');
-
 class ModuloPage extends BasePage {
   constructor(page, config) {
     super(page);
@@ -31,6 +30,7 @@ class ModuloPage extends BasePage {
   }
 
   async abrirModulo() {
+
     await this.moduloJoyeria.waitFor({ state: 'visible', timeout: 10000 });
     await this.navigateMenu(this.moduloJoyeria, this.menuParametros, this.submenu);
     await this.tabla.waitFor({ state: 'visible', timeout: 10000 });

@@ -3,13 +3,11 @@ class BasePage {
     this.page = page;
   }
 
-  
   async click(locator, timeout = 10000) {
     await locator.waitFor({ state: 'visible', timeout });
     await locator.scrollIntoViewIfNeeded();
     await locator.click();
   }
-
 
   async fill(locator, value, timeout = 10000) {
     await locator.waitFor({ state: 'visible', timeout });
@@ -22,7 +20,7 @@ class BasePage {
     await locator.waitFor({ state: 'visible', timeout });
   }
 
-  // Seleccionar fila por texto 
+
   async selectRowByText(tableLocator, text) {
     const row = tableLocator.locator('tr', { hasText: text }).first();
     await row.waitFor({ state: 'visible', timeout: 10000 });
