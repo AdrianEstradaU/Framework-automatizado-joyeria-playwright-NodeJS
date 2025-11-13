@@ -1,0 +1,10 @@
+[INFO] 2025-11-13T22:54:07.991Z : Página principal cargada correctamente.
+[INFO] 2025-11-13T22:54:07.992Z : Ingresando al módulo Tipos de Ingreso...
+[INFO] 2025-11-13T22:54:10.434Z : Módulo Tipos de Ingreso abierto exitosamente.
+[INFO] 2025-11-13T22:54:10.436Z :  AE-TC-28: Verificar que el botón "Actualizar" refresque correctamente la tabla 
+[INFO] 2025-11-13T22:54:10.436Z : Creando registro de prueba: REFRESH-1763074450436
+[INFO] 2025-11-13T22:54:12.027Z : Registro creado correctamente.
+[INFO] 2025-11-13T22:54:13.393Z : Registro seleccionado para eliminación.
+[INFO] 2025-11-13T22:54:15.622Z : Registro eliminado, refrescando tabla...
+[INFO] 2025-11-13T22:54:23.668Z : Tabla actualizada correctamente sin mostrar el registro eliminado.
+[INFO] 2025-11-13T22:54:23.669Z : AE-TC-28 finalizado exitosamente.

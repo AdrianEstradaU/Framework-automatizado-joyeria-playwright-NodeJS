@@ -1,0 +1,12 @@
+[INFO] 2025-11-13T22:23:51.312Z : Página principal cargada.
+[INFO] 2025-11-13T22:23:51.312Z : Ingresando al módulo Registro de Gestión...
+[INFO] 2025-11-13T22:23:56.319Z : Módulo Registro de Gestión abierto correctamente.
+[INFO] 2025-11-13T22:23:56.322Z : AE-TC-65: Iniciando prueba de búsqueda de registro de gestión existente
+[INFO] 2025-11-13T22:23:56.323Z :  Registro 8147 agregado para limpieza
+[INFO] 2025-11-13T22:23:56.323Z : Creando registro para buscar: 8147
+ Creando registro: 8147
+Registro 8147 creado
+[INFO] 2025-11-13T22:24:02.679Z : Filtro aplicado: 8147
+[INFO] 2025-11-13T22:24:02.715Z : Botón "Actualizar" presionado
+ Registro 8147 encontrado
+[INFO] 2025-11-13T22:24:05.788Z : Validación exitosa: registro encontrado correctamente

@@ -1,0 +1,14 @@
+[INFO] 2025-11-13T22:22:58.828Z : Página principal cargada.
+[INFO] 2025-11-13T22:22:58.829Z : Ingresando al módulo Registro de Gestión...
+[INFO] 2025-11-13T22:23:03.543Z : Módulo Registro de Gestión abierto correctamente.
+[INFO] 2025-11-13T22:23:03.548Z :  Registro 5070 agregado para limpieza
+[INFO] 2025-11-13T22:23:03.550Z : Creando registro para edición: 5620
+ Creando registro: 5620
+Registro 5620 creado
+ Registro 5620 encontrado
+[INFO] 2025-11-13T22:23:11.967Z : Editando registro: 5620 → 5070
+ Editando: 5620 → 5070
+Fila 5620 seleccionada
+ Registro editado exitosamente
+ Registro 5070 encontrado
+[INFO] 2025-11-13T22:23:23.261Z : Registro editado validado correctamente.

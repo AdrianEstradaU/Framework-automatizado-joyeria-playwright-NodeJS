@@ -1,9 +1,0 @@
-[INFO] 2025-11-13T05:00:15.078Z : Página principal cargada correctamente.
-[INFO] 2025-11-13T05:00:15.079Z : Ingresando al módulo Reportes - Ingresos por Fecha...
- Abriendo módulo de Ventas...
-[INFO] 2025-11-13T05:00:17.873Z : Módulo Reportes - Ingresos por Fecha abierto exitosamente.
-[INFO] 2025-11-13T05:00:17.875Z : AE-TC-102: Verificar la funcionalidad del campo Fecha Fin.
-[INFO] 2025-11-13T05:00:17.875Z : Seleccionando usuario con ID = 1 e ingresando fecha fin.
-[INFO] 2025-11-13T05:00:18.489Z : Fecha fin ingresada: 27/10/2025
-[INFO] 2025-11-13T05:00:18.490Z : Campo Fecha Fin funciona correctamente.
-[INFO] 2025-11-13T05:00:18.491Z : AE-TC-102 finalizado exitosamente.

@@ -1,0 +1,14 @@
+[INFO] 2025-11-13T22:49:35.589Z : Página principal cargada.
+[INFO] 2025-11-13T22:49:35.590Z : Ingresando al módulo Registro de Gestión...
+[INFO] 2025-11-13T22:49:39.052Z : Módulo Registro de Gestión abierto correctamente.
+[INFO] 2025-11-13T22:49:39.055Z :  Registro 8048 agregado para limpieza
+[INFO] 2025-11-13T22:49:39.057Z : Creando registro para edición: 8225
+ Creando registro: 8225
+Registro 8225 creado
+ Registro 8225 encontrado
+[INFO] 2025-11-13T22:49:47.410Z : Editando registro: 8225 → 8048
+ Editando: 8225 → 8048
+Fila 8225 seleccionada
+ Registro editado exitosamente
+ Registro 8048 encontrado
+[INFO] 2025-11-13T22:49:58.589Z : Registro editado validado correctamente.

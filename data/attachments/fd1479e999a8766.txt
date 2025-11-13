@@ -1,0 +1,6 @@
+[INFO] 2025-11-13T22:46:53.453Z : Página cargada correctamente. Ingresando al módulo Formas de Pago...
+[INFO] 2025-11-13T22:46:56.036Z : Módulo Formas de Pago abierto exitosamente.
+[INFO] 2025-11-13T22:46:56.038Z :  AE-TC-09: Iniciando verificación del botón Actualizar.
+[INFO] 2025-11-13T22:46:57.537Z : Registro creado: REFRESH-1763074016038
+[INFO] 2025-11-13T22:47:00.671Z : Registro eliminado, actualizando tabla...
+[INFO] 2025-11-13T22:47:01.069Z : AE-TC-09 completado: Botón actualizar refrescó correctamente la tabla.

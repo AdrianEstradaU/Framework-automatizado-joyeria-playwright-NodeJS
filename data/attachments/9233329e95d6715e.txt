@@ -1,3 +1,0 @@
-[INFO] 2025-11-13T04:48:02.379Z : Navegación al módulo Tipos de Egreso completada
-[INFO] 2025-11-13T04:48:02.382Z : AE-TC-55: Iniciando búsqueda de tipo de egreso en la tabla
-[INFO] 2025-11-13T04:48:02.395Z : Validación de resultados de búsqueda completada

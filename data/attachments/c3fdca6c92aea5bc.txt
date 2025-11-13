@@ -1,0 +1,12 @@
+[INFO] 2025-11-13T22:50:22.690Z : Página principal cargada.
+[INFO] 2025-11-13T22:50:22.691Z : Ingresando al módulo Registro de Gestión...
+[INFO] 2025-11-13T22:50:26.250Z : Módulo Registro de Gestión abierto correctamente.
+[INFO] 2025-11-13T22:50:26.253Z : AE-TC-65: Iniciando prueba de búsqueda de registro de gestión existente
+[INFO] 2025-11-13T22:50:26.253Z :  Registro 4098 agregado para limpieza
+[INFO] 2025-11-13T22:50:26.254Z : Creando registro para buscar: 4098
+ Creando registro: 4098
+Registro 4098 creado
+[INFO] 2025-11-13T22:50:32.592Z : Filtro aplicado: 4098
+[INFO] 2025-11-13T22:50:32.659Z : Botón "Actualizar" presionado
+ Registro 4098 encontrado
+[INFO] 2025-11-13T22:50:35.706Z : Validación exitosa: registro encontrado correctamente

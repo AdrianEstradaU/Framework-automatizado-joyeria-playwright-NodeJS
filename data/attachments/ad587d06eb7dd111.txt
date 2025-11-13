@@ -1,1 +1,0 @@
-[WARN] 2025-11-13T04:44:04.231Z :  BUG DETECTADO: Sistema permitió crear año con 5 dígitos

@@ -1,0 +1,20 @@
+[INFO] 2025-11-13T23:02:20.106Z : Página principal cargada correctamente.
+[INFO] 2025-11-13T23:02:20.107Z : Ingresando al módulo Reportes - Egresos por Fecha...
+ Abriendo módulo de Compras...
+[INFO] 2025-11-13T23:02:22.903Z : Módulo Reportes - Egresos por Fecha abierto exitosamente.
+[INFO] 2025-11-13T23:02:22.906Z : AE-TC-110: Verificar la funcionalidad del botón Limpiar en Reporte de Egresos.
+[INFO] 2025-11-13T23:02:22.907Z : Llenando campos de usuario y fechas antes de limpiar.
+ Seleccionando usuario en reporte...
+ Opciones disponibles: [
+  'Todos',
+  'Andres Estrada Uzeda',
+  'lucia Montaño Mamani',
+  'Alejandra Orellana Mamani',
+  'alex vargas  lopez',
+  'WILMA CARITA YAVI',
+  'MORGAN HUASCAR CHECA LOPEZ'
+]
+Usuario "1" seleccionado correctamente.
+[INFO] 2025-11-13T23:02:41.218Z : Se ejecutó el botón Limpiar.
+[INFO] 2025-11-13T23:02:41.226Z : Todos los campos fueron limpiados correctamente.
+[INFO] 2025-11-13T23:02:41.227Z : AE-TC-110 finalizado exitosamente.

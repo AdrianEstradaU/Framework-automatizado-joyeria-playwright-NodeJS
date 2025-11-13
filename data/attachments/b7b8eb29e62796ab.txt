@@ -1,7 +1,0 @@
-[INFO] 2025-11-13T04:42:08.282Z : Página cargada correctamente. Ingresando al módulo Formas de Pago...
-[INFO] 2025-11-13T04:42:10.864Z : Módulo Formas de Pago abierto exitosamente.
-[INFO] 2025-11-13T04:42:10.866Z :  AE-TC-16: Iniciando cancelación de eliminación.
-[INFO] 2025-11-13T04:42:10.882Z : Primera fila seleccionada.
-[INFO] 2025-11-13T04:42:10.927Z : Ventana de confirmación abierta.
-[INFO] 2025-11-13T04:42:11.480Z : Eliminación cancelada correctamente.
-[INFO] 2025-11-13T04:42:11.483Z :  AE-TC-16 completado: Cancelación de eliminación verificada.

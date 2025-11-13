@@ -1,6 +1,0 @@
-[INFO] 2025-11-13T04:47:07.572Z : Navegación al módulo Tipos de Egreso completada
-[INFO] 2025-11-13T04:47:07.584Z : AE-TC-49: Iniciando creación de tipo de egreso válido
-[INFO] 2025-11-13T04:47:08.891Z : Datos de tipo de egreso ingresados correctamente
-[INFO] 2025-11-13T04:47:09.179Z : Validación de creación exitosa
-[INFO] 2025-11-13T04:47:12.843Z : Confirmación de eliminación ejecutada
-[INFO] 2025-11-13T04:47:12.849Z : Validación de eliminación exitosa

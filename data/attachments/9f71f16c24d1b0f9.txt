@@ -1,0 +1,4 @@
+[INFO] 2025-11-13T22:50:50.588Z : Página principal cargada.
+[INFO] 2025-11-13T22:50:50.589Z : Ingresando al módulo Registro de Gestión...
+[INFO] 2025-11-13T22:50:54.634Z : Módulo Registro de Gestión abierto correctamente.
+[INFO] 2025-11-13T22:50:54.639Z : Clase botón anterior: paginate_button previous disabled

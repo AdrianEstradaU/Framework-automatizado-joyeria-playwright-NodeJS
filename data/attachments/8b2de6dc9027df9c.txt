@@ -1,0 +1,9 @@
+[INFO] 2025-11-13T23:03:50.956Z : Página principal cargada correctamente.
+[INFO] 2025-11-13T23:03:50.957Z : Ingresando al módulo Reportes - Ingresos por Fecha...
+ Abriendo módulo de Ventas...
+[INFO] 2025-11-13T23:03:53.715Z : Módulo Reportes - Ingresos por Fecha abierto exitosamente.
+[INFO] 2025-11-13T23:03:53.718Z : AE-TC-100: Verificar la funcionalidad del campo Usuario.
+[INFO] 2025-11-13T23:03:53.719Z : Seleccionando usuario con ID = 6.
+[INFO] 2025-11-13T23:03:53.729Z : Valor obtenido del campo Usuario: 6
+[INFO] 2025-11-13T23:03:53.730Z : Campo Usuario funciona correctamente.
+[INFO] 2025-11-13T23:03:53.731Z : AE-TC-100 finalizado exitosamente.

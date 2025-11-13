@@ -1,0 +1,7 @@
+[INFO] 2025-11-13T22:55:18.982Z : Página principal cargada correctamente.
+[INFO] 2025-11-13T22:55:18.983Z : Accediendo al módulo Tipos de Producto...
+[INFO] 2025-11-13T22:55:21.435Z : Módulo Tipos de Producto abierto exitosamente.
+[INFO] 2025-11-13T22:55:21.437Z : AE-TC-46: Cancelar eliminación de tipo de producto 
+[INFO] 2025-11-13T22:55:21.451Z : Primera fila seleccionada.
+[INFO] 2025-11-13T22:55:21.497Z : Se presionó el botón eliminar, cancelando acción...
+[INFO] 2025-11-13T22:55:22.052Z : Validación completada: la tabla permanece visible tras cancelar eliminación.
