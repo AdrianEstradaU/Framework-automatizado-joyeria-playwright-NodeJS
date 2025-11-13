@@ -51,42 +51,38 @@ class TeardownHelper {
       try {
         logger.info(`\n ${progreso}   Eliminando: ${anio}`);
         
-        // Actualizar tabla
+      
         await registro.btnActualizar.click();
         await page.waitForTimeout(1500);
         
-        // Buscar el registro
+    
         await registro.buscador.clear();
         await page.waitForTimeout(300);
         await registro.buscador.fill(anio.toString());
         await page.waitForTimeout(1000);
         
-        // Verificar si existe
         const filas = await registro.tabla.locator('tr').allTextContents();
         const existe = filas.some(f => f.includes(anio.toString()));
         
         if (!existe) {
           logger.info(`     Registro ${anio} no encontrado (ya fue eliminado)`);
-          eliminados++; // Contar como exitoso si ya no existe
+          eliminados++; 
           continue;
         }
         
         logger.info(`    Registro encontrado`);
         
-        // Seleccionar fila
         const fila = registro.tabla.locator(`tr:has-text("${anio}")`).first();
         await fila.waitFor({ state: 'visible', timeout: 5000 });
         await fila.click();
         await page.waitForTimeout(500);
         logger.info(`    Fila seleccionada`);
         
-        // Clic en eliminar
         await registro.btnEliminar.waitFor({ state: 'visible', timeout: 5000 });
         await registro.btnEliminar.click();
         await page.waitForTimeout(800);
         logger.info(`    Botón eliminar presionado`);
-        
-        // Confirmar eliminación
+      
         await registro.mensajeEliminar.waitFor({ state: 'visible', timeout: 5000 });
         logger.info(`    Modal de confirmación visible`);
         
@@ -102,7 +98,7 @@ class TeardownHelper {
       }
     }
     
-    // Resumen
+
     logger.info(`\n${'='.repeat(60)}`);
     logger.info(`  RESUMEN DE LIMPIEZA:`);
     logger.info(`    Eliminados exitosamente: ${eliminados}`);

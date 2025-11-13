@@ -1,0 +1,63 @@
+[INFO] 2025-11-13T22:24:39.653Z : Página principal cargada.
+[INFO] 2025-11-13T22:24:39.653Z : Ingresando al módulo Registro de Gestión...
+[INFO] 2025-11-13T22:24:44.133Z : Módulo Registro de Gestión abierto correctamente.
+[INFO] 2025-11-13T22:24:44.138Z : AE-TC-69: Iniciando prueba de cancelación de eliminación
+[INFO] 2025-11-13T22:24:44.139Z :  Registro 5660 agregado para limpieza
+[INFO] 2025-11-13T22:24:44.139Z : Creando registro para cancelar eliminación: 5660
+[INFO] 2025-11-13T22:24:49.337Z : Módulo recargado correctamente
+ Creando registro: 5660
+Registro 5660 creado
+ Registro 5660 encontrado
+[INFO] 2025-11-13T22:24:54.239Z : Registro creado correctamente
+Fila 5660 seleccionada
+[INFO] 2025-11-13T22:24:56.882Z : Modal de eliminación abierto
+ Eliminación cancelada correctamente
+ Registro 5660 encontrado
+[INFO] 2025-11-13T22:25:01.362Z : Validación exitosa: el registro no fue eliminado tras cancelar
+[INFO] 2025-11-13T22:25:01.459Z : 
+ Iniciando limpieza de 4 registros de Gestión...
+[INFO] 2025-11-13T22:25:01.499Z : 
+============================================================
+[INFO] 2025-11-13T22:25:01.499Z :   LIMPIEZA FINAL: 4 registro(s)
+[INFO] 2025-11-13T22:25:01.500Z :   Registros: 5070, 8147, 3831, 5660
+[INFO] 2025-11-13T22:25:01.500Z : ============================================================
+
+[INFO] 2025-11-13T22:25:11.479Z : 
+ [1/4]   Eliminando: 5070
+[INFO] 2025-11-13T22:25:14.342Z :     Registro encontrado
+[INFO] 2025-11-13T22:25:14.875Z :     Fila seleccionada
+[INFO] 2025-11-13T22:25:15.703Z :     Botón eliminar presionado
+[INFO] 2025-11-13T22:25:15.707Z :     Modal de confirmación visible
+[INFO] 2025-11-13T22:25:17.734Z :     Registro 5070 ELIMINADO
+[INFO] 2025-11-13T22:25:17.735Z : 
+ [2/4]   Eliminando: 8147
+[INFO] 2025-11-13T22:25:20.603Z :     Registro encontrado
+[INFO] 2025-11-13T22:25:21.132Z :     Fila seleccionada
+[INFO] 2025-11-13T22:25:21.962Z :     Botón eliminar presionado
+[INFO] 2025-11-13T22:25:21.970Z :     Modal de confirmación visible
+[INFO] 2025-11-13T22:25:24.009Z :     Registro 8147 ELIMINADO
+[INFO] 2025-11-13T22:25:24.011Z : 
+ [3/4]   Eliminando: 3831
+[INFO] 2025-11-13T22:25:26.875Z :     Registro encontrado
+[INFO] 2025-11-13T22:25:27.417Z :     Fila seleccionada
+[INFO] 2025-11-13T22:25:28.260Z :     Botón eliminar presionado
+[INFO] 2025-11-13T22:25:28.265Z :     Modal de confirmación visible
+[INFO] 2025-11-13T22:25:30.290Z :     Registro 3831 ELIMINADO
+[INFO] 2025-11-13T22:25:30.290Z : 
+ [4/4]   Eliminando: 5660
+[INFO] 2025-11-13T22:25:33.160Z :     Registro encontrado
+[INFO] 2025-11-13T22:25:33.703Z :     Fila seleccionada
+[INFO] 2025-11-13T22:25:34.544Z :     Botón eliminar presionado
+[INFO] 2025-11-13T22:25:34.549Z :     Modal de confirmación visible
+[INFO] 2025-11-13T22:25:36.561Z :     Registro 5660 ELIMINADO
+[INFO] 2025-11-13T22:25:36.562Z : 
+============================================================
+[INFO] 2025-11-13T22:25:36.562Z :   RESUMEN DE LIMPIEZA:
+[INFO] 2025-11-13T22:25:36.563Z :     Eliminados exitosamente: 4
+[INFO] 2025-11-13T22:25:36.563Z :     Fallidos: 0
+[INFO] 2025-11-13T22:25:36.564Z :     Total procesados: 4
+[INFO] 2025-11-13T22:25:36.564Z :     ¡100% de limpieza exitosa!
+[INFO] 2025-11-13T22:25:36.565Z : ============================================================
+
+[INFO] 2025-11-13T22:25:36.574Z :  Contexto de limpieza cerrado
+

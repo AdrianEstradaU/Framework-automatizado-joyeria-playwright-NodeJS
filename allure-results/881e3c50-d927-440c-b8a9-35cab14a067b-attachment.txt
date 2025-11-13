@@ -1,0 +1,9 @@
+[INFO] 2025-11-13T22:24:08.014Z : Página principal cargada.
+[INFO] 2025-11-13T22:24:08.015Z : Ingresando al módulo Registro de Gestión...
+[INFO] 2025-11-13T22:24:12.784Z : Módulo Registro de Gestión abierto correctamente.
+[INFO] 2025-11-13T22:24:12.788Z :  Registro 3831 agregado para limpieza
+[INFO] 2025-11-13T22:24:12.788Z : Creando registro para selección: 3831
+ Creando registro: 3831
+Registro 3831 creado
+Fila 3831 seleccionada
+[INFO] 2025-11-13T22:24:21.755Z : Registro seleccionado correctamente en la tabla.

@@ -1,0 +1,4 @@
+Abriendo módulo de Ventas...
+Módulo de Ventas cargado correctamente.
+[INFO] 2025-11-13T22:36:45.501Z : AE-TC-73: Validar botones Anterior y Siguiente deshabilitados
+[INFO] 2025-11-13T22:36:47.080Z : Ambos botones están deshabilitados correctamente.

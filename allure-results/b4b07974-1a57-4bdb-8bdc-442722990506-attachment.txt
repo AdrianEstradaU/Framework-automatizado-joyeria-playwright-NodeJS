@@ -1,0 +1,30 @@
+[INFO] 2025-11-13T22:22:20.587Z : Página principal cargada.
+[INFO] 2025-11-13T22:22:20.588Z : Ingresando al módulo Registro de Gestión...
+[INFO] 2025-11-13T22:22:25.727Z : Módulo Registro de Gestión abierto correctamente.
+[INFO] 2025-11-13T22:22:25.736Z : Probando año demasiado largo: 12345
+[INFO] 2025-11-13T22:22:30.194Z : 
+ Iniciando limpieza de 1 registros de Gestión...
+[INFO] 2025-11-13T22:22:30.235Z : 
+============================================================
+[INFO] 2025-11-13T22:22:30.236Z :   LIMPIEZA FINAL: 1 registro(s)
+[INFO] 2025-11-13T22:22:30.236Z :   Registros: 3785
+[INFO] 2025-11-13T22:22:30.237Z : ============================================================
+
+[INFO] 2025-11-13T22:22:40.153Z : 
+ [1/1]   Eliminando: 3785
+[INFO] 2025-11-13T22:22:43.020Z :     Registro encontrado
+[INFO] 2025-11-13T22:22:43.904Z :     Fila seleccionada
+[INFO] 2025-11-13T22:22:44.750Z :     Botón eliminar presionado
+[INFO] 2025-11-13T22:22:44.757Z :     Modal de confirmación visible
+[INFO] 2025-11-13T22:22:46.797Z :     Registro 3785 ELIMINADO
+[INFO] 2025-11-13T22:22:46.797Z : 
+============================================================
+[INFO] 2025-11-13T22:22:46.798Z :   RESUMEN DE LIMPIEZA:
+[INFO] 2025-11-13T22:22:46.799Z :     Eliminados exitosamente: 1
+[INFO] 2025-11-13T22:22:46.799Z :     Fallidos: 0
+[INFO] 2025-11-13T22:22:46.800Z :     Total procesados: 1
+[INFO] 2025-11-13T22:22:46.801Z :     ¡100% de limpieza exitosa!
+[INFO] 2025-11-13T22:22:46.802Z : ============================================================
+
+[INFO] 2025-11-13T22:22:46.815Z :  Contexto de limpieza cerrado
+

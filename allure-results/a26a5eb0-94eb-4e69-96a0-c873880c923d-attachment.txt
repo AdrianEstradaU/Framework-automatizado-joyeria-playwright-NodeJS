@@ -1,0 +1,13 @@
+[INFO] 2025-11-13T22:23:25.560Z : Página principal cargada.
+[INFO] 2025-11-13T22:23:25.561Z : Ingresando al módulo Registro de Gestión...
+[INFO] 2025-11-13T22:23:29.952Z : Módulo Registro de Gestión abierto correctamente.
+[INFO] 2025-11-13T22:23:29.959Z : Creando registro para eliminación: 4405
+ Creando registro: 4405
+Registro 4405 creado
+ Registro 4405 encontrado
+ Eliminando: 4405
+Fila 4405 seleccionada
+ Registro 4405 eliminado
+ Registro 4405 no encontrado
+Filas disponibles: [ 'No existen registros' ]
+[INFO] 2025-11-13T22:23:48.914Z : Registro eliminado correctamente.

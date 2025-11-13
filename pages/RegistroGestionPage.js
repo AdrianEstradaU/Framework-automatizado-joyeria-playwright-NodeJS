@@ -260,7 +260,7 @@ async eliminarRegistroSilencioso(anio) {
   await this.mensajeEliminar.waitFor({ state: 'hidden', timeout: 5000 });
   await this.page.waitForTimeout(1000);
   
-  console.log('✅ Eliminación cancelada correctamente');
+  console.log(' Eliminación cancelada correctamente');
 }
   async validarError(mensajeEsperado) {
     try {

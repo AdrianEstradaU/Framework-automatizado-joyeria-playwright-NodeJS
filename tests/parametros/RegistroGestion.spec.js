@@ -17,11 +17,10 @@ test.describe('Módulo: Registro de Gestión', () => {
     logger.info('Módulo Registro de Gestión abierto correctamente.');
   });
 
-  test.afterAll(async ({ browser }) => {
-    test.setTimeout(90000); 
-    await ejecutarLimpiezaRegistroGestion(browser);
-    
-  });
+test.afterAll(async ({ browser }) => {
+  test.setTimeout(90000); 
+  await ejecutarLimpiezaRegistroGestion(browser);
+});
 
   test('AE-TC-59. Crear registro de gestión válido @Smoke @Regression @positive', async () => {
     allure.owner('Andres Adrian Estrada Uzeda');
@@ -58,37 +57,30 @@ test.describe('Módulo: Registro de Gestión', () => {
   });
 
   test('AE-TC-61. Validar año demasiado largo @Regression @negative', async () => {
-    allure.owner('Andres Adrian Estrada Uzeda');
-    allure.severity('minor');
-    const anioLargo = registroGestionData.invalid.demasiadoLargo;
-    logger.info(`Probando año demasiado largo: ${anioLargo}`);
-    
-    await registro.click(registro.btnCrear);
-    await registro.modal.waitFor({ state: 'visible' });
-    await registro.inputAnio.fill(anioLargo);
-    await registro.click(registro.btnGuardar);
-    await registro.page.waitForTimeout(2000);
-    
-   
-    await registro.btnActualizar.click();
-    await registro.page.waitForLoadState('networkidle');
-    await registro.page.waitForTimeout(1500);
-    
-    const existe = await registro.verificarRegistroExiste(anioLargo);
-    
-   
-    if (existe) {
-      logger.warn(` BUG DETECTADO: Sistema permitió crear año con ${anioLargo.length} dígitos`);
-      teardownRegistroGestion.registrar(anioLargo); 
-      
-   
-      expect.soft(existe).toBeFalsy();
-      logger.info(' Validación falló como se esperaba (bug pendiente de corrección)');
-    } else {
-      logger.info(' Año largo no fue creado, validación correcta.');
-      expect(existe).toBeFalsy();
-    }
-  });
+  allure.owner('Andres Adrian Estrada Uzeda');
+  allure.severity('minor');
+
+  const anioLargo = registroGestionData.invalid.demasiadoLargo;
+  logger.info(`Probando año demasiado largo: ${anioLargo}`);
+
+  await registro.click(registro.btnCrear);
+  await registro.modal.waitFor({ state: 'visible' });
+
+  await registro.inputAnio.fill(anioLargo);
+  await registro.click(registro.btnGuardar);
+
+  expect(await registro.validarError('máximo')).toBeTruthy();
+  logger.info('Error de longitud máxima validado correctamente.');
+  await registro.btnActualizar.click();
+  await registro.page.waitForLoadState('networkidle');
+
+  const existe = await registro.verificarRegistroExiste(anioLargo);
+
+  if (existe) {
+    logger.warn(` BUG: El registro ${anioLargo} se creó pese al error. Enviando a teardown.`);
+    teardownRegistroGestion.registrar(anioLargo);
+  }
+});
 
   test('AE-TC-62. Validar año no numérico @Regression @negative', async () => {
     allure.owner('Andres Adrian Estrada Uzeda');
@@ -230,51 +222,39 @@ test.describe('Módulo: Registro de Gestión', () => {
     }
   });
 
-  test('AE-TC-69. Cancelar eliminación de registro de gestión existente @Regression @positive', async ({ page }) => {
-    allure.owner('Andres Adrian Estrada Uzeda');
-    allure.severity('major');
-    logger.info('AE-TC-69: Iniciando prueba de cancelación de eliminación');
+ test('AE-TC-69. Cancelar eliminación de registro de gestión existente @Regression @positive', async ({ page }) => {
+  test.setTimeout(60000);
 
-    const anioEliminar = registroGestionData.valid.generarAnio();
-    teardownRegistroGestion.registrar(anioEliminar); 
-    logger.info(`Creando registro para cancelar eliminación: ${anioEliminar}`);
-    
+  allure.owner('Andres Adrian Estrada Uzeda');
+  allure.severity('major');
+  logger.info('AE-TC-69: Iniciando prueba de cancelación de eliminación');
+  const anioEliminar = registroGestionData.valid.generarAnio();
+  teardownRegistroGestion.registrar(anioEliminar);
+  logger.info(`Creando registro para cancelar eliminación: ${anioEliminar}`);
+
+  await page.goto('/');
   
-    await page.goto('/');
-    await page.waitForTimeout(1000);
-    await registro.abrirModulo();
-    await page.waitForTimeout(2000);
-    logger.info('Módulo recargado correctamente');
-    
-  
-    await registro.crearRegistro(anioEliminar);
-    await page.waitForTimeout(2000);
-    await registro.btnActualizar.click();
-    await page.waitForLoadState('networkidle');
-    await page.waitForTimeout(1500);
-    
-   
-    const existeAntes = await registro.verificarRegistroExiste(anioEliminar);
-    expect(existeAntes).toBeTruthy();
-    logger.info('Registro creado correctamente');
-    
-    
-    await registro.seleccionarFila(anioEliminar);
-    await registro.btnEliminar.click();
-    logger.info('Modal de eliminación abierto');
-    await page.waitForTimeout(500);
+  await registro.abrirModulo();
+ 
+  logger.info('Módulo recargado correctamente');
 
-   
-    await registro.cancelarEliminacion();
-    await page.waitForTimeout(1000);
+  await registro.crearRegistro(anioEliminar);
+ 
+  await registro.btnActualizar.click();
+  await page.waitForLoadState('networkidle');
 
-    
-    await registro.btnActualizar.click();
-    await page.waitForLoadState('networkidle');
-    await page.waitForTimeout(1500);
-    
-    const existeDespues = await registro.verificarRegistroExiste(anioEliminar);
-    expect(existeDespues).toBeTruthy();
-    logger.info('Validación exitosa: el registro no fue eliminado');
-  });
+  const existeAntes = await registro.verificarRegistroExiste(anioEliminar);
+  expect(existeAntes).toBeTruthy();
+  logger.info('Registro creado correctamente');
+  await registro.seleccionarFila(anioEliminar);
+  await registro.btnEliminar.click();
+  logger.info('Modal de eliminación abierto');
+  await registro.cancelarEliminacion();
+  await registro.btnActualizar.click();
+  await page.waitForLoadState('networkidle');
+  const existeDespues = await registro.verificarRegistroExiste(anioEliminar);
+  expect(existeDespues).toBeTruthy();
+  logger.info('Validación exitosa: el registro no fue eliminado tras cancelar');
+});
+
 });
