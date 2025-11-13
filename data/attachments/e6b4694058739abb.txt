@@ -1,6 +1,0 @@
-[INFO] 2025-11-12T18:12:24.901Z : Página principal cargada correctamente.
-[INFO] 2025-11-12T18:12:24.902Z : Ingresando al módulo Tipos de Ingreso...
-[INFO] 2025-11-12T18:12:27.644Z : Módulo Tipos de Ingreso abierto exitosamente.
-[INFO] 2025-11-12T18:12:27.646Z :  AE-TC-26: Verificar que el botón "Anterior" esté deshabilitado al inicio de la paginación 
-[INFO] 2025-11-12T18:12:27.649Z : Clases del botón anterior: paginate_button previous disabled
-[INFO] 2025-11-12T18:12:27.651Z : AE-TC-26 finalizado correctamente. Botón "Anterior" está deshabilitado.

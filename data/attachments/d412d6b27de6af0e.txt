@@ -1,0 +1,20 @@
+[INFO] 2025-11-13T04:58:11.273Z : Página principal cargada correctamente.
+[INFO] 2025-11-13T04:58:11.274Z : Ingresando al módulo Reportes - Egresos por Fecha...
+ Abriendo módulo de Compras...
+[INFO] 2025-11-13T04:58:14.012Z : Módulo Reportes - Egresos por Fecha abierto exitosamente.
+[INFO] 2025-11-13T04:58:14.014Z : AE-TC-109: Verificar la funcionalidad del campo Fecha Fin en Reporte de Egresos.
+[INFO] 2025-11-13T04:58:14.015Z : Seleccionando usuario con ID = 1 e ingresando fecha fin.
+ Seleccionando usuario en reporte...
+ Opciones disponibles: [
+  'Todos',
+  'Andres Estrada Uzeda',
+  'lucia Montaño Mamani',
+  'Alejandra Orellana Mamani',
+  'alex vargas  lopez',
+  'WILMA CARITA YAVI',
+  'MORGAN HUASCAR CHECA LOPEZ'
+]
+Usuario "1" seleccionado correctamente.
+[INFO] 2025-11-13T04:58:31.174Z : Fecha fin ingresada: 27/10/2025
+[INFO] 2025-11-13T04:58:31.176Z : Campo Fecha Fin funciona correctamente.
+[INFO] 2025-11-13T04:58:31.178Z : AE-TC-109 finalizado exitosamente.

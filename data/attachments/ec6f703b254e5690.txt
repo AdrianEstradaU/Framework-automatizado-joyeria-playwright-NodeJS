@@ -1,0 +1,5 @@
+[INFO] 2025-11-13T04:41:53.784Z : Página cargada correctamente. Ingresando al módulo Formas de Pago...
+[INFO] 2025-11-13T04:41:56.358Z : Módulo Formas de Pago abierto exitosamente.
+[INFO] 2025-11-13T04:41:56.360Z :  AE-TC-13: Verificando límite de 64 caracteres en el nombre.
+[INFO] 2025-11-13T04:41:57.862Z : Mensaje de error por exceso de caracteres validado.
+[INFO] 2025-11-13T04:41:57.862Z :  AE-TC-13 completado: Límite de caracteres en nombre validado correctamente.

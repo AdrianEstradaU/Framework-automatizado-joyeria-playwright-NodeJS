@@ -1,6 +1,0 @@
-[INFO] 2025-11-12T18:13:30.329Z : Página principal cargada correctamente.
-[INFO] 2025-11-12T18:13:30.330Z : Accediendo al módulo Tipos de Producto...
-[INFO] 2025-11-12T18:13:33.249Z : Módulo Tipos de Producto abierto exitosamente.
-[INFO] 2025-11-12T18:13:33.251Z :  AE-TC-43: Validar límite de 64 caracteres en nombre de tipo de producto 
-[INFO] 2025-11-12T18:13:33.860Z : Longitud del nombre ingresado: 65
-[INFO] 2025-11-12T18:13:34.047Z : Validación completada: sistema no permite nombres mayores a 64 caracteres.

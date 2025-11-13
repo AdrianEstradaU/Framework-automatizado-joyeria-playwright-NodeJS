@@ -1,0 +1,20 @@
+[INFO] 2025-11-13T04:57:49.790Z : Página principal cargada correctamente.
+[INFO] 2025-11-13T04:57:49.791Z : Ingresando al módulo Reportes - Egresos por Fecha...
+ Abriendo módulo de Compras...
+[INFO] 2025-11-13T04:57:52.580Z : Módulo Reportes - Egresos por Fecha abierto exitosamente.
+[INFO] 2025-11-13T04:57:52.583Z : AE-TC-108: Verificar la funcionalidad del campo Fecha Inicio en Reporte de Egresos.
+[INFO] 2025-11-13T04:57:52.584Z : Seleccionando usuario con ID = 1 e ingresando fecha de inicio.
+ Seleccionando usuario en reporte...
+ Opciones disponibles: [
+  'Todos',
+  'Andres Estrada Uzeda',
+  'lucia Montaño Mamani',
+  'Alejandra Orellana Mamani',
+  'alex vargas  lopez',
+  'WILMA CARITA YAVI',
+  'MORGAN HUASCAR CHECA LOPEZ'
+]
+Usuario "6" seleccionado correctamente.
+[INFO] 2025-11-13T04:58:09.752Z : Fecha de inicio ingresada: 03/11/2025
+[INFO] 2025-11-13T04:58:09.754Z : Campo Fecha Inicio funciona correctamente.
+[INFO] 2025-11-13T04:58:09.755Z : AE-TC-108 finalizado exitosamente.

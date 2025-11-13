@@ -1,0 +1,6 @@
+[INFO] 2025-11-13T04:40:59.283Z : Página cargada correctamente. Ingresando al módulo Formas de Pago...
+[INFO] 2025-11-13T04:41:01.877Z : Módulo Formas de Pago abierto exitosamente.
+[INFO] 2025-11-13T04:41:01.879Z :  AE-TC-05: Iniciando creación de forma de pago con datos válidos
+[INFO] 2025-11-13T04:41:03.173Z : Formulario completado con: Nombre=PAGO TARJETA, Descripción=Pago con tarjeta de crédito/débito
+[INFO] 2025-11-13T04:41:03.358Z : Validando mensaje de confirmación...
+[INFO] 2025-11-13T04:41:03.360Z :  AE-TC-05 finalizado correctamente: Forma de pago creada con éxito.

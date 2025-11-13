@@ -1,0 +1,5 @@
+[INFO] 2025-11-13T04:41:40.125Z : Página cargada correctamente. Ingresando al módulo Formas de Pago...
+[INFO] 2025-11-13T04:41:43.161Z : Módulo Formas de Pago abierto exitosamente.
+[INFO] 2025-11-13T04:41:43.163Z :  AE-TC-10: Seleccionando registro en tabla.
+[INFO] 2025-11-13T04:41:43.168Z : Seleccionando registro con nombre: PAGO TARJETA DEBITO
+[INFO] 2025-11-13T04:41:43.740Z : AE-TC-10 completado: Registro seleccionado correctamente.

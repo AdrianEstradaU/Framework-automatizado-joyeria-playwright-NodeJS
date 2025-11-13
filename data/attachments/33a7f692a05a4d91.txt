@@ -1,0 +1,6 @@
+[INFO] 2025-11-13T04:52:08.452Z : Página principal cargada correctamente.
+[INFO] 2025-11-13T04:52:08.453Z : Ingresando al módulo Compras...
+Abriendo módulo de Compras...
+Módulo de Compras cargado correctamente.
+[INFO] 2025-11-13T04:52:09.891Z : Módulo Compras abierto exitosamente.
+[INFO] 2025-11-13T04:52:14.755Z : Errores encontrados al intentar guardar compra vacía: Este campo es obligatorio; Este campo es obligatorio; Este campo es obligatorio; Este campo es obligatorio; Este campo es obligatorio

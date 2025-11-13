@@ -1,0 +1,4 @@
+[INFO] 2025-11-13T04:39:36.231Z : Iniciando prueba AE-TC-01: Validar mensaje de campo obligatorio al enviar campos vacíos
+[INFO] 2025-11-13T04:39:36.843Z : Se enviaron los campos vacíos
+[INFO] 2025-11-13T04:39:36.857Z : Mensaje recibido: Este campo es obligatorio
+[INFO] 2025-11-13T04:39:36.859Z : Validación exitosa: mensaje de campo obligatorio mostrado correctamente

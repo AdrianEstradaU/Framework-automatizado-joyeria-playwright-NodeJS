@@ -1,8 +1,0 @@
-[INFO] 2025-11-12T18:23:41.400Z : Página principal cargada correctamente.
-[INFO] 2025-11-12T18:23:41.401Z : Ingresando al módulo Reporte de Utilidades...
-[INFO] 2025-11-12T18:23:43.747Z : Módulo Reporte de Utilidades abierto exitosamente.
-[INFO] 2025-11-12T18:23:43.750Z : AE-TC-120: Verificar funcionalidad del botón Generar.
-[INFO] 2025-11-12T18:23:45.909Z : Fechas ingresadas correctamente.
-[INFO] 2025-11-12T18:23:47.946Z : Se hizo clic en el botón Generar reporte.
-[INFO] 2025-11-12T18:23:47.952Z : Reporte generado y validado exitosamente.
-[INFO] 2025-11-12T18:23:47.953Z : AE-TC-120 finalizado exitosamente.

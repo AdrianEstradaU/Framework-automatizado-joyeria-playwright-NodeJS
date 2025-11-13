@@ -1,6 +1,0 @@
-[INFO] 2025-11-12T18:14:41.699Z : Página principal cargada correctamente.
-[INFO] 2025-11-12T18:14:41.700Z : Ingresando al módulo Compras...
-Abriendo módulo de Compras...
-Módulo de Compras cargado correctamente.
-[INFO] 2025-11-12T18:14:43.518Z : Módulo Compras abierto exitosamente.
-[INFO] 2025-11-12T18:14:44.328Z : Registro seleccionado: true

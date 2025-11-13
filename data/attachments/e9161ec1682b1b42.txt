@@ -1,3 +1,0 @@
- Abriendo módulo de Ventas...
-[INFO] 2025-11-12T18:19:49.582Z : AE-TC-82: Validar que campo cantidad sea numérico
-  No hay ventas para limpiar

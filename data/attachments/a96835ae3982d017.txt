@@ -1,0 +1,9 @@
+[INFO] 2025-11-13T04:45:35.938Z : Página principal cargada.
+[INFO] 2025-11-13T04:45:35.939Z : Ingresando al módulo Registro de Gestión...
+[INFO] 2025-11-13T04:45:39.657Z : Módulo Registro de Gestión abierto correctamente.
+[INFO] 2025-11-13T04:45:39.660Z :  Registro 4585 agregado para limpieza
+[INFO] 2025-11-13T04:45:39.660Z : Creando registro para selección: 4585
+ Creando registro: 4585
+Registro 4585 creado
+Fila 4585 seleccionada
+[INFO] 2025-11-13T04:45:48.566Z : Registro seleccionado correctamente en la tabla.

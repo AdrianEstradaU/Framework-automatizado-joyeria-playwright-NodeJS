@@ -1,3 +1,0 @@
-[INFO] 2025-11-12T18:06:49.068Z : Ingreso al módulo Proveedores
-[INFO] 2025-11-12T18:06:49.070Z : AE-TC-35: Iniciando búsqueda de proveedor en tabla
-[INFO] 2025-11-12T18:06:49.082Z : Resultados de búsqueda encontrados correctamente

@@ -1,0 +1,9 @@
+[INFO] 2025-11-13T04:48:26.781Z : Página principal cargada correctamente.
+[INFO] 2025-11-13T04:48:26.782Z : Ingresando al módulo Tipos de Ingreso...
+[INFO] 2025-11-13T04:48:29.481Z : Módulo Tipos de Ingreso abierto exitosamente.
+[INFO] 2025-11-13T04:48:29.483Z : AE-TC-18: Intentar crear tipo de ingreso con campos vacíos 
+[INFO] 2025-11-13T04:48:29.486Z : Filas iniciales en la tabla: 4
+[INFO] 2025-11-13T04:48:30.775Z : Intento de creación con campos vacíos realizado.
+[INFO] 2025-11-13T04:48:30.779Z : Mensaje de error "Este campo es obligatorio" validado correctamente.
+[INFO] 2025-11-13T04:48:30.782Z : Filas finales en la tabla: 4
+[INFO] 2025-11-13T04:48:30.783Z : AE-TC-18 finalizado correctamente, sin creación de registro.

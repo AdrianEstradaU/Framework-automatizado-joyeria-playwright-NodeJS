@@ -1,0 +1,8 @@
+[INFO] 2025-11-13T05:01:29.128Z : Página principal cargada correctamente.
+[INFO] 2025-11-13T05:01:29.130Z : Ingresando al módulo Reporte de Utilidades...
+[INFO] 2025-11-13T05:01:32.787Z : Módulo Reporte de Utilidades abierto exitosamente.
+[INFO] 2025-11-13T05:01:32.791Z : AE-TC-121: Validar restricción al generar reporte sin fechas.
+[INFO] 2025-11-13T05:01:35.012Z : Campos de fecha vaciados correctamente.
+[INFO] 2025-11-13T05:01:37.064Z : Intentando generar reporte sin fechas.
+[INFO] 2025-11-13T05:01:37.080Z : Mensajes de validación por campos vacíos mostrados correctamente.
+[INFO] 2025-11-13T05:01:37.080Z : AE-TC-121 finalizado exitosamente.

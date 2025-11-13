@@ -1,9 +1,0 @@
-[INFO] 2025-11-12T18:17:07.827Z : Página principal cargada correctamente.
-[INFO] 2025-11-12T18:17:07.828Z : Ingresando al módulo Compras...
-Abriendo módulo de Compras...
-Módulo de Compras cargado correctamente.
-[INFO] 2025-11-12T18:17:09.363Z : Módulo Compras abierto exitosamente.
-Iniciando creación de compra...
-[INFO] 2025-11-12T18:17:14.328Z : Confirmada eliminación de la compra "Compra Test 1762971429365".
-[INFO] 2025-11-12T18:17:15.113Z : Compra "Compra Test 1762971429365" eliminada exitosamente.
-[INFO] 2025-11-12T18:17:15.618Z : Verificación de existencia para "Compra Test 1762971429365": false

@@ -1,9 +1,0 @@
-[INFO] 2025-11-12T18:08:51.967Z : Página principal cargada.
-[INFO] 2025-11-12T18:08:51.968Z : Ingresando al módulo Registro de Gestión...
-[INFO] 2025-11-12T18:08:56.060Z : Módulo Registro de Gestión abierto correctamente.
-[INFO] 2025-11-12T18:08:56.062Z :  Registro 8607 agregado para limpieza
-[INFO] 2025-11-12T18:08:56.063Z : Creando registro para selección: 8607
- Creando registro: 8607
-Registro 8607 creado
-Fila 8607 seleccionada
-[INFO] 2025-11-12T18:09:04.344Z : Registro seleccionado correctamente en la tabla.
