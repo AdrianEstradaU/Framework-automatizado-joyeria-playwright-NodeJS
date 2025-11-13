@@ -112,7 +112,6 @@ npm install -g allure-commandline
 brew install allure
 ```
 
-<<<<<<< HEAD
 #### Linux (Ubuntu/Debian):
 ```bash
 # Instalar Java (requerido por Allure)
@@ -849,14 +848,3 @@ export default {
 ```
 
 ---
-=======
-* Ejecutar por Etiquetas
-# solo @Regression
-npx playwright test --grep "@Regression"
-
-
-# Solo @Regression y @Smoke
-npx playwright test --grep "@Regression|@Smoke"
-
-# Solo los @negative
-npx playwright test --grep "@negative"

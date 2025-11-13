@@ -46,12 +46,19 @@ class VentasPage extends BasePage {
 
 
   async abrirModulo() {
-    console.log(' Abriendo módulo de Ventas...');
-    await this.moduloJoyeria.waitFor({ state: 'visible', timeout: 10000 });
-    await this.navigateMenu(this.moduloJoyeria, this.menuParametros, this.submenu);
-    await this.page.waitForLoadState('networkidle');
-    await this.page.waitForTimeout(1000);
-  }
+  console.log(' Abriendo módulo de Ventas...');
+  await this.moduloJoyeria.waitFor({ state: 'visible', timeout: 10000 });
+  await this.navigateMenu(this.moduloJoyeria, this.menuParametros, this.submenu);
+  
+  
+  await this.tabla.waitFor({ state: 'visible', timeout: 10000 });
+  await this.btnCrear.waitFor({ state: 'visible', timeout: 10000 });
+  
+  await this.page.waitForLoadState('networkidle');
+  await this.page.waitForTimeout(1500); // Aumentar a 1.5s
+  
+  console.log(' Módulo de Ventas cargado completamente');
+}
  async crearVentaFlujo() {
     console.log('Iniciando creación de venta del flujo...');
 

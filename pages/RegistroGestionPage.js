@@ -254,10 +254,14 @@ async eliminarRegistroSilencioso(anio) {
   }
 
   async cancelarEliminacion() {
-    await this.mensajeEliminar.waitFor({ state: 'visible', timeout: 5000 });
-    await this.click(this.btnCancelarEliminar);
-  }
-
+  await this.mensajeEliminar.waitFor({ state: 'visible', timeout: 5000 });
+  await this.click(this.btnCancelarEliminar);
+  
+  await this.mensajeEliminar.waitFor({ state: 'hidden', timeout: 5000 });
+  await this.page.waitForTimeout(1000);
+  
+  console.log('✅ Eliminación cancelada correctamente');
+}
   async validarError(mensajeEsperado) {
     try {
       await this.errorAnio.waitFor({ state: 'visible', timeout: 3000 });

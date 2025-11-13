@@ -56,7 +56,8 @@ test.describe('Módulo Ventas', () => {
     allure.owner('Andres Adrian Estrada Uzeda');
     allure.severity('normal');
     logger.info('AE-TC-71: Buscar ventas por término');
-
+ await ventasPage.btnCrear.waitFor({ state: 'visible', timeout: 15000 });
+  logger.info(' Botón Crear visible')
     await ventasPage.crearVentaRapida(VentasData.busqueda.termino, 100);
     await ventasPage.toastExito.waitFor({ state: 'visible', timeout: 10000 });
 
@@ -151,6 +152,10 @@ test.describe('Módulo Ventas', () => {
     await ventasPage.crearVentaRapida('Anillo Decimal', 99.99);
 
     await ventasPage.toastExito.waitFor({ state: 'visible', timeout: 10000 });
+    await ventasPage.page.waitForTimeout(2000);
+    await ventasPage.btnActualizar.click();
+    await ventasPage.page.waitForLoadState('networkidle');
+    await ventasPage.page.waitForTimeout(1500);
     const existe = await ventasPage.verificarVentaExiste('Anillo Decimal');
     expect(existe).toBeTruthy();
     

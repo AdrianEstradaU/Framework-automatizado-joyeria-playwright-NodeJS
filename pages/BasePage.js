@@ -1,13 +1,15 @@
+const { expect } = require('@playwright/test');
 class BasePage {
   constructor(page) {
     this.page = page;
   }
-
-  async click(locator, timeout = 10000) {
-    await locator.waitFor({ state: 'visible', timeout });
-    await locator.scrollIntoViewIfNeeded();
-    await locator.click();
-  }
+async click(locator, timeout = 15000) {
+  await locator.waitFor({ state: 'attached', timeout }); 
+  await expect(locator).toBeVisible({ timeout });        
+  await expect(locator).toBeEnabled({ timeout });       
+  await this.page.waitForTimeout(500);                  
+  await locator.click();
+}
 
   async fill(locator, value, timeout = 10000) {
     await locator.waitFor({ state: 'visible', timeout });
