@@ -1,0 +1,14 @@
+Abriendo módulo de Ventas...
+Módulo de Ventas cargado correctamente.
+[INFO] 2025-11-26T07:02:24.767Z : AE-TC-71: Buscar ventas por término
+[INFO] 2025-11-26T07:02:25.660Z :  Botón Crear visible
+ Iniciando creación de venta...
+ Cantidad seleccionada: 2
+ Seleccionando: EN EFECTIVO
+  Seleccionado: EN EFECTIVO
+ Seleccionando: VENTAS NORMALES
+  Seleccionado: VENTAS NORMALES
+ Seleccionando: ANILLOS PLATA 925 ITALIANA
+  Seleccionado: ANILLOS PLATA 925 ITALIANA
+ Botón "Guardar" presionado
+[INFO] 2025-11-26T07:02:31.881Z : Venta encontrada correctamente mediante búsqueda.

@@ -1,0 +1,9 @@
+[INFO] 2025-11-26T07:06:47.030Z : Página principal cargada correctamente.
+[INFO] 2025-11-26T07:06:47.031Z : Ingresando al módulo Reportes - Gráficos Mensual/Anual...
+[INFO] 2025-11-26T07:06:50.421Z : Módulo Reportes - Gráficos Mensual/Anual abierto exitosamente.
+[INFO] 2025-11-26T07:06:50.423Z : AE-TC-114: Verificar funcionalidad de campo Tipo de Gráfico por Gestión.
+[INFO] 2025-11-26T07:06:50.424Z : Seleccionando tipo de gráfico "Por Gestión".
+[INFO] 2025-11-26T07:06:52.030Z : Tipo de gráfico seleccionado: Por Gestión.
+[INFO] 2025-11-26T07:06:52.840Z : Gestión seleccionada: 2025.
+[INFO] 2025-11-26T07:06:52.854Z : Gráfico anual cargado correctamente.
+[INFO] 2025-11-26T07:06:52.855Z : AE-TC-114 finalizado exitosamente.

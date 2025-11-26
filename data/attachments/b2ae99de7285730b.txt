@@ -1,6 +1,0 @@
-[INFO] 2025-11-26T06:30:46.830Z : Página principal cargada correctamente.
-[INFO] 2025-11-26T06:30:46.831Z : Ingresando al módulo Compras...
-Abriendo módulo de Compras...
-Módulo de Compras cargado correctamente.
-[INFO] 2025-11-26T06:30:48.910Z : Módulo Compras abierto exitosamente.
-[INFO] 2025-11-26T06:30:50.200Z : Estado del botón "Anterior": Deshabilitado

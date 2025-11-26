@@ -1,0 +1,13 @@
+[INFO] 2025-11-26T06:52:45.146Z : Página principal cargada.
+[INFO] 2025-11-26T06:52:45.147Z : Ingresando al módulo Registro de Gestión...
+[INFO] 2025-11-26T06:52:49.235Z : Módulo Registro de Gestión abierto correctamente.
+[INFO] 2025-11-26T06:52:49.237Z : Creando registro para eliminación: 7337
+ Creando registro: 7337
+Registro 7337 creado
+ Registro 7337 encontrado
+ Eliminando: 7337
+Fila 7337 seleccionada
+ Registro 7337 eliminado
+ Registro 7337 no encontrado
+Filas disponibles: [ 'No existen registros' ]
+[INFO] 2025-11-26T06:53:07.567Z : Registro eliminado correctamente.

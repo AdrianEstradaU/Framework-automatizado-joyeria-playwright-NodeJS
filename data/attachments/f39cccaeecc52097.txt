@@ -1,0 +1,14 @@
+Abriendo módulo de Ventas...
+Módulo de Ventas cargado correctamente.
+[INFO] 2025-11-26T07:02:58.848Z : AE-TC-76: Validar longitud máxima en campo precio
+ Iniciando creación de venta...
+ Cantidad seleccionada: 2
+ Seleccionando: EN EFECTIVO
+  Seleccionado: EN EFECTIVO
+ Seleccionando: VENTAS NORMALES
+  Seleccionado: VENTAS NORMALES
+ Seleccionando: ANILLOS PLATA 925 ITALIANA
+  Seleccionado: ANILLOS PLATA 925 ITALIANA
+ Botón "Guardar" presionado
+ Registrada: "Anillo"
+[INFO] 2025-11-26T07:03:04.762Z : Venta con precio largo válida procesada correctamente.

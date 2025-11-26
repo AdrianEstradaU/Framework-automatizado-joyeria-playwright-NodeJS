@@ -1,0 +1,9 @@
+[INFO] 2025-11-26T06:53:23.257Z : Página principal cargada.
+[INFO] 2025-11-26T06:53:23.258Z : Ingresando al módulo Registro de Gestión...
+[INFO] 2025-11-26T06:53:26.822Z : Módulo Registro de Gestión abierto correctamente.
+[INFO] 2025-11-26T06:53:26.825Z :  Registro 6687 agregado para limpieza
+[INFO] 2025-11-26T06:53:26.826Z : Creando registro para selección: 6687
+ Creando registro: 6687
+Registro 6687 creado
+Fila 6687 seleccionada
+[INFO] 2025-11-26T06:53:35.779Z : Registro seleccionado correctamente en la tabla.

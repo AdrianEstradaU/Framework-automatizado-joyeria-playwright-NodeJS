@@ -1,0 +1,10 @@
+[INFO] 2025-11-26T06:51:29.098Z : Página principal cargada.
+[INFO] 2025-11-26T06:51:29.099Z : Ingresando al módulo Registro de Gestión...
+[INFO] 2025-11-26T06:51:33.126Z : Módulo Registro de Gestión abierto correctamente.
+[INFO] 2025-11-26T06:51:33.128Z :  Registro 6809 agregado para limpieza
+[INFO] 2025-11-26T06:51:33.129Z : Creando registro de gestión con año: 6809
+ Creando registro: 6809
+Registro 6809 creado
+[INFO] 2025-11-26T06:51:35.930Z : Registro creado, validando existencia...
+ Registro 6809 encontrado
+[INFO] 2025-11-26T06:51:41.499Z : Registro validado correctamente.

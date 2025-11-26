@@ -1,3 +1,0 @@
-[INFO] 2025-11-26T06:23:04.407Z : Ingreso al módulo Proveedores
-[INFO] 2025-11-26T06:23:04.410Z : AE-TC-38: Verificando refresco de tabla con botón Actualizar
-[INFO] 2025-11-26T06:23:17.049Z : Refresco de tabla validado correctamente

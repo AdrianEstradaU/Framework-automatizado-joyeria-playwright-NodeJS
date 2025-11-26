@@ -1,0 +1,9 @@
+[INFO] 2025-11-26T06:55:55.504Z : Página principal cargada correctamente.
+[INFO] 2025-11-26T06:55:55.504Z : Ingresando al módulo Tipos de Ingreso...
+[INFO] 2025-11-26T06:55:57.935Z : Módulo Tipos de Ingreso abierto exitosamente.
+[INFO] 2025-11-26T06:55:57.937Z :  AE-TC-17: Crear tipo de ingreso válido 
+[INFO] 2025-11-26T06:55:57.938Z : Comenzando creación de tipo de ingreso con datos válidos.
+[INFO] 2025-11-26T06:55:59.255Z : Datos enviados: nombre="VENTAS NORMALES 2", descripción="Ingreso por ventas normales 2".
+[INFO] 2025-11-26T06:55:59.542Z : Esperando mensaje de confirmación...
+[INFO] 2025-11-26T06:55:59.544Z : Mensaje de éxito validado correctamente.
+[INFO] 2025-11-26T06:55:59.545Z : AE-TC-17 finalizado exitosamente.
