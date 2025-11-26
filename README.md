@@ -35,8 +35,9 @@ Este framework automatiza la validación de los módulos principales del sistema
 | **Parámetros** | Configuración del sistema (formas de pago, proveedores, etc.) | 65 |
 | **Reportes** | Generación de informes financieros | 22 |
 | **E2E** | Flujos completos de negocio | 2 |
+| **storageState** | saveStorage | 1 | sirve para guardar el login correcto para ejecutar todos los test case
+** Cobertura total**: 123 casos de prueba automatizados y 1 para guardar login correcto
 
-** Cobertura total**: 123 casos de prueba automatizados
 
 ---
 
