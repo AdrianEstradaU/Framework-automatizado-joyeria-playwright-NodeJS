@@ -31,7 +31,7 @@ Este framework automatiza la validación de los módulos principales del sistema
 |--------|-------------|-----------------|
 | **Login** | Autenticación y control de acceso | 4 |
 | **Ventas** | Gestión de transacciones de venta | 13 |
-| **Compras** | Registro y administración de compras | 16 |
+| **Compras** | Registro y administración de compras | 17 |
 | **Parámetros** | Configuración del sistema (formas de pago, proveedores, etc.) | 65 |
 | **Reportes** | Generación de informes financieros | 22 |
 | **E2E** | Flujos completos de negocio | 2 |
