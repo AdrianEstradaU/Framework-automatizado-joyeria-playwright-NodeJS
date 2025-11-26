@@ -1,5 +1,0 @@
-[INFO] 2025-11-13T22:49:29.649Z : Página principal cargada.
-[INFO] 2025-11-13T22:49:29.650Z : Ingresando al módulo Registro de Gestión...
-[INFO] 2025-11-13T22:49:33.135Z : Módulo Registro de Gestión abierto correctamente.
-[INFO] 2025-11-13T22:49:33.145Z : Probando año no numérico: 20AB
-[INFO] 2025-11-13T22:49:34.485Z : Error de formato de número validado correctamente.

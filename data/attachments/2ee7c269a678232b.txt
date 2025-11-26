@@ -1,9 +1,0 @@
-[INFO] 2025-11-13T22:50:36.894Z : Página principal cargada.
-[INFO] 2025-11-13T22:50:36.895Z : Ingresando al módulo Registro de Gestión...
-[INFO] 2025-11-13T22:50:40.541Z : Módulo Registro de Gestión abierto correctamente.
-[INFO] 2025-11-13T22:50:40.544Z :  Registro 8015 agregado para limpieza
-[INFO] 2025-11-13T22:50:40.544Z : Creando registro para selección: 8015
- Creando registro: 8015
-Registro 8015 creado
-Fila 8015 seleccionada
-[INFO] 2025-11-13T22:50:49.490Z : Registro seleccionado correctamente en la tabla.

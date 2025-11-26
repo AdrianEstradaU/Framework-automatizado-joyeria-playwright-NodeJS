@@ -1,3 +1,0 @@
-[INFO] 2025-11-13T22:52:59.338Z : Navegación al módulo Tipos de Egreso completada
-[INFO] 2025-11-13T22:52:59.340Z : AE-TC-58: Validando funcionalidad del botón Actualizar
-[INFO] 2025-11-13T22:53:04.079Z : Validación de refresco de tabla completada

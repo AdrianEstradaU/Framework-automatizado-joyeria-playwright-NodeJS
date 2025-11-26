@@ -1,6 +1,0 @@
-[INFO] 2025-11-13T22:47:35.038Z : Ingreso al módulo Proveedores
-[INFO] 2025-11-13T22:47:35.040Z : AE-TC-29: Iniciando creación y eliminación de proveedor válido
-[INFO] 2025-11-13T22:47:36.343Z : Proveedor creado: DIAMANTE
-[INFO] 2025-11-13T22:47:36.531Z : Validación de mensaje de éxito completada.
-[INFO] 2025-11-13T22:47:39.693Z : Proveedor DIAMANTE eliminado correctamente.
-[INFO] 2025-11-13T22:47:39.694Z : AE-TC-29 finalizado exitosamente.

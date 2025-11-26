@@ -1,3 +1,0 @@
-[INFO] 2025-11-13T22:52:36.235Z : Navegación al módulo Tipos de Egreso completada
-[INFO] 2025-11-13T22:52:36.237Z : AE-TC-53: Verificando límite de 64 caracteres en el nombre
-[INFO] 2025-11-13T22:52:37.729Z : Validación de límite de caracteres completada

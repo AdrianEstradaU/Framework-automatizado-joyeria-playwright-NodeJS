@@ -1,4 +1,0 @@
-Abriendo módulo de Ventas...
-Módulo de Ventas cargado correctamente.
-[INFO] 2025-11-13T22:59:35.575Z : AE-TC-74: Rechazo con campos vacíos
-[INFO] 2025-11-13T22:59:40.058Z : Se detectaron errores por campos vacíos.

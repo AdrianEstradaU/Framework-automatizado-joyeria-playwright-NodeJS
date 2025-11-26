@@ -1,7 +1,0 @@
-[INFO] 2025-11-13T23:04:32.586Z : Página principal cargada correctamente.
-[INFO] 2025-11-13T23:04:32.587Z : Ingresando al módulo Reporte de Utilidades...
-[INFO] 2025-11-13T23:04:35.819Z : Módulo Reporte de Utilidades abierto exitosamente.
-[INFO] 2025-11-13T23:04:35.822Z : AE-TC-116: Verificar la funcionalidad del campo Fecha Inicio.
-[INFO] 2025-11-13T23:04:36.930Z : Fecha inicio ingresada: 01/10/2025.
-[INFO] 2025-11-13T23:04:36.935Z : Campo Fecha Inicio validado correctamente.
-[INFO] 2025-11-13T23:04:36.935Z : AE-TC-116 finalizado exitosamente.
