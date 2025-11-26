@@ -1,0 +1,4 @@
+Abriendo módulo de Ventas...
+Módulo de Ventas cargado correctamente.
+[INFO] 2025-11-26T06:34:00.087Z : AE-TC-72: Seleccionar un registro de ventas
+[INFO] 2025-11-26T06:34:01.402Z : Registro seleccionado correctamente.

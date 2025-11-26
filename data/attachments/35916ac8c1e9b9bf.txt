@@ -1,0 +1,10 @@
+[INFO] 2025-11-26T06:23:18.187Z : Página principal cargada.
+[INFO] 2025-11-26T06:23:18.188Z : Ingresando al módulo Registro de Gestión...
+[INFO] 2025-11-26T06:23:21.600Z : Módulo Registro de Gestión abierto correctamente.
+[INFO] 2025-11-26T06:23:21.602Z :  Registro 3454 agregado para limpieza
+[INFO] 2025-11-26T06:23:21.603Z : Creando registro de gestión con año: 3454
+ Creando registro: 3454
+Registro 3454 creado
+[INFO] 2025-11-26T06:23:24.400Z : Registro creado, validando existencia...
+ Registro 3454 encontrado
+[INFO] 2025-11-26T06:23:29.968Z : Registro validado correctamente.

@@ -1,0 +1,9 @@
+[INFO] 2025-11-26T06:25:07.434Z : Página principal cargada.
+[INFO] 2025-11-26T06:25:07.435Z : Ingresando al módulo Registro de Gestión...
+[INFO] 2025-11-26T06:25:11.298Z : Módulo Registro de Gestión abierto correctamente.
+[INFO] 2025-11-26T06:25:11.301Z :  Registro 7413 agregado para limpieza
+[INFO] 2025-11-26T06:25:11.301Z : Creando registro para selección: 7413
+ Creando registro: 7413
+Registro 7413 creado
+Fila 7413 seleccionada
+[INFO] 2025-11-26T06:25:20.200Z : Registro seleccionado correctamente en la tabla.

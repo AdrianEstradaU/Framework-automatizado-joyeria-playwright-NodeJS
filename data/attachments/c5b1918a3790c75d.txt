@@ -1,0 +1,12 @@
+[INFO] 2025-11-26T06:24:53.439Z : Página principal cargada.
+[INFO] 2025-11-26T06:24:53.440Z : Ingresando al módulo Registro de Gestión...
+[INFO] 2025-11-26T06:24:56.807Z : Módulo Registro de Gestión abierto correctamente.
+[INFO] 2025-11-26T06:24:56.809Z : AE-TC-65: Iniciando prueba de búsqueda de registro de gestión existente
+[INFO] 2025-11-26T06:24:56.810Z :  Registro 4390 agregado para limpieza
+[INFO] 2025-11-26T06:24:56.810Z : Creando registro para buscar: 4390
+ Creando registro: 4390
+Registro 4390 creado
+[INFO] 2025-11-26T06:25:03.135Z : Filtro aplicado: 4390
+[INFO] 2025-11-26T06:25:03.208Z : Botón "Actualizar" presionado
+ Registro 4390 encontrado
+[INFO] 2025-11-26T06:25:06.260Z : Validación exitosa: registro encontrado correctamente

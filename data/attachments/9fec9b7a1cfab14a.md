@@ -1,0 +1,193 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - link "JOYERIA WILMA" [ref=e4] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=e5]: JOYERIA WILMA
+      - navigation [ref=e6]:
+        - button " Navegacion" [ref=e7] [cursor=pointer]:
+          - text: 
+          - generic [ref=e8]: Navegacion
+        - list [ref=e10]:
+          - listitem [ref=e11]:
+            - link "" [ref=e12] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e13]:
+            - link "User Image andres" [ref=e14] [cursor=pointer]:
+              - /url: "#"
+              - img "User Image" [ref=e15]
+              - text: andres
+    - complementary [ref=e16]:
+      - generic [ref=e18]:
+        - generic [ref=e20]:
+          - textbox "Buscar..." [ref=e21]
+          - button "" [ref=e23] [cursor=pointer]:
+            - generic [ref=e24]: 
+        - list [ref=e25]:
+          - listitem [ref=e26]:
+            - text: MENU PRINCIPAL
+            - button "" [ref=e27] [cursor=pointer]
+          - listitem [ref=e28]:
+            - link " Módulo de Joyeria " [ref=e29] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e30]: 
+              - text: Módulo de Joyeria
+              - generic [ref=e32]: 
+            - list [ref=e33]:
+              - listitem [ref=e34]:
+                - link " Parámetros " [ref=e35] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=e36]: 
+                  - text: Parámetros
+                  - generic [ref=e38]: 
+              - listitem [ref=e39]:
+                - link " Procesos " [ref=e40] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=e41]: 
+                  - text: Procesos
+                  - generic [ref=e43]: 
+                - list [ref=e44]:
+                  - listitem [ref=e45]:
+                    - link " Ventas" [ref=e46] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                      - generic [ref=e47]: 
+                      - text: Ventas
+                  - listitem [ref=e48]:
+                    - link " Compras" [ref=e49] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                      - generic [ref=e50]: 
+                      - text: Compras
+              - listitem [ref=e51]:
+                - link " Reportes " [ref=e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=e53]: 
+                  - text: Reportes
+                  - generic [ref=e55]: 
+    - generic [ref=e58]:
+      - list [ref=e61]:
+        - listitem [ref=e62]:
+          - link "Inicio" [ref=e63] [cursor=pointer]:
+            - /url: "#"
+            - text: Inicio
+        - listitem [ref=e65]:
+          - link "Compras" [ref=e66] [cursor=pointer]:
+            - /url: "#"
+            - text: Compras
+          - link [ref=e68] [cursor=pointer]:
+            - /url: javascript:;
+      - generic [ref=e75]:
+        - generic [ref=e76]:
+          - generic [ref=e77]:
+            - text: 
+            - button "+" [ref=e78] [cursor=pointer]
+            - button "" [ref=e79] [cursor=pointer]
+            - button "" [ref=e80] [cursor=pointer]
+            - button "" [ref=e81] [cursor=pointer]
+          - generic [ref=e82]:
+            - button "Otras Opciones Toggle Dropdown" [ref=e83] [cursor=pointer]:
+              - text: Otras Opciones
+              - generic [ref=e85]: Toggle Dropdown
+            - text: 
+        - generic [ref=e87]:
+          - generic [ref=e92]:
+            - text: "Buscar:"
+            - searchbox "Buscar:" [ref=e93]
+          - generic [ref=e96]:
+            - grid [ref=e99]:
+              - rowgroup [ref=e100]:
+                - 'row "Descripción: activate to sort column ascending Costo (Bs.): activate to sort column ascending Cantidad: activate to sort column ascending Total: activate to sort column ascending Tipo Compra: activate to sort column ascending Proveedor: activate to sort column ascending Tipo Producto: activate to sort column ascending Fecha: activate to sort column ascending Hora: activate to sort column ascending Usuario Reg.: activate to sort column ascending Usuario Mod.: activate to sort column ascending estado: activate to sort column ascending" [ref=e101]':
+                  - 'gridcell "Descripción: activate to sort column ascending" [ref=e102] [cursor=pointer]': Descripción 
+                  - 'gridcell "Costo (Bs.): activate to sort column ascending" [ref=e103] [cursor=pointer]': Costo (Bs.) 
+                  - 'gridcell "Cantidad: activate to sort column ascending" [ref=e104] [cursor=pointer]': Cantidad 
+                  - 'gridcell "Total: activate to sort column ascending" [ref=e105] [cursor=pointer]': Total 
+                  - 'gridcell "Tipo Compra: activate to sort column ascending" [ref=e106] [cursor=pointer]': Tipo Compra 
+                  - 'gridcell "Proveedor: activate to sort column ascending" [ref=e107] [cursor=pointer]': Proveedor 
+                  - 'gridcell "Tipo Producto: activate to sort column ascending" [ref=e108] [cursor=pointer]': Tipo Producto 
+                  - 'gridcell "Fecha: activate to sort column ascending" [ref=e109] [cursor=pointer]': Fecha 
+                  - 'gridcell "Hora: activate to sort column ascending" [ref=e110] [cursor=pointer]': Hora 
+                  - 'gridcell "Usuario Reg.: activate to sort column ascending" [ref=e111] [cursor=pointer]': Usuario Reg. 
+                  - 'gridcell "Usuario Mod.: activate to sort column ascending" [ref=e112] [cursor=pointer]': Usuario Mod. 
+                  - 'gridcell "estado: activate to sort column ascending" [ref=e113] [cursor=pointer]': estado 
+            - grid [ref=e115]:
+              - rowgroup:
+                - 'row "Descripción: activate to sort column ascending Costo (Bs.): activate to sort column ascending Cantidad: activate to sort column ascending Total: activate to sort column ascending Tipo Compra: activate to sort column ascending Proveedor: activate to sort column ascending Tipo Producto: activate to sort column ascending Fecha: activate to sort column ascending Hora: activate to sort column ascending Usuario Reg.: activate to sort column ascending Usuario Mod.: activate to sort column ascending estado: activate to sort column ascending"':
+                  - 'gridcell "Descripción: activate to sort column ascending"':
+                    - generic: Descripción
+                  - 'gridcell "Costo (Bs.): activate to sort column ascending"':
+                    - generic: Costo (Bs.)
+                  - 'gridcell "Cantidad: activate to sort column ascending"':
+                    - generic: Cantidad
+                  - 'gridcell "Total: activate to sort column ascending"':
+                    - generic: Total
+                  - 'gridcell "Tipo Compra: activate to sort column ascending"':
+                    - generic: Tipo Compra
+                  - 'gridcell "Proveedor: activate to sort column ascending"':
+                    - generic: Proveedor
+                  - 'gridcell "Tipo Producto: activate to sort column ascending"':
+                    - generic: Tipo Producto
+                  - 'gridcell "Fecha: activate to sort column ascending"':
+                    - generic: Fecha
+                  - 'gridcell "Hora: activate to sort column ascending"':
+                    - generic: Hora
+                  - 'gridcell "Usuario Reg.: activate to sort column ascending"':
+                    - generic: Usuario Reg.
+                  - 'gridcell "Usuario Mod.: activate to sort column ascending"':
+                    - generic: Usuario Mod.
+                  - 'gridcell "estado: activate to sort column ascending"':
+                    - generic: estado
+              - rowgroup [ref=e116]:
+                - row "Compras anillo Flujo completo 200 5 1000 COMPRA ESPECIAL 1 DIAMANTE BLANCO ANILLO ESPECIAL 26/11/2025 02:20:10 andres activo" [ref=e117]:
+                  - gridcell "Compras anillo Flujo completo" [ref=e118]
+                  - gridcell "200" [ref=e119]
+                  - gridcell "5" [ref=e120]
+                  - gridcell "1000" [ref=e121]
+                  - gridcell "COMPRA ESPECIAL 1" [ref=e122]
+                  - gridcell "DIAMANTE BLANCO" [ref=e123]
+                  - gridcell "ANILLO ESPECIAL" [ref=e124]
+                  - gridcell "26/11/2025" [ref=e125]
+                  - gridcell "02:20:10" [ref=e126]
+                  - gridcell "andres" [ref=e127]
+                  - gridcell [ref=e128]
+                  - gridcell "activo" [ref=e129]
+                - row "anillos 150.12 1 150 COMPRA NORMAL Anillos Plata 925 Italiana 17/04/2024 10:17:47 morgan.checa lucia activo" [ref=e130]:
+                  - gridcell "anillos" [ref=e131]
+                  - gridcell "150.12" [ref=e132]
+                  - gridcell "1" [ref=e133]
+                  - gridcell "150" [ref=e134]
+                  - gridcell "COMPRA NORMAL" [ref=e135]
+                  - gridcell [ref=e136]
+                  - gridcell "Anillos Plata 925 Italiana" [ref=e137]
+                  - gridcell "17/04/2024" [ref=e138]
+                  - gridcell "10:17:47" [ref=e139]
+                  - gridcell "morgan.checa" [ref=e140]
+                  - gridcell "lucia" [ref=e141]
+                  - gridcell "activo" [ref=e142]
+          - generic [ref=e143]:
+            - status [ref=e145]:
+              - text: Mostrando la pagina 1 de 1
+              - generic [ref=e146]: 0 seleccionado(s)
+            - list [ref=e149]:
+              - listitem:
+                - link "Anterior" [ref=e150]:
+                  - /url: "#"
+              - listitem:
+                - link "1" [ref=e151]:
+                  - /url: "#"
+              - listitem:
+                - link "Siguiente" [ref=e152]:
+                  - /url: "#"
+    - contentinfo [ref=e153]:
+      - generic [ref=e154]: Version 1.0
+      - strong [ref=e155]:
+        - text: Copyright © 2024-2025
+        - link "CCHECSYS" [ref=e156] [cursor=pointer]:
+          - /url: https://www.ccheca.com
+        - text: .
+      - text: Todos los derechos reservados.
+  - generic [ref=e157]:
+    - text: El proceso se ha realizado exitosamente
+    - generic [ref=e158] [cursor=pointer]: ×
+```

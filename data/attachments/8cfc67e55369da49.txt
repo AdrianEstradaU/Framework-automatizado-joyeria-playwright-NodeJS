@@ -1,0 +1,9 @@
+[INFO] 2025-11-26T06:38:21.095Z : Página principal cargada correctamente.
+[INFO] 2025-11-26T06:38:21.096Z : Ingresando al módulo Reportes - Ingresos por Fecha...
+ Abriendo módulo de Ventas...
+[INFO] 2025-11-26T06:38:23.696Z : Módulo Reportes - Ingresos por Fecha abierto exitosamente.
+[INFO] 2025-11-26T06:38:23.698Z : AE-TC-101: Verificar la funcionalidad del campo Fecha Inicio.
+[INFO] 2025-11-26T06:38:23.699Z : Seleccionando usuario con ID = 1 e ingresando fecha de inicio.
+[INFO] 2025-11-26T06:38:24.312Z : Fecha de inicio ingresada: 01/10/2025
+[INFO] 2025-11-26T06:38:24.314Z : Campo Fecha Inicio funciona correctamente.
+[INFO] 2025-11-26T06:38:24.315Z : AE-TC-101 finalizado exitosamente.

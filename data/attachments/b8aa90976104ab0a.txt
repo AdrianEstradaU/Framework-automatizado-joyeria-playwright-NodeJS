@@ -1,0 +1,5 @@
+[INFO] 2025-11-26T06:21:39.499Z : Página cargada correctamente. Ingresando al módulo Formas de Pago...
+[INFO] 2025-11-26T06:21:41.897Z : Módulo Formas de Pago abierto exitosamente.
+[INFO] 2025-11-26T06:21:41.899Z :  AE-TC-11: Validando estado del botón Anterior.
+[INFO] 2025-11-26T06:21:41.902Z : Clases del botón anterior: paginate_button previous disabled
+[INFO] 2025-11-26T06:21:41.904Z :  AE-TC-11 completado: Botón Anterior deshabilitado correctamente.

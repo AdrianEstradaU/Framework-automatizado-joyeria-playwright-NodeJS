@@ -1,0 +1,7 @@
+[INFO] 2025-11-26T06:29:33.996Z : Página principal cargada correctamente.
+[INFO] 2025-11-26T06:29:33.997Z : Accediendo al módulo Tipos de Producto...
+[INFO] 2025-11-26T06:29:36.401Z : Módulo Tipos de Producto abierto exitosamente.
+[INFO] 2025-11-26T06:29:36.403Z :  AE-TC-44: Validar límite de caracteres en descripción de tipo de producto 
+[INFO] 2025-11-26T06:29:36.931Z : Formulario de creación abierto.
+[INFO] 2025-11-26T06:29:37.137Z : Descripción ingresada de longitud: 256
+[INFO] 2025-11-26T06:29:37.140Z : Validación completada: el campo descripción acepta texto largo.

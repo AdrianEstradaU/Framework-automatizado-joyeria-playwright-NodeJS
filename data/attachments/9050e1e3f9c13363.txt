@@ -1,0 +1,24 @@
+[INFO] 2025-11-26T06:19:50.801Z :  INICIO AE-TC-122: Flujo completo de compras 
+[INFO] 2025-11-26T06:19:55.525Z : Creando Tipo de Egreso: COMPRA ESPECIAL 1
+[INFO] 2025-11-26T06:19:59.791Z : Creando Proveedor: DIAMANTE BLANCO
+[INFO] 2025-11-26T06:20:04.608Z : Creando Tipo de Producto: ANILLO ESPECIAL
+Abriendo módulo de Compras...
+Módulo de Compras cargado correctamente.
+Iniciando creación de compra...
+[INFO] 2025-11-26T06:20:10.688Z : Registrando nueva compra en el sistema.
+ Abriendo módulo de Compras...
+ Seleccionando usuario en reporte...
+ Opciones disponibles: [
+  'Todos',
+  'Andres Estrada Uzeda',
+  'lucia Montaño Mamani',
+  'Alejandra Orellana Mamani',
+  'alex vargas  lopez',
+  'WILMA CARITA YAVI',
+  'MORGAN HUASCAR CHECA LOPEZ'
+]
+Usuario "6" seleccionado correctamente.
+[INFO] 2025-11-26T06:20:32.365Z : Generando reporte de egresos en PDF.
+Reporte generado correctamente: ./downloads/Reporte_Egresos_Flujo.pdf
+[INFO] 2025-11-26T06:20:32.378Z : Validación de reporte: archivo PDF descargado correctamente.
+[INFO] 2025-11-26T06:20:32.380Z :  FIN AE-TC-122: Flujo completo ejecutado exitosamente 
